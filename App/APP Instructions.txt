@@ -1,0 +1,14 @@
+As you know we had trouble with flask and we discovered that our CORS issue was unable to be overcome on
+the wednesday prior to due date. With that in mind, the app runs properly off the local file, but the
+following instructions detail how we got around CORS to make that happen with a local file.
+
+- Install CORS Unblock Chrome extension and turn it on
+
+- Open Terminal
+
+- Navigate to the directory titled 'App'
+
+- run $ python -m http.server
+
+- This should allow the fetch function to call data from the local directory to display the index file 
+  opened in Chrome.
