@@ -1,0 +1,4119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9fb083fc17c5cf925e8fab4dda6dcc41 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9fb083fc17c5cf925e8fab4dda6dcc41" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9fb083fc17c5cf925e8fab4dda6dcc41 = L.map(
+                "map_9fb083fc17c5cf925e8fab4dda6dcc41",
+                {
+                    center: [56.1304, -106.3468],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_82a5aa405d39a3e2dd8b506a93ae3e99 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var marker_e630fc49da5ac0a98b8db4ac240902c6 = L.marker(
+                [52.968492, -113.3679199],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_463f53fea872bcd9aa08f0a81349f37d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e630fc49da5ac0a98b8db4ac240902c6.setIcon(icon_463f53fea872bcd9aa08f0a81349f37d);
+        
+    
+        var popup_d0991566869f441212273c8ae9e57520 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ce3dd50b274c50aba26f066ec2726fd = $(`<div id="html_8ce3dd50b274c50aba26f066ec2726fd" style="width: 100.0%; height: 100.0%;"><b>Canada - AB</b><br>Date: 12/18/2016<br>Time: 22:00<br>City: Wetaskiwin<br>Shape: Light<br>Summary: Bright Red Light Seen by Roommate and Myself in Northren sky moving West to  East.</div>`)[0];
+                popup_d0991566869f441212273c8ae9e57520.setContent(html_8ce3dd50b274c50aba26f066ec2726fd);
+            
+        
+
+        marker_e630fc49da5ac0a98b8db4ac240902c6.bindPopup(popup_d0991566869f441212273c8ae9e57520)
+        ;
+
+        
+    
+    
+            var marker_60bd30bf57210c7e4707c53b357d4329 = L.marker(
+                [45.366668, -63.3000059],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_20d90d4a5cc0b7cf7e9e1a31555bf3de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_60bd30bf57210c7e4707c53b357d4329.setIcon(icon_20d90d4a5cc0b7cf7e9e1a31555bf3de);
+        
+    
+        var popup_713d1091e6c270f762abf59cbab5acc1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b8eb442b95e8e50a7f76005a2bd37edc = $(`<div id="html_b8eb442b95e8e50a7f76005a2bd37edc" style="width: 100.0%; height: 100.0%;"><b>Canada - NS</b><br>Date: 9/12/2016<br>Time: 5:25<br>City: Truro<br>Shape: Oval<br>Summary: Oval/ 1st was oval yellowsish red white glowing and gone. 2nd obj was white  light like extremely brighter than a star.</div>`)[0];
+                popup_713d1091e6c270f762abf59cbab5acc1.setContent(html_b8eb442b95e8e50a7f76005a2bd37edc);
+            
+        
+
+        marker_60bd30bf57210c7e4707c53b357d4329.bindPopup(popup_713d1091e6c270f762abf59cbab5acc1)
+        ;
+
+        
+    
+    
+            var marker_9b12bfd248bb3c3d8618701778311ee2 = L.marker(
+                [50.4480951, -104.615818],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_88bf068a0e465eef32be8f51dd45486a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9b12bfd248bb3c3d8618701778311ee2.setIcon(icon_88bf068a0e465eef32be8f51dd45486a);
+        
+    
+        var popup_06da6e317e14314b024c7e97cb2173da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f27dac28f1cd0c282bb9149ac6f7ef7d = $(`<div id="html_f27dac28f1cd0c282bb9149ac6f7ef7d" style="width: 100.0%; height: 100.0%;"><b>Canada - SK</b><br>Date: 5/12/2016<br>Time: 10:40<br>City: Regina<br>Shape: Light<br>Summary: 2 blue lights balls moving close.</div>`)[0];
+                popup_06da6e317e14314b024c7e97cb2173da.setContent(html_f27dac28f1cd0c282bb9149ac6f7ef7d);
+            
+        
+
+        marker_9b12bfd248bb3c3d8618701778311ee2.bindPopup(popup_06da6e317e14314b024c7e97cb2173da)
+        ;
+
+        
+    
+    
+            var marker_2b10862085b4117bc3054748fe3dad6b = L.marker(
+                [44.2278666, -79.46145],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_1bdc217047cc5875ae784d4c069557c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2b10862085b4117bc3054748fe3dad6b.setIcon(icon_1bdc217047cc5875ae784d4c069557c8);
+        
+    
+        var popup_4aa9fc596fa90510d405d30bd363e8de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b11096667d25715331ce888e979e5cc = $(`<div id="html_5b11096667d25715331ce888e979e5cc" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 5/12/2016<br>Time: 5:40<br>City: Keswick<br>Shape: Unknown<br>Summary: Silent white light/sphere in sky, light fades,it disappears, comes back  then disappears again</div>`)[0];
+                popup_4aa9fc596fa90510d405d30bd363e8de.setContent(html_5b11096667d25715331ce888e979e5cc);
+            
+        
+
+        marker_2b10862085b4117bc3054748fe3dad6b.bindPopup(popup_4aa9fc596fa90510d405d30bd363e8de)
+        ;
+
+        
+    
+    
+            var marker_48d08ef0ce692bbc3d76dffc26e075de = L.marker(
+                [42.988576, -81.2466429],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_afc80847ec1860d981a54cf665dc1da9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_48d08ef0ce692bbc3d76dffc26e075de.setIcon(icon_afc80847ec1860d981a54cf665dc1da9);
+        
+    
+        var popup_e1caaf734784e584a7495ac21108e945 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_026e9a64163952f6976a130b5947a77f = $(`<div id="html_026e9a64163952f6976a130b5947a77f" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 4/12/2016<br>Time: 12:10<br>City: London<br>Shape: Other<br>Summary: Possible military drone or UFO.</div>`)[0];
+                popup_e1caaf734784e584a7495ac21108e945.setContent(html_026e9a64163952f6976a130b5947a77f);
+            
+        
+
+        marker_48d08ef0ce692bbc3d76dffc26e075de.bindPopup(popup_e1caaf734784e584a7495ac21108e945)
+        ;
+
+        
+    
+    
+            var marker_7c7e3b9ec7ec6827f2812ce9e360b69e = L.marker(
+                [43.1089442, -79.0636192],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_b33fbc40cfa3c601b90db5887ab8bce0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7c7e3b9ec7ec6827f2812ce9e360b69e.setIcon(icon_b33fbc40cfa3c601b90db5887ab8bce0);
+        
+    
+        var popup_3c8328e0b39818738f28b38611cfe749 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd9c93f336037377f4738000086165cd = $(`<div id="html_cd9c93f336037377f4738000086165cd" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 11/29/2016<br>Time: 21:00<br>City: Niagara Falls<br>Shape: Circle<br>Summary: Star-like and grey spheroid hover Niagara Falls. ((NUFORC Note: Possible  sighting of a "twinkling" star, we suspect. PD))</div>`)[0];
+                popup_3c8328e0b39818738f28b38611cfe749.setContent(html_cd9c93f336037377f4738000086165cd);
+            
+        
+
+        marker_7c7e3b9ec7ec6827f2812ce9e360b69e.bindPopup(popup_3c8328e0b39818738f28b38611cfe749)
+        ;
+
+        
+    
+    
+            var marker_463cd6dc84d455f2996583abea8c7d8a = L.marker(
+                [43.8088119, -79.2334018],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_3c7c0c87d5fefd7531a017ec9ba4984c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_463cd6dc84d455f2996583abea8c7d8a.setIcon(icon_3c7c0c87d5fefd7531a017ec9ba4984c);
+        
+    
+        var popup_18f31d7a80c29dfc31f39095dcca3c0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90996bdbc882f51e1438866a03c1b0d9 = $(`<div id="html_90996bdbc882f51e1438866a03c1b0d9" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 11/27/2016<br>Time: 22:15<br>City: Carrying Place<br>Shape: Light<br>Summary: White light, maybe elliptical in shape with several coloured pulsating  lights. ((NUFORC Note: Star?? PD))</div>`)[0];
+                popup_18f31d7a80c29dfc31f39095dcca3c0e.setContent(html_90996bdbc882f51e1438866a03c1b0d9);
+            
+        
+
+        marker_463cd6dc84d455f2996583abea8c7d8a.bindPopup(popup_18f31d7a80c29dfc31f39095dcca3c0e)
+        ;
+
+        
+    
+    
+            var marker_0a9b0081efc7bab44fa826380768efd7 = L.marker(
+                [43.9172764, -78.8614873],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_21ee8e4597298aff3b3d2700c893d15e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0a9b0081efc7bab44fa826380768efd7.setIcon(icon_21ee8e4597298aff3b3d2700c893d15e);
+        
+    
+        var popup_55a6a5199a7b026c465bcbed16f5d3ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f83b58989acaf0373a68e8e03ceb09cc = $(`<div id="html_f83b58989acaf0373a68e8e03ceb09cc" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 11/22/2016<br>Time: 21:30<br>City: Oshawa<br>Shape: Sphere<br>Summary: Colourful Ball of Light Over Lake Ontario, Canada. ((NUFORC Note: Possible  sighting of celestial bodies? PD))</div>`)[0];
+                popup_55a6a5199a7b026c465bcbed16f5d3ff.setContent(html_f83b58989acaf0373a68e8e03ceb09cc);
+            
+        
+
+        marker_0a9b0081efc7bab44fa826380768efd7.bindPopup(popup_55a6a5199a7b026c465bcbed16f5d3ff)
+        ;
+
+        
+    
+    
+            var marker_5ec64f1aa111cd4f2104bcd34ab54969 = L.marker(
+                [48.4283327, -123.3649268],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_17c38f9f073c2542c2cee4297c5696f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5ec64f1aa111cd4f2104bcd34ab54969.setIcon(icon_17c38f9f073c2542c2cee4297c5696f2);
+        
+    
+        var popup_51a54ed9e20fdf3efc931403386f00b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfbf8a3f29c45d379299367bb8633598 = $(`<div id="html_cfbf8a3f29c45d379299367bb8633598" style="width: 100.0%; height: 100.0%;"><b>Canada - BC</b><br>Date: 11/21/2016<br>Time: 23:15<br>City: Victoria<br>Shape: Other<br>Summary: A moving glow from something above a cloud over Victoria, BC.</div>`)[0];
+                popup_51a54ed9e20fdf3efc931403386f00b5.setContent(html_cfbf8a3f29c45d379299367bb8633598);
+            
+        
+
+        marker_5ec64f1aa111cd4f2104bcd34ab54969.bindPopup(popup_51a54ed9e20fdf3efc931403386f00b5)
+        ;
+
+        
+    
+    
+            var marker_4a26ae89bc996e9efa08e6aacc4e1712 = L.marker(
+                [48.4283327, -123.3649268],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_2cd526999620be8972074082fadda90d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4a26ae89bc996e9efa08e6aacc4e1712.setIcon(icon_2cd526999620be8972074082fadda90d);
+        
+    
+        var popup_5a88ad70a7c89a68de932986e9b57c7f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6da1a60c9e47520848c56f7b38233ad0 = $(`<div id="html_6da1a60c9e47520848c56f7b38233ad0" style="width: 100.0%; height: 100.0%;"><b>Canada - BC</b><br>Date: 11/19/2016<br>Time: 19:00<br>City: Victoria<br>Shape: Oval<br>Summary: Orange/red sun like oval very bight below the clouds.</div>`)[0];
+                popup_5a88ad70a7c89a68de932986e9b57c7f.setContent(html_6da1a60c9e47520848c56f7b38233ad0);
+            
+        
+
+        marker_4a26ae89bc996e9efa08e6aacc4e1712.bindPopup(popup_5a88ad70a7c89a68de932986e9b57c7f)
+        ;
+
+        
+    
+    
+            var marker_b07182841c9a29513d6b680dedc184f1 = L.marker(
+                [42.988576, -81.2466429],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_4862adf97888145b1b9e9706a84b803e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b07182841c9a29513d6b680dedc184f1.setIcon(icon_4862adf97888145b1b9e9706a84b803e);
+        
+    
+        var popup_ea6baf0e941c8cb4b52885c697210008 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a930ad8d5452011409fa1d4b4b407fc = $(`<div id="html_1a930ad8d5452011409fa1d4b4b407fc" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 11/16/2016<br>Time: 22:00<br>City: London<br>Shape: Circle<br>Summary: Solid bright red light, with intermittent white flashing while hovering in  a stationary location</div>`)[0];
+                popup_ea6baf0e941c8cb4b52885c697210008.setContent(html_1a930ad8d5452011409fa1d4b4b407fc);
+            
+        
+
+        marker_b07182841c9a29513d6b680dedc184f1.bindPopup(popup_ea6baf0e941c8cb4b52885c697210008)
+        ;
+
+        
+    
+    
+            var marker_343667eee7cd2123187371bc607c3d04 = L.marker(
+                [51.1777781, -115.5682503],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_6c30b0eed30af5b22bd4392f59723e59 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_343667eee7cd2123187371bc607c3d04.setIcon(icon_6c30b0eed30af5b22bd4392f59723e59);
+        
+    
+        var popup_43a5e93652f5efc45ad7a0279520e389 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15185b13e1cddd88fb1809dd8eafc9df = $(`<div id="html_15185b13e1cddd88fb1809dd8eafc9df" style="width: 100.0%; height: 100.0%;"><b>Canada - AB</b><br>Date: 11/16/2016<br>Time: 18:00<br>City: Banff<br>Shape: Disk<br>Summary: Flying disk shape saucer seen over tunnel mountain in Banff.</div>`)[0];
+                popup_43a5e93652f5efc45ad7a0279520e389.setContent(html_15185b13e1cddd88fb1809dd8eafc9df);
+            
+        
+
+        marker_343667eee7cd2123187371bc607c3d04.bindPopup(popup_43a5e93652f5efc45ad7a0279520e389)
+        ;
+
+        
+    
+    
+            var marker_f461b4c6f41dcdd537847e6dad2113bd = L.marker(
+                [53.201097, -105.7489009],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_8f08a961df6d6e5020d2c5883696e04e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f461b4c6f41dcdd537847e6dad2113bd.setIcon(icon_8f08a961df6d6e5020d2c5883696e04e);
+        
+    
+        var popup_3edb577fc81d5c4459ee77464ab19415 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2d3fe26065f457cdc680cb98cc057f0 = $(`<div id="html_d2d3fe26065f457cdc680cb98cc057f0" style="width: 100.0%; height: 100.0%;"><b>Canada - SK</b><br>Date: 11/15/2016<br>Time: 18:00<br>City: Prince Albert<br>Shape: Triangle<br>Summary: A bright halogen like light listed lazily in a 10 degree area near direct  overhead.</div>`)[0];
+                popup_3edb577fc81d5c4459ee77464ab19415.setContent(html_d2d3fe26065f457cdc680cb98cc057f0);
+            
+        
+
+        marker_f461b4c6f41dcdd537847e6dad2113bd.bindPopup(popup_3edb577fc81d5c4459ee77464ab19415)
+        ;
+
+        
+    
+    
+            var marker_bbf15c543fc7634a142c40d74653dc5a = L.marker(
+                [43.8356637, -79.0905385],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_27190345765a4a46b8a62142132471a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bbf15c543fc7634a142c40d74653dc5a.setIcon(icon_27190345765a4a46b8a62142132471a4);
+        
+    
+        var popup_19cf55070257637967ddd0a145b6ca0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ffd2c84dbcb5519d53d9a0baa74989b = $(`<div id="html_3ffd2c84dbcb5519d53d9a0baa74989b" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 11/14/2016<br>Time: 7:30<br>City: Pickering<br>Shape: Unknown<br>Summary: Commercial passenger plane narrowly avoids collision with mystery object.</div>`)[0];
+                popup_19cf55070257637967ddd0a145b6ca0c.setContent(html_3ffd2c84dbcb5519d53d9a0baa74989b);
+            
+        
+
+        marker_bbf15c543fc7634a142c40d74653dc5a.bindPopup(popup_19cf55070257637967ddd0a145b6ca0c)
+        ;
+
+        
+    
+    
+            var marker_b77720f0bf5fb72f1578fcd4a488b958 = L.marker(
+                [45.4210328, -75.6900218],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_86805b4a9f338b1ce47c7a19d1ad7e36 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b77720f0bf5fb72f1578fcd4a488b958.setIcon(icon_86805b4a9f338b1ce47c7a19d1ad7e36);
+        
+    
+        var popup_6ad2640df575dd59a56e186b9e92859b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f22cf9f7b287f748d09bcde05100b041 = $(`<div id="html_f22cf9f7b287f748d09bcde05100b041" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 11/13/2016<br>Time: 21:00<br>City: Ottawa<br>Shape: Light<br>Summary: Gf and I watching super moon, saw a wobbling star which was moving up, down  and slightly to each side. ((NUFORC Note: Star?? PD))</div>`)[0];
+                popup_6ad2640df575dd59a56e186b9e92859b.setContent(html_f22cf9f7b287f748d09bcde05100b041);
+            
+        
+
+        marker_b77720f0bf5fb72f1578fcd4a488b958.bindPopup(popup_6ad2640df575dd59a56e186b9e92859b)
+        ;
+
+        
+    
+    
+            var marker_7d3c179403141e9a0d02ac732f955b56 = L.marker(
+                [55.171025, -118.7951659],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_d3cac93a94c38dbb2bfbe8bba05dfe20 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7d3c179403141e9a0d02ac732f955b56.setIcon(icon_d3cac93a94c38dbb2bfbe8bba05dfe20);
+        
+    
+        var popup_348b3453e01f1bed63cb432f6b567841 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84ee8c9dff306aa5fa652de93cd43f58 = $(`<div id="html_84ee8c9dff306aa5fa652de93cd43f58" style="width: 100.0%; height: 100.0%;"><b>Canada - AB</b><br>Date: 11/13/2016<br>Time: 18:41<br>City: Grande Prairie<br>Shape: Light<br>Summary: I went outside onto my deck. A single light, very visible in the sky,  travelled parallel to the horizon for no more than 4 seconds. I</div>`)[0];
+                popup_348b3453e01f1bed63cb432f6b567841.setContent(html_84ee8c9dff306aa5fa652de93cd43f58);
+            
+        
+
+        marker_7d3c179403141e9a0d02ac732f955b56.bindPopup(popup_348b3453e01f1bed63cb432f6b567841)
+        ;
+
+        
+    
+    
+            var marker_4bc4af7e7460cbf4909fd93c0e6c3983 = L.marker(
+                [55.100373, -105.3012079],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_ed9ed3e267a78a863dfff5c52b04146d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4bc4af7e7460cbf4909fd93c0e6c3983.setIcon(icon_ed9ed3e267a78a863dfff5c52b04146d);
+        
+    
+        var popup_5d374165d96db5c9b9a2e701bb4fdd60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec16f82146965a876658c8e98b444954 = $(`<div id="html_ec16f82146965a876658c8e98b444954" style="width: 100.0%; height: 100.0%;"><b>Canada - SK</b><br>Date: 10/11/2016<br>Time: 8:40<br>City: La Ronge<br>Shape: Unknown<br>Summary: We seen 7 lights moving across the northern sky.</div>`)[0];
+                popup_5d374165d96db5c9b9a2e701bb4fdd60.setContent(html_ec16f82146965a876658c8e98b444954);
+            
+        
+
+        marker_4bc4af7e7460cbf4909fd93c0e6c3983.bindPopup(popup_5d374165d96db5c9b9a2e701bb4fdd60)
+        ;
+
+        
+    
+    
+            var marker_d6f1ee689217dee513b11da813b40e0d = L.marker(
+                [52.1303794, -106.6605123],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_3e5effccf8f854fa8a8a524673f5f0b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d6f1ee689217dee513b11da813b40e0d.setIcon(icon_3e5effccf8f854fa8a8a524673f5f0b8);
+        
+    
+        var popup_0a7242d3b7d146feaa984e535ccf6e88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7f0b7f7263c70a96062e2559451d532 = $(`<div id="html_c7f0b7f7263c70a96062e2559451d532" style="width: 100.0%; height: 100.0%;"><b>Canada - SK</b><br>Date: 10/11/2016<br>Time: 8:35<br>City: Saskatoon<br>Shape: Cylinder<br>Summary: Three witness ufo in Saskatoon.</div>`)[0];
+                popup_0a7242d3b7d146feaa984e535ccf6e88.setContent(html_c7f0b7f7263c70a96062e2559451d532);
+            
+        
+
+        marker_d6f1ee689217dee513b11da813b40e0d.bindPopup(popup_0a7242d3b7d146feaa984e535ccf6e88)
+        ;
+
+        
+    
+    
+            var marker_1ec584f88ac91c0749a1719e21c5818d = L.marker(
+                [52.1303794, -106.6605123],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_f65d1f31062d1f5b5d29c32d8c880957 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1ec584f88ac91c0749a1719e21c5818d.setIcon(icon_f65d1f31062d1f5b5d29c32d8c880957);
+        
+    
+        var popup_e6bd4b7877d7d997f92571f297a65401 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfc255aba72075bc0b61ee5738cc6104 = $(`<div id="html_cfc255aba72075bc0b61ee5738cc6104" style="width: 100.0%; height: 100.0%;"><b>Canada - SK</b><br>Date: 10/11/2016<br>Time: 8:34<br>City: Saskatoon<br>Shape: Cylinder<br>Summary: Took a video.</div>`)[0];
+                popup_e6bd4b7877d7d997f92571f297a65401.setContent(html_cfc255aba72075bc0b61ee5738cc6104);
+            
+        
+
+        marker_1ec584f88ac91c0749a1719e21c5818d.bindPopup(popup_e6bd4b7877d7d997f92571f297a65401)
+        ;
+
+        
+    
+    
+            var marker_06b7f11d0f8c8b5bcf3e75aa2cb7a08e = L.marker(
+                [52.1303794, -106.6605123],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_26b90cc2c4b165fad643043350789dfc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_06b7f11d0f8c8b5bcf3e75aa2cb7a08e.setIcon(icon_26b90cc2c4b165fad643043350789dfc);
+        
+    
+        var popup_0051f118a05589b4207fcbbfd3edfa20 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b342cd85cf55205d354933904e2eddc5 = $(`<div id="html_b342cd85cf55205d354933904e2eddc5" style="width: 100.0%; height: 100.0%;"><b>Canada - SK</b><br>Date: 9/11/2016<br>Time: 6:20<br>City: Saskatoon<br>Shape: Unknown<br>Summary: Meteor-like 2 or 3 close together light blue lights, really fast across sky  at dawn</div>`)[0];
+                popup_0051f118a05589b4207fcbbfd3edfa20.setContent(html_b342cd85cf55205d354933904e2eddc5);
+            
+        
+
+        marker_06b7f11d0f8c8b5bcf3e75aa2cb7a08e.bindPopup(popup_0051f118a05589b4207fcbbfd3edfa20)
+        ;
+
+        
+    
+    
+            var marker_08160b105c4251e7bda505d84dc2934d = L.marker(
+                [54.061971, -124.5549847],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_68cc7f6cf21817caa7b381d71a795bf2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_08160b105c4251e7bda505d84dc2934d.setIcon(icon_68cc7f6cf21817caa7b381d71a795bf2);
+        
+    
+        var popup_c2777bb32e70d6b72acc9700275bf317 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a213b18515bf2c4a36ad5ef21a0722ab = $(`<div id="html_a213b18515bf2c4a36ad5ef21a0722ab" style="width: 100.0%; height: 100.0%;"><b>Canada - BC</b><br>Date: 9/11/2016<br>Time: 6:15<br>City: Fort Fraser<br>Shape: Light<br>Summary: Traveling East on HWY 16 between communities when the event occurred.  Started off as a single green/blue light when it entered my line</div>`)[0];
+                popup_c2777bb32e70d6b72acc9700275bf317.setContent(html_a213b18515bf2c4a36ad5ef21a0722ab);
+            
+        
+
+        marker_08160b105c4251e7bda505d84dc2934d.bindPopup(popup_c2777bb32e70d6b72acc9700275bf317)
+        ;
+
+        
+    
+    
+            var marker_0f51328406f1be5753aca2d62209df2c = L.marker(
+                [53.5343609, -113.5065084],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_60dbed0763fb2e14478ae9c659deb691 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0f51328406f1be5753aca2d62209df2c.setIcon(icon_60dbed0763fb2e14478ae9c659deb691);
+        
+    
+        var popup_c7fb3277b4fed62a5cc57864e4509977 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_683916cc58c45c0d6e7d50ba1784db45 = $(`<div id="html_683916cc58c45c0d6e7d50ba1784db45" style="width: 100.0%; height: 100.0%;"><b>Canada - AB</b><br>Date: 8/11/2016<br>Time: 8:30<br>City: Edmonton<br>Shape: Light<br>Summary: Very High Flash of Light.</div>`)[0];
+                popup_c7fb3277b4fed62a5cc57864e4509977.setContent(html_683916cc58c45c0d6e7d50ba1784db45);
+            
+        
+
+        marker_0f51328406f1be5753aca2d62209df2c.bindPopup(popup_c7fb3277b4fed62a5cc57864e4509977)
+        ;
+
+        
+    
+    
+            var marker_35be00399bcab9b97eef228192b6d671 = L.marker(
+                [46.8257374, -71.2349113],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_431ef4c8de445e848ce669de4378c8f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_35be00399bcab9b97eef228192b6d671.setIcon(icon_431ef4c8de445e848ce669de4378c8f4);
+        
+    
+        var popup_79050e0d80b9b96e63485b489aee2080 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2935cc01d5ac22167de7198c9d6df643 = $(`<div id="html_2935cc01d5ac22167de7198c9d6df643" style="width: 100.0%; height: 100.0%;"><b>Canada - QC</b><br>Date: 4/11/2016<br>Time: 5:00<br>City: Québec City<br>Shape: Disk<br>Summary: Strange UFO-looking shape among the clouds in late afternoon, appearing to  have mass.</div>`)[0];
+                popup_79050e0d80b9b96e63485b489aee2080.setContent(html_2935cc01d5ac22167de7198c9d6df643);
+            
+        
+
+        marker_35be00399bcab9b97eef228192b6d671.bindPopup(popup_79050e0d80b9b96e63485b489aee2080)
+        ;
+
+        
+    
+    
+            var marker_766927e96c5ad702629992187e7df203 = L.marker(
+                [43.5892854, -79.6441645],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_1c8870464dad9ec53601920fe2300de2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_766927e96c5ad702629992187e7df203.setIcon(icon_1c8870464dad9ec53601920fe2300de2);
+        
+    
+        var popup_cbe98ff5768f5fc9f710e0fa25d1d5ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7c64da473593dc44fa61f74ee2e4573 = $(`<div id="html_d7c64da473593dc44fa61f74ee2e4573" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 4/11/2016<br>Time: 5:22<br>City: Mississauga<br>Shape: Unknown<br>Summary: There were lights on the object.</div>`)[0];
+                popup_cbe98ff5768f5fc9f710e0fa25d1d5ce.setContent(html_d7c64da473593dc44fa61f74ee2e4573);
+            
+        
+
+        marker_766927e96c5ad702629992187e7df203.bindPopup(popup_cbe98ff5768f5fc9f710e0fa25d1d5ce)
+        ;
+
+        
+    
+    
+            var marker_8c3e8937fa87f098785c51db2bb2d8ac = L.marker(
+                [43.5892854, -79.6441645],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_4108a33fb2d84ba1c64a6728737b85cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8c3e8937fa87f098785c51db2bb2d8ac.setIcon(icon_4108a33fb2d84ba1c64a6728737b85cd);
+        
+    
+        var popup_064e7d0fdf41d437b79b435c9432d0e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6022f9222f908b1fc311ea1c80228aab = $(`<div id="html_6022f9222f908b1fc311ea1c80228aab" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 1/11/2016<br>Time: 8:15<br>City: Mississauga<br>Shape: Circle<br>Summary: Was in the passenger seat, driving home through Mississauaga.  Time was approx. 8:15pm EST.  GIANT glowing green object fell from</div>`)[0];
+                popup_064e7d0fdf41d437b79b435c9432d0e9.setContent(html_6022f9222f908b1fc311ea1c80228aab);
+            
+        
+
+        marker_8c3e8937fa87f098785c51db2bb2d8ac.bindPopup(popup_064e7d0fdf41d437b79b435c9432d0e9)
+        ;
+
+        
+    
+    
+            var marker_04ab6f82e4de99f5af5835ec8980b7c8 = L.marker(
+                [50.5619196, -126.5825836],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_82c9d732ac4efbf543bef6196a506d28 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_04ab6f82e4de99f5af5835ec8980b7c8.setIcon(icon_82c9d732ac4efbf543bef6196a506d28);
+        
+    
+        var popup_5bd9af06b9551d8d4483a1418f4e003b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f219452aea35d996ccb4f55eb0dfc03 = $(`<div id="html_4f219452aea35d996ccb4f55eb0dfc03" style="width: 100.0%; height: 100.0%;"><b>Canada - BC</b><br>Date: 10/31/2016<br>Time: 11:40<br>City: Cracroft Island<br>Shape: Cross<br>Summary: several solid objects in clouds over Cracroft point. BC</div>`)[0];
+                popup_5bd9af06b9551d8d4483a1418f4e003b.setContent(html_4f219452aea35d996ccb4f55eb0dfc03);
+            
+        
+
+        marker_04ab6f82e4de99f5af5835ec8980b7c8.bindPopup(popup_5bd9af06b9551d8d4483a1418f4e003b)
+        ;
+
+        
+    
+    
+            var marker_d8d3503c2530cdc23faa36b11675c319 = L.marker(
+                [42.7778056, -81.1822955],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_878d2ecca22038a3f6de5e0660975340 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d8d3503c2530cdc23faa36b11675c319.setIcon(icon_878d2ecca22038a3f6de5e0660975340);
+        
+    
+        var popup_fefddffd9889e36e0c4bd06f3434d9e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90aa3c09e017891393bf99ae65a0d501 = $(`<div id="html_90aa3c09e017891393bf99ae65a0d501" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 10/30/2016<br>Time: 20:00<br>City: St. Thomas<br>Shape: Chevron<br>Summary: Boomerang-shaped craft, adorned with, or emitting, white lights.</div>`)[0];
+                popup_fefddffd9889e36e0c4bd06f3434d9e2.setContent(html_90aa3c09e017891393bf99ae65a0d501);
+            
+        
+
+        marker_d8d3503c2530cdc23faa36b11675c319.bindPopup(popup_fefddffd9889e36e0c4bd06f3434d9e2)
+        ;
+
+        
+    
+    
+            var marker_d9706d8cfbf8d41b5e97d3937bd55f02 = L.marker(
+                [43.133061, -80.7498549],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_7e018def85d40c817c664848089e9296 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d9706d8cfbf8d41b5e97d3937bd55f02.setIcon(icon_7e018def85d40c817c664848089e9296);
+        
+    
+        var popup_2a9e665aac3ec8f79d03148261869113 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8643862e4ac63df574ca0ea5458ccec8 = $(`<div id="html_8643862e4ac63df574ca0ea5458ccec8" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 10/28/2016<br>Time: 6:00<br>City: Woodstock<br>Shape: Light<br>Summary: The moon was a morning lower crescent moon, object light eminated and  hovered close to the moon and earth. ((anonymous report))</div>`)[0];
+                popup_2a9e665aac3ec8f79d03148261869113.setContent(html_8643862e4ac63df574ca0ea5458ccec8);
+            
+        
+
+        marker_d9706d8cfbf8d41b5e97d3937bd55f02.bindPopup(popup_2a9e665aac3ec8f79d03148261869113)
+        ;
+
+        
+    
+    
+            var marker_843d2b134d1c3dbdacfb5bedf240a7ca = L.marker(
+                [45.4210328, -75.6900218],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_e074413fdae4679cf7cd7e424877eff5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_843d2b134d1c3dbdacfb5bedf240a7ca.setIcon(icon_e074413fdae4679cf7cd7e424877eff5);
+        
+    
+        var popup_72c86f77fbd62e9eda5b45da801bddaf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82c30ea7cac6e5b5dcfb3e14d08b9664 = $(`<div id="html_82c30ea7cac6e5b5dcfb3e14d08b9664" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 10/13/2016<br>Time: 7:00<br>City: Ottawa<br>Shape: Light<br>Summary: I took multiple pictures of the morning sky and sunrise. ((anonymous  report))</div>`)[0];
+                popup_72c86f77fbd62e9eda5b45da801bddaf.setContent(html_82c30ea7cac6e5b5dcfb3e14d08b9664);
+            
+        
+
+        marker_843d2b134d1c3dbdacfb5bedf240a7ca.bindPopup(popup_72c86f77fbd62e9eda5b45da801bddaf)
+        ;
+
+        
+    
+    
+            var marker_f027e8fc26779f2c9bf2215f83629339 = L.marker(
+                [53.5343609, -113.5065084],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_f5fa9cea5def7daee24330673cc450b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f027e8fc26779f2c9bf2215f83629339.setIcon(icon_f5fa9cea5def7daee24330673cc450b2);
+        
+    
+        var popup_1623701ef905c183ca81db2e00e94ad5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68cc9ae364f6e1f562bb5368298b3d2e = $(`<div id="html_68cc9ae364f6e1f562bb5368298b3d2e" style="width: 100.0%; height: 100.0%;"><b>Canada - AB</b><br>Date: 10/10/2016<br>Time: 1:30<br>City: Edmonton<br>Shape: Sphere<br>Summary: 7 objects on video footage recorded with a drone during daytime full HD  video available. ((NUFORC Note: Not ufos, we suspect? PD))</div>`)[0];
+                popup_1623701ef905c183ca81db2e00e94ad5.setContent(html_68cc9ae364f6e1f562bb5368298b3d2e);
+            
+        
+
+        marker_f027e8fc26779f2c9bf2215f83629339.bindPopup(popup_1623701ef905c183ca81db2e00e94ad5)
+        ;
+
+        
+    
+    
+            var marker_acafefd1b81f7d714f3e2cb49f2c2f98 = L.marker(
+                [53.6870871, -132.1808315],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_46ac6cf2da7d8137aeef683665c45de7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_acafefd1b81f7d714f3e2cb49f2c2f98.setIcon(icon_46ac6cf2da7d8137aeef683665c45de7);
+        
+    
+        var popup_0a102d2390346214d1a4203753cb63da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d89f2f1be4954a03c4f7650ee7ee95cc = $(`<div id="html_d89f2f1be4954a03c4f7650ee7ee95cc" style="width: 100.0%; height: 100.0%;"><b>Canada - BC</b><br>Date: 9/10/2016<br>Time: 9:00<br>City: Port Clements<br>Shape: Other<br>Summary: Looking up walking from my moms to my house next door lighted x no sound.</div>`)[0];
+                popup_0a102d2390346214d1a4203753cb63da.setContent(html_d89f2f1be4954a03c4f7650ee7ee95cc);
+            
+        
+
+        marker_acafefd1b81f7d714f3e2cb49f2c2f98.bindPopup(popup_0a102d2390346214d1a4203753cb63da)
+        ;
+
+        
+    
+    
+            var marker_b4c9970ea9ee2a22eeb0bf8ed48b2bc0 = L.marker(
+                [49.1204123, -122.6598956],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_eae810c4ef3f66f2034b3598ec28ce13 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b4c9970ea9ee2a22eeb0bf8ed48b2bc0.setIcon(icon_eae810c4ef3f66f2034b3598ec28ce13);
+        
+    
+        var popup_819298ca4779215a0c3729c774fb6fab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac9a1582e34b14e64996efc7a410dc65 = $(`<div id="html_ac9a1582e34b14e64996efc7a410dc65" style="width: 100.0%; height: 100.0%;"><b>Canada - BC</b><br>Date: 9/10/2016<br>Time: 9:00<br>City: Langley<br>Shape: Light<br>Summary: Red object with flashing rays seen by 2 people out their back porch.</div>`)[0];
+                popup_819298ca4779215a0c3729c774fb6fab.setContent(html_ac9a1582e34b14e64996efc7a410dc65);
+            
+        
+
+        marker_b4c9970ea9ee2a22eeb0bf8ed48b2bc0.bindPopup(popup_819298ca4779215a0c3729c774fb6fab)
+        ;
+
+        
+    
+    
+            var marker_c48f54b7baaf898fb1a517fe572bbf51 = L.marker(
+                [54.312617, -130.3255344],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_b8a462a1db48383e3ed6b066ac451af2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c48f54b7baaf898fb1a517fe572bbf51.setIcon(icon_b8a462a1db48383e3ed6b066ac451af2);
+        
+    
+        var popup_208e87105cb480e8e6ecbdd9b4ab22fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_768d14463c7a07378f64539ac1af9f52 = $(`<div id="html_768d14463c7a07378f64539ac1af9f52" style="width: 100.0%; height: 100.0%;"><b>Canada - BC</b><br>Date: 9/10/2016<br>Time: 8:37<br>City: Prince Rupert<br>Shape: Other<br>Summary: Temporary big red flashing star.</div>`)[0];
+                popup_208e87105cb480e8e6ecbdd9b4ab22fa.setContent(html_768d14463c7a07378f64539ac1af9f52);
+            
+        
+
+        marker_c48f54b7baaf898fb1a517fe572bbf51.bindPopup(popup_208e87105cb480e8e6ecbdd9b4ab22fa)
+        ;
+
+        
+    
+    
+            var marker_7f7ce05db2e2be676de0fd70faf08ae5 = L.marker(
+                [51.0435486, -113.3998478],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_b0f6c6d48c446cff36ce375a30c7f26e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7f7ce05db2e2be676de0fd70faf08ae5.setIcon(icon_b0f6c6d48c446cff36ce375a30c7f26e);
+        
+    
+        var popup_5d0f875806fe30a5fddb05727bccd2de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ecd91f604e64614cdb4441789b9c78d8 = $(`<div id="html_ecd91f604e64614cdb4441789b9c78d8" style="width: 100.0%; height: 100.0%;"><b>Canada - AB</b><br>Date: 8/10/2016<br>Time: 2:20<br>City: Strathmore<br>Shape: Other<br>Summary: Two large 4 propeller style ufos hanging over Lyalta, AB. 3 other cars  pulled over to photograph.</div>`)[0];
+                popup_5d0f875806fe30a5fddb05727bccd2de.setContent(html_ecd91f604e64614cdb4441789b9c78d8);
+            
+        
+
+        marker_7f7ce05db2e2be676de0fd70faf08ae5.bindPopup(popup_5d0f875806fe30a5fddb05727bccd2de)
+        ;
+
+        
+    
+    
+            var marker_82a4759daff8ca0e1bc079f6966f7b33 = L.marker(
+                [45.4210328, -75.6900218],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_3605e632d85624c7e2eac9ca0b64bd3f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_82a4759daff8ca0e1bc079f6966f7b33.setIcon(icon_3605e632d85624c7e2eac9ca0b64bd3f);
+        
+    
+        var popup_2b231bc114cc07eee37cc8dfdcf1952e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2792fc9a6086b05b23891134fc13a05 = $(`<div id="html_b2792fc9a6086b05b23891134fc13a05" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 6/10/2016<br>Time: 1:07<br>City: Ottawa<br>Shape: Flash<br>Summary: Faint tiny red flashing star gets bigger, then moves from West to North,  then flies directly over city of Ottawa, ON.</div>`)[0];
+                popup_2b231bc114cc07eee37cc8dfdcf1952e.setContent(html_b2792fc9a6086b05b23891134fc13a05);
+            
+        
+
+        marker_82a4759daff8ca0e1bc079f6966f7b33.bindPopup(popup_2b231bc114cc07eee37cc8dfdcf1952e)
+        ;
+
+        
+    
+    
+            var marker_7d2e2330e470d5cfc9b9bcb08e119ad1 = L.marker(
+                [50.4480951, -104.615818],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_4bdcaa4b14d0cddb4dfebb61f9fddf08 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7d2e2330e470d5cfc9b9bcb08e119ad1.setIcon(icon_4bdcaa4b14d0cddb4dfebb61f9fddf08);
+        
+    
+        var popup_d058bae5104ee0ee39df33ffccb72039 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fcf9de60a619b8baa3baf1b91278c36a = $(`<div id="html_fcf9de60a619b8baa3baf1b91278c36a" style="width: 100.0%; height: 100.0%;"><b>Canada - SK</b><br>Date: 2/10/2016<br>Time: 5:45<br>City: Regina<br>Shape: Disk<br>Summary: Bright disk-shaped object in the sky</div>`)[0];
+                popup_d058bae5104ee0ee39df33ffccb72039.setContent(html_fcf9de60a619b8baa3baf1b91278c36a);
+            
+        
+
+        marker_7d2e2330e470d5cfc9b9bcb08e119ad1.bindPopup(popup_d058bae5104ee0ee39df33ffccb72039)
+        ;
+
+        
+    
+    
+            var marker_1b74b3ad1198ab9d2930d0e54aed58fd = L.marker(
+                [49.8833343, -97.166674],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_fa58e7cc9889dca84a25470a30e88a8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1b74b3ad1198ab9d2930d0e54aed58fd.setIcon(icon_fa58e7cc9889dca84a25470a30e88a8e);
+        
+    
+        var popup_21d08ba9e2400cb2fb2c68ad52d4fc64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_063a465ee64de02361c036a2fbbbff53 = $(`<div id="html_063a465ee64de02361c036a2fbbbff53" style="width: 100.0%; height: 100.0%;"><b>Canada - MB</b><br>Date: 2/10/2016<br>Time: 1:30<br>City: Winnipeg<br>Shape: Light<br>Summary: Strange orange light flew overhead.</div>`)[0];
+                popup_21d08ba9e2400cb2fb2c68ad52d4fc64.setContent(html_063a465ee64de02361c036a2fbbbff53);
+            
+        
+
+        marker_1b74b3ad1198ab9d2930d0e54aed58fd.bindPopup(popup_21d08ba9e2400cb2fb2c68ad52d4fc64)
+        ;
+
+        
+    
+    
+            var marker_441adff9959b339ab7b8b2650c1a4b08 = L.marker(
+                [46.52391, -84.3200679],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_1b28e080a20eea92d40fc00dfdfc090f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_441adff9959b339ab7b8b2650c1a4b08.setIcon(icon_1b28e080a20eea92d40fc00dfdfc090f);
+        
+    
+        var popup_21354694466f2745c33cd8e8980fce8d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd3296599fa93a821e3260429854d752 = $(`<div id="html_fd3296599fa93a821e3260429854d752" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 9/30/2016<br>Time: 20:45<br>City: Sault Ste. Marie<br>Shape: Circle<br>Summary: Orange circle moving quickly...</div>`)[0];
+                popup_21354694466f2745c33cd8e8980fce8d.setContent(html_fd3296599fa93a821e3260429854d752);
+            
+        
+
+        marker_441adff9959b339ab7b8b2650c1a4b08.bindPopup(popup_21354694466f2745c33cd8e8980fce8d)
+        ;
+
+        
+    
+    
+            var marker_4d1587df9d203cf6f46aee073405b73f = L.marker(
+                [45.4210328, -75.6900218],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_49f233c3af661a673cffae664fc3d5e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4d1587df9d203cf6f46aee073405b73f.setIcon(icon_49f233c3af661a673cffae664fc3d5e7);
+        
+    
+        var popup_ced6edb38c9fe132c0b42083c1630bc0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_786bfdca831856f2ca6ce7ba4e226262 = $(`<div id="html_786bfdca831856f2ca6ce7ba4e226262" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 9/28/2016<br>Time: 21:00<br>City: Ottawa<br>Shape: Triangle<br>Summary: I looked up and gasped, as I saw three lights on three corners forming a  triangle. ((anonymous report))</div>`)[0];
+                popup_ced6edb38c9fe132c0b42083c1630bc0.setContent(html_786bfdca831856f2ca6ce7ba4e226262);
+            
+        
+
+        marker_4d1587df9d203cf6f46aee073405b73f.bindPopup(popup_ced6edb38c9fe132c0b42083c1630bc0)
+        ;
+
+        
+    
+    
+            var marker_a178324daf96693996ddafc236794405 = L.marker(
+                [43.6529206, -79.3849007],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_36e0d100bf961344df120169a7ef6e29 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a178324daf96693996ddafc236794405.setIcon(icon_36e0d100bf961344df120169a7ef6e29);
+        
+    
+        var popup_d7c954c7942e3b66ef7382cf059fc969 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cf6dbb3ef6bfc9ccf72d9cae0e10455 = $(`<div id="html_8cf6dbb3ef6bfc9ccf72d9cae0e10455" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 9/24/2016<br>Time: 17:55<br>City: Toronto<br>Shape: Oval<br>Summary: Blurry, white oval craft and trailing red lights over Rogers (SkyDome)  Centre, Toronto</div>`)[0];
+                popup_d7c954c7942e3b66ef7382cf059fc969.setContent(html_8cf6dbb3ef6bfc9ccf72d9cae0e10455);
+            
+        
+
+        marker_a178324daf96693996ddafc236794405.bindPopup(popup_d7c954c7942e3b66ef7382cf059fc969)
+        ;
+
+        
+    
+    
+            var marker_18c7ec8e6c5726a7679eaf7fab84e937 = L.marker(
+                [43.1089442, -79.0636192],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_ba0617b8282fc84f7db876b6f48aa95a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_18c7ec8e6c5726a7679eaf7fab84e937.setIcon(icon_ba0617b8282fc84f7db876b6f48aa95a);
+        
+    
+        var popup_24ff3f71b8a99f4693aaa1667ea2ccd9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_faf5092a11b1b46ebd69de945817a2b6 = $(`<div id="html_faf5092a11b1b46ebd69de945817a2b6" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 9/22/2016<br>Time: 8:45<br>City: Niagara Falls<br>Shape: Formation<br>Summary: Lights over Niagara River.</div>`)[0];
+                popup_24ff3f71b8a99f4693aaa1667ea2ccd9.setContent(html_faf5092a11b1b46ebd69de945817a2b6);
+            
+        
+
+        marker_18c7ec8e6c5726a7679eaf7fab84e937.bindPopup(popup_24ff3f71b8a99f4693aaa1667ea2ccd9)
+        ;
+
+        
+    
+    
+            var marker_0f3015c9c775caea6bd902c180d50b6d = L.marker(
+                [49.2445, -122.9727169],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_077110efebf10b89dfea94cdc2748c38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0f3015c9c775caea6bd902c180d50b6d.setIcon(icon_077110efebf10b89dfea94cdc2748c38);
+        
+    
+        var popup_9758f269e6823f0794591286e7c44321 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c66cc0277d91b4d6d5be4a58bcca9fe8 = $(`<div id="html_c66cc0277d91b4d6d5be4a58bcca9fe8" style="width: 100.0%; height: 100.0%;"><b>Canada - BC</b><br>Date: 9/20/2016<br>Time: 19:09<br>City: Burnaby<br>Shape: Circle<br>Summary: I was shooting the cloud of sunset by using my iPhone and iPad , finally I  found it in my images. And it is pretty clear, bright,, yell</div>`)[0];
+                popup_9758f269e6823f0794591286e7c44321.setContent(html_c66cc0277d91b4d6d5be4a58bcca9fe8);
+            
+        
+
+        marker_0f3015c9c775caea6bd902c180d50b6d.bindPopup(popup_9758f269e6823f0794591286e7c44321)
+        ;
+
+        
+    
+    
+            var marker_46324c90cfc3423b80fbbdb5f88d9290 = L.marker(
+                [43.447436, -79.6666719],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_f40dafb3cf81c5b615c96555064a6b38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_46324c90cfc3423b80fbbdb5f88d9290.setIcon(icon_f40dafb3cf81c5b615c96555064a6b38);
+        
+    
+        var popup_17491bcaf26b81e41f4eaa069360cc62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_54c80583d7764ce68946d015fdd4d866 = $(`<div id="html_54c80583d7764ce68946d015fdd4d866" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 9/20/2016<br>Time: 16:34<br>City: Oakville<br>Shape: Sphere<br>Summary: Daytime UFO sighting near Oakville, ON, Canada.</div>`)[0];
+                popup_17491bcaf26b81e41f4eaa069360cc62.setContent(html_54c80583d7764ce68946d015fdd4d866);
+            
+        
+
+        marker_46324c90cfc3423b80fbbdb5f88d9290.bindPopup(popup_17491bcaf26b81e41f4eaa069360cc62)
+        ;
+
+        
+    
+    
+            var marker_30a070bc37fba1e36ddb9447dcd3b381 = L.marker(
+                [43.037725, -80.8821099],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_427ffd909c4edb283474a876e5873224 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_30a070bc37fba1e36ddb9447dcd3b381.setIcon(icon_427ffd909c4edb283474a876e5873224);
+        
+    
+        var popup_d486ee12b19c887bf895988a671d1f6e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_080ab9f305336c4da62c7414a0763c35 = $(`<div id="html_080ab9f305336c4da62c7414a0763c35" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 9/18/2016<br>Time: 21:00<br>City: Ingersoll<br>Shape: Formation<br>Summary: Multiple Anomolies In An Ontario Town</div>`)[0];
+                popup_d486ee12b19c887bf895988a671d1f6e.setContent(html_080ab9f305336c4da62c7414a0763c35);
+            
+        
+
+        marker_30a070bc37fba1e36ddb9447dcd3b381.bindPopup(popup_d486ee12b19c887bf895988a671d1f6e)
+        ;
+
+        
+    
+    
+            var marker_1a1ae71f2dc843e400515a7c59bbcdd5 = L.marker(
+                [43.910755, -78.6803049],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_e1f654805cbafd1d519715360b2d804c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1a1ae71f2dc843e400515a7c59bbcdd5.setIcon(icon_e1f654805cbafd1d519715360b2d804c);
+        
+    
+        var popup_1603d2d5a91f9fc09c151e523a365a34 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9526d87eb842635a88b26b87597149fb = $(`<div id="html_9526d87eb842635a88b26b87597149fb" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 9/16/2016<br>Time: 21:45<br>City: Bowmanville<br>Shape: Circle<br>Summary: A bright orange light moving from South to North about the size of the moon</div>`)[0];
+                popup_1603d2d5a91f9fc09c151e523a365a34.setContent(html_9526d87eb842635a88b26b87597149fb);
+            
+        
+
+        marker_1a1ae71f2dc843e400515a7c59bbcdd5.bindPopup(popup_1603d2d5a91f9fc09c151e523a365a34)
+        ;
+
+        
+    
+    
+            var marker_0fddb003144d8e2526b5bc4c8cd75613 = L.marker(
+                [51.7970889, -114.6393203],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_23b6f03565434c962a27ac31433d45a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0fddb003144d8e2526b5bc4c8cd75613.setIcon(icon_23b6f03565434c962a27ac31433d45a8);
+        
+    
+        var popup_c83d135b6692d86d13b092d88b36e730 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91ba4db97816e29cbeeb4d0939c981af = $(`<div id="html_91ba4db97816e29cbeeb4d0939c981af" style="width: 100.0%; height: 100.0%;"><b>Canada - AB</b><br>Date: 9/15/2016<br>Time: 21:20<br>City: Sundre<br>Shape: Light<br>Summary: Live about 25km west of Sundre, Alberta. Never seen a UFO or reported same,  so this is a first. Walking down driveway, in a south ea</div>`)[0];
+                popup_c83d135b6692d86d13b092d88b36e730.setContent(html_91ba4db97816e29cbeeb4d0939c981af);
+            
+        
+
+        marker_0fddb003144d8e2526b5bc4c8cd75613.bindPopup(popup_c83d135b6692d86d13b092d88b36e730)
+        ;
+
+        
+    
+    
+            var marker_86d243351bf1735dccc2332c0dbbea4c = L.marker(
+                [43.255205, -79.8682019],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_1a76da61d7cca55b46766d2c7d11f7f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_86d243351bf1735dccc2332c0dbbea4c.setIcon(icon_1a76da61d7cca55b46766d2c7d11f7f7);
+        
+    
+        var popup_bb222c6edbdca75d14786945d9893c2e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_580397a603176cc0e6acec9244f4c5fe = $(`<div id="html_580397a603176cc0e6acec9244f4c5fe" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 9/15/2016<br>Time: 14:00<br>City: Hamilton<br>Shape: Light<br>Summary: I was walking with my father heading north. Just after 2pm, I heard a jet  in the sky, i looked up and seen a privet jet and on its rig</div>`)[0];
+                popup_bb222c6edbdca75d14786945d9893c2e.setContent(html_580397a603176cc0e6acec9244f4c5fe);
+            
+        
+
+        marker_86d243351bf1735dccc2332c0dbbea4c.bindPopup(popup_bb222c6edbdca75d14786945d9893c2e)
+        ;
+
+        
+    
+    
+            var marker_4913d842bdc049d639e8647bf0dd1df6 = L.marker(
+                [52.1303794, -106.6605123],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_7919ae22586580ab341c873e1a3c931e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4913d842bdc049d639e8647bf0dd1df6.setIcon(icon_7919ae22586580ab341c873e1a3c931e);
+        
+    
+        var popup_53d4d7b3b555becfdef5846d2641044c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea4e9037cb074d9777988ce3868e5cba = $(`<div id="html_ea4e9037cb074d9777988ce3868e5cba" style="width: 100.0%; height: 100.0%;"><b>Canada - SK</b><br>Date: 9/13/2016<br>Time: 5:20<br>City: Saskatoon<br>Shape: Light<br>Summary: It looked like a star but cruised like a helicopter.</div>`)[0];
+                popup_53d4d7b3b555becfdef5846d2641044c.setContent(html_ea4e9037cb074d9777988ce3868e5cba);
+            
+        
+
+        marker_4913d842bdc049d639e8647bf0dd1df6.bindPopup(popup_53d4d7b3b555becfdef5846d2641044c)
+        ;
+
+        
+    
+    
+            var marker_7e882c2c30335b20f70fe0d28e281d44 = L.marker(
+                [50.1443787, -101.6690593],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_b8447b00bbe0946abbd4f30f624a917d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7e882c2c30335b20f70fe0d28e281d44.setIcon(icon_b8447b00bbe0946abbd4f30f624a917d);
+        
+    
+        var popup_f53777cce5133165892bd902cff564ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a6340c516d34fd77fa17e78910cec8f = $(`<div id="html_7a6340c516d34fd77fa17e78910cec8f" style="width: 100.0%; height: 100.0%;"><b>Canada - SK</b><br>Date: 11/9/2016<br>Time: 7:30<br>City: Moosomin<br>Shape: Sphere<br>Summary: 730 am going to work in underground facility 2km under . Greenish orb came  into view looked odd so took three pics very quickly I did n</div>`)[0];
+                popup_f53777cce5133165892bd902cff564ff.setContent(html_7a6340c516d34fd77fa17e78910cec8f);
+            
+        
+
+        marker_7e882c2c30335b20f70fe0d28e281d44.bindPopup(popup_f53777cce5133165892bd902cff564ff)
+        ;
+
+        
+    
+    
+            var marker_c1cf623fe753110affe210293f5ec771 = L.marker(
+                [45.4210328, -75.6900218],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_c766fa1cb3fca07a6eef5d6b3927443c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c1cf623fe753110affe210293f5ec771.setIcon(icon_c766fa1cb3fca07a6eef5d6b3927443c);
+        
+    
+        var popup_5c1b5b2e8e8aa281b1221b6f69300dd1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe7ce1d5f035a0d4b9e29ef06ac9d781 = $(`<div id="html_fe7ce1d5f035a0d4b9e29ef06ac9d781" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 11/9/2016<br>Time: 12:05<br>City: Ottawa<br>Shape: Oval<br>Summary: Big bright white light with pulsating red-circle light in center crosses  horizon going from West to East.</div>`)[0];
+                popup_5c1b5b2e8e8aa281b1221b6f69300dd1.setContent(html_fe7ce1d5f035a0d4b9e29ef06ac9d781);
+            
+        
+
+        marker_c1cf623fe753110affe210293f5ec771.bindPopup(popup_5c1b5b2e8e8aa281b1221b6f69300dd1)
+        ;
+
+        
+    
+    
+            var marker_da4574082cd413ec91b90f9442140cef = L.marker(
+                [42.988576, -81.2466429],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_1af1e0b14e8daa2e1218b2bcac4bd1f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_da4574082cd413ec91b90f9442140cef.setIcon(icon_1af1e0b14e8daa2e1218b2bcac4bd1f5);
+        
+    
+        var popup_8bf3e6b2154f7d29935242fa50823e5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_078da29d3a6a7079ce239b6d09616a2f = $(`<div id="html_078da29d3a6a7079ce239b6d09616a2f" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 10/9/2016<br>Time: 11:30<br>City: London<br>Shape: Formation<br>Summary: Never seen anything like this before</div>`)[0];
+                popup_8bf3e6b2154f7d29935242fa50823e5e.setContent(html_078da29d3a6a7079ce239b6d09616a2f);
+            
+        
+
+        marker_da4574082cd413ec91b90f9442140cef.bindPopup(popup_8bf3e6b2154f7d29935242fa50823e5e)
+        ;
+
+        
+    
+    
+            var marker_b83f1c6373527b8db9a88ab332d8708c = L.marker(
+                [50.1456208, -96.8788002],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_9f81b619214521cf83551fc44b5b7ca8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b83f1c6373527b8db9a88ab332d8708c.setIcon(icon_9f81b619214521cf83551fc44b5b7ca8);
+        
+    
+        var popup_ee1a24ea952d7c6fa347c03fd9f43d8f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5dc769e4f21c13db4c340c7b75aa46e7 = $(`<div id="html_5dc769e4f21c13db4c340c7b75aa46e7" style="width: 100.0%; height: 100.0%;"><b>Canada - MB</b><br>Date: 10/9/2016<br>Time: 10:00<br>City: Selkirk<br>Shape: Light<br>Summary: 8-10 red orbs crossing the sky</div>`)[0];
+                popup_ee1a24ea952d7c6fa347c03fd9f43d8f.setContent(html_5dc769e4f21c13db4c340c7b75aa46e7);
+            
+        
+
+        marker_b83f1c6373527b8db9a88ab332d8708c.bindPopup(popup_ee1a24ea952d7c6fa347c03fd9f43d8f)
+        ;
+
+        
+    
+    
+            var marker_728c9cba17357cdf334c400be8918ba3 = L.marker(
+                [52.8752336, -118.082429],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_b19133808d290ba5f35bda59d60ec8b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_728c9cba17357cdf334c400be8918ba3.setIcon(icon_b19133808d290ba5f35bda59d60ec8b6);
+        
+    
+        var popup_ed5e7993713f57ee7ce37472a3bdaf88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38947433e440a830bc1d9fe9b13c23e7 = $(`<div id="html_38947433e440a830bc1d9fe9b13c23e7" style="width: 100.0%; height: 100.0%;"><b>Canada - AB</b><br>Date: 10/9/2016<br>Time: 1:00<br>City: Jasper<br>Shape: Fireball<br>Summary: UFO immobile then hovering the town of Jasper to disappear right over our  car</div>`)[0];
+                popup_ed5e7993713f57ee7ce37472a3bdaf88.setContent(html_38947433e440a830bc1d9fe9b13c23e7);
+            
+        
+
+        marker_728c9cba17357cdf334c400be8918ba3.bindPopup(popup_ed5e7993713f57ee7ce37472a3bdaf88)
+        ;
+
+        
+    
+    
+            var marker_acc036fdf8055ab8b3e351f098249ac2 = L.marker(
+                [42.9081286, -81.4209221],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_9f9f163d5af06875f19655febb088159 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_acc036fdf8055ab8b3e351f098249ac2.setIcon(icon_9f9f163d5af06875f19655febb088159);
+        
+    
+        var popup_99e564d646942ed9cff93772f3f32598 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b35db6b3eb8ea6efc7ff46e5eb3f712 = $(`<div id="html_8b35db6b3eb8ea6efc7ff46e5eb3f712" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 5/9/2016<br>Time: 10:10<br>City: Delaware<br>Shape: Sphere<br>Summary: Orange Spheres dropping objects</div>`)[0];
+                popup_99e564d646942ed9cff93772f3f32598.setContent(html_8b35db6b3eb8ea6efc7ff46e5eb3f712);
+            
+        
+
+        marker_acc036fdf8055ab8b3e351f098249ac2.bindPopup(popup_99e564d646942ed9cff93772f3f32598)
+        ;
+
+        
+    
+    
+            var marker_a29a36f0e18cbeb97c2bc636a05fdab3 = L.marker(
+                [43.9280142, -80.1042398],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_b764cabcc994740818ad2b25167a450d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a29a36f0e18cbeb97c2bc636a05fdab3.setIcon(icon_b764cabcc994740818ad2b25167a450d);
+        
+    
+        var popup_b8997ef2f1d5104c4bda463286d6ee91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2492fc6ec241c0423010f5d20063be6f = $(`<div id="html_2492fc6ec241c0423010f5d20063be6f" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 5/9/2016<br>Time: 4:45<br>City: Hillsdale<br>Shape: Light<br>Summary: Dancing Lights Over Lake Simcoe.</div>`)[0];
+                popup_b8997ef2f1d5104c4bda463286d6ee91.setContent(html_2492fc6ec241c0423010f5d20063be6f);
+            
+        
+
+        marker_a29a36f0e18cbeb97c2bc636a05fdab3.bindPopup(popup_b8997ef2f1d5104c4bda463286d6ee91)
+        ;
+
+        
+    
+    
+            var marker_77a74f8992a4cc95f7bb2141a5e44166 = L.marker(
+                [49.1637659, -123.9379792],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_95f25dbfe3169807bf3d418543cb1216 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_77a74f8992a4cc95f7bb2141a5e44166.setIcon(icon_95f25dbfe3169807bf3d418543cb1216);
+        
+    
+        var popup_325d848c467a2952505580bcc1442baf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a2186675170f528564aa277c29c326a = $(`<div id="html_8a2186675170f528564aa277c29c326a" style="width: 100.0%; height: 100.0%;"><b>Canada - BC</b><br>Date: 3/9/2016<br>Time: 8:46<br>City: Nanaimo<br>Shape: Light<br>Summary: Several UFOs buzz cruise ships in waters off Vancouver Island.</div>`)[0];
+                popup_325d848c467a2952505580bcc1442baf.setContent(html_8a2186675170f528564aa277c29c326a);
+            
+        
+
+        marker_77a74f8992a4cc95f7bb2141a5e44166.bindPopup(popup_325d848c467a2952505580bcc1442baf)
+        ;
+
+        
+    
+    
+            var marker_ecc19c93b38145bf38f88365a07c0526 = L.marker(
+                [45.4029964, -71.8876809],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_87e7a46f85b4c4a074d0667c8c86b2f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ecc19c93b38145bf38f88365a07c0526.setIcon(icon_87e7a46f85b4c4a074d0667c8c86b2f7);
+        
+    
+        var popup_f80ee8cdb9ebbd0821d4683c4a571c6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d542085b3e729a42a4048e04fd0f17b = $(`<div id="html_0d542085b3e729a42a4048e04fd0f17b" style="width: 100.0%; height: 100.0%;"><b>Canada - QC</b><br>Date: 2/9/2016<br>Time: 9:51<br>City: Sherbrooke<br>Shape: Triangle<br>Summary: Triangle UFO.</div>`)[0];
+                popup_f80ee8cdb9ebbd0821d4683c4a571c6b.setContent(html_0d542085b3e729a42a4048e04fd0f17b);
+            
+        
+
+        marker_ecc19c93b38145bf38f88365a07c0526.bindPopup(popup_f80ee8cdb9ebbd0821d4683c4a571c6b)
+        ;
+
+        
+    
+    
+            var marker_1d4d93d07138f63fd789f750f0adbc05 = L.marker(
+                [43.6529206, -79.3849007],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_a5c11962e27569166265687abdb0e06a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1d4d93d07138f63fd789f750f0adbc05.setIcon(icon_a5c11962e27569166265687abdb0e06a);
+        
+    
+        var popup_675f7d75b4664c62b11f98e72a2c08fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7c73f5aa7b2f8abd3c768841ba30986 = $(`<div id="html_d7c73f5aa7b2f8abd3c768841ba30986" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 2/9/2016<br>Time: 1:35<br>City: Toronto<br>Shape: Triangle<br>Summary: I wish I had watched the object longer and taken more shots - and seen  where it went.</div>`)[0];
+                popup_675f7d75b4664c62b11f98e72a2c08fd.setContent(html_d7c73f5aa7b2f8abd3c768841ba30986);
+            
+        
+
+        marker_1d4d93d07138f63fd789f750f0adbc05.bindPopup(popup_675f7d75b4664c62b11f98e72a2c08fd)
+        ;
+
+        
+    
+    
+            var marker_94fb43bb6675d6fef9e509e5060a4bd5 = L.marker(
+                [43.6529206, -79.3849007],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_b69a2eb34a98a72d0e255d9f8abfdf7e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_94fb43bb6675d6fef9e509e5060a4bd5.setIcon(icon_b69a2eb34a98a72d0e255d9f8abfdf7e);
+        
+    
+        var popup_2634049245a9b1d070dc69d67fe3268a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3aae72c827b1de500a1538df9a9ef4c9 = $(`<div id="html_3aae72c827b1de500a1538df9a9ef4c9" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 2/9/2016<br>Time: 12:00<br>City: Toronto<br>Shape: Sphere<br>Summary: A possible ET abduction or experiment at bedroom during midnight hours.</div>`)[0];
+                popup_2634049245a9b1d070dc69d67fe3268a.setContent(html_3aae72c827b1de500a1538df9a9ef4c9);
+            
+        
+
+        marker_94fb43bb6675d6fef9e509e5060a4bd5.bindPopup(popup_2634049245a9b1d070dc69d67fe3268a)
+        ;
+
+        
+    
+    
+            var marker_84f8809c34e2aa90480e90fd11b332ab = L.marker(
+                [53.3807012, -111.5336298],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_5e5c93d040deb18b26f097eb4905fa0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_84f8809c34e2aa90480e90fd11b332ab.setIcon(icon_5e5c93d040deb18b26f097eb4905fa0e);
+        
+    
+        var popup_412e22c688a99e13df1cc9fd79db2ab8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be5ef2fbbc3853de0ff6b67f1b573b40 = $(`<div id="html_be5ef2fbbc3853de0ff6b67f1b573b40" style="width: 100.0%; height: 100.0%;"><b>Canada - AB</b><br>Date: 1/9/2016<br>Time: 2:30<br>City: Innisfree<br>Shape: Fireball<br>Summary: Single orange fireball travelling across sky.</div>`)[0];
+                popup_412e22c688a99e13df1cc9fd79db2ab8.setContent(html_be5ef2fbbc3853de0ff6b67f1b573b40);
+            
+        
+
+        marker_84f8809c34e2aa90480e90fd11b332ab.bindPopup(popup_412e22c688a99e13df1cc9fd79db2ab8)
+        ;
+
+        
+    
+    
+            var marker_55ccb0bea31ca6181a957ec9d6b41a21 = L.marker(
+                [43.6529206, -79.3849007],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_c4a4b1de176506066aa0406fe19f459a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_55ccb0bea31ca6181a957ec9d6b41a21.setIcon(icon_c4a4b1de176506066aa0406fe19f459a);
+        
+    
+        var popup_605d8ee766e58decb2cb5ab834d8ddfc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38ec45a0a06bf374f448de4d41c1bc41 = $(`<div id="html_38ec45a0a06bf374f448de4d41c1bc41" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 8/28/2016<br>Time: 22:00<br>City: Toronto<br>Shape: Cigar<br>Summary: Imagine for a moment, as if the pattern of a tigers stripes was  energetically oscillating at an extremely fast rate.</div>`)[0];
+                popup_605d8ee766e58decb2cb5ab834d8ddfc.setContent(html_38ec45a0a06bf374f448de4d41c1bc41);
+            
+        
+
+        marker_55ccb0bea31ca6181a957ec9d6b41a21.bindPopup(popup_605d8ee766e58decb2cb5ab834d8ddfc)
+        ;
+
+        
+    
+    
+            var marker_62e9edbe37733340705fbcef1c345088 = L.marker(
+                [44.0545216, -79.4595168],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_539820a798c695f2ca26d24206e9c854 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_62e9edbe37733340705fbcef1c345088.setIcon(icon_539820a798c695f2ca26d24206e9c854);
+        
+    
+        var popup_62a14a3ec5494db9ea580c92b4740bed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb4dfe73456d21498f3563ffd302c362 = $(`<div id="html_bb4dfe73456d21498f3563ffd302c362" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 8/28/2016<br>Time: 22:00<br>City: Newmarket<br>Shape: Oval<br>Summary: It appeared as a quickly pulsating, oscillation with long, oval arch to  each side, moving at the speed of a meteorite, but wasn't.</div>`)[0];
+                popup_62a14a3ec5494db9ea580c92b4740bed.setContent(html_bb4dfe73456d21498f3563ffd302c362);
+            
+        
+
+        marker_62e9edbe37733340705fbcef1c345088.bindPopup(popup_62a14a3ec5494db9ea580c92b4740bed)
+        ;
+
+        
+    
+    
+            var marker_e0e2f6070feae86d418b11f9c9d756a6 = L.marker(
+                [42.9923449, -82.3800378],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_d735dbd6c6d244aa3e1f6de91a83b23e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e0e2f6070feae86d418b11f9c9d756a6.setIcon(icon_d735dbd6c6d244aa3e1f6de91a83b23e);
+        
+    
+        var popup_6c937515de6ae5f4a43268e9341e7e5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3965d7c150be2eb0e214be1fde442215 = $(`<div id="html_3965d7c150be2eb0e214be1fde442215" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 8/27/2016<br>Time: 22:15<br>City: Sarnia<br>Shape: Light<br>Summary: Bright light appears on highway with other drivers witnessing.</div>`)[0];
+                popup_6c937515de6ae5f4a43268e9341e7e5b.setContent(html_3965d7c150be2eb0e214be1fde442215);
+            
+        
+
+        marker_e0e2f6070feae86d418b11f9c9d756a6.bindPopup(popup_6c937515de6ae5f4a43268e9341e7e5b)
+        ;
+
+        
+    
+    
+            var marker_5ca6bcb8498e2e9e306bab9f82aeffc1 = L.marker(
+                [45.452853, -73.6442547],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_16355d731d03879e1f2f51e1fc00e36f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5ca6bcb8498e2e9e306bab9f82aeffc1.setIcon(icon_16355d731d03879e1f2f51e1fc00e36f);
+        
+    
+        var popup_2b0fb9e32c4bc2b32e77e88c7ab33fe5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4cc9694020d996b6a96f3c4b2f7a075a = $(`<div id="html_4cc9694020d996b6a96f3c4b2f7a075a" style="width: 100.0%; height: 100.0%;"><b>Canada - QC</b><br>Date: 8/22/2016<br>Time: 22:06<br>City: Montreal West<br>Shape: Disk<br>Summary: Disk-shaped object with 3 pairs of lights appears in photo taken of planets  in the night sky.</div>`)[0];
+                popup_2b0fb9e32c4bc2b32e77e88c7ab33fe5.setContent(html_4cc9694020d996b6a96f3c4b2f7a075a);
+            
+        
+
+        marker_5ca6bcb8498e2e9e306bab9f82aeffc1.bindPopup(popup_2b0fb9e32c4bc2b32e77e88c7ab33fe5)
+        ;
+
+        
+    
+    
+            var marker_148f6dedd6a5f727eae8a9ab25ce0b35 = L.marker(
+                [60.721571, -135.0549319],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_13d4bdb9bf3bd0baedaad3ae9d6dec2c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_148f6dedd6a5f727eae8a9ab25ce0b35.setIcon(icon_13d4bdb9bf3bd0baedaad3ae9d6dec2c);
+        
+    
+        var popup_0f24d2a1aac4abf13fcf09b7ef42a8bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1d8672c30f6a758939ebbfda5bbb9a1 = $(`<div id="html_f1d8672c30f6a758939ebbfda5bbb9a1" style="width: 100.0%; height: 100.0%;"><b>Canada - YT</b><br>Date: 8/22/2016<br>Time: 0:00<br>City: Whitehorse<br>Shape: Other<br>Summary: ((HOAX??)) Cool scary and weird.</div>`)[0];
+                popup_0f24d2a1aac4abf13fcf09b7ef42a8bb.setContent(html_f1d8672c30f6a758939ebbfda5bbb9a1);
+            
+        
+
+        marker_148f6dedd6a5f727eae8a9ab25ce0b35.bindPopup(popup_0f24d2a1aac4abf13fcf09b7ef42a8bb)
+        ;
+
+        
+    
+    
+            var marker_3d37470ff591b1ed369f00970bde25e9 = L.marker(
+                [43.447436, -79.6666719],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_8e12012b44fe92641ec55b9037488198 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3d37470ff591b1ed369f00970bde25e9.setIcon(icon_8e12012b44fe92641ec55b9037488198);
+        
+    
+        var popup_28da37927a5cf5b47e7bfb7d43b05776 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_381bd6ca4060a57d4b1471777202521d = $(`<div id="html_381bd6ca4060a57d4b1471777202521d" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 12/8/2016<br>Time: 8:10<br>City: Oakville<br>Shape: Light<br>Summary: Object in morning sky gets white bright and disappears</div>`)[0];
+                popup_28da37927a5cf5b47e7bfb7d43b05776.setContent(html_381bd6ca4060a57d4b1471777202521d);
+            
+        
+
+        marker_3d37470ff591b1ed369f00970bde25e9.bindPopup(popup_28da37927a5cf5b47e7bfb7d43b05776)
+        ;
+
+        
+    
+    
+            var marker_e03ebffd09e0a4b2e63010a2ec632e71 = L.marker(
+                [49.7, -123.15],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_3dea7aa97b6574314134c222ac4ffc6f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e03ebffd09e0a4b2e63010a2ec632e71.setIcon(icon_3dea7aa97b6574314134c222ac4ffc6f);
+        
+    
+        var popup_de815fa43ca24c9866faf1a6f9c9d8b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0996f3e1c8aeb3fa94bc08f8c43c112 = $(`<div id="html_c0996f3e1c8aeb3fa94bc08f8c43c112" style="width: 100.0%; height: 100.0%;"><b>Canada - BC</b><br>Date: 11/8/2016<br>Time: 7:10<br>City: Squamish<br>Shape: Other<br>Summary: Large Square flying object constantly rotating while flying or hovering,  with lights, and no sounds from it.</div>`)[0];
+                popup_de815fa43ca24c9866faf1a6f9c9d8b1.setContent(html_c0996f3e1c8aeb3fa94bc08f8c43c112);
+            
+        
+
+        marker_e03ebffd09e0a4b2e63010a2ec632e71.bindPopup(popup_de815fa43ca24c9866faf1a6f9c9d8b1)
+        ;
+
+        
+    
+    
+            var marker_4fc522cdedc3213639cd563b4339694f = L.marker(
+                [50.65085341, -120.349746],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_f96e780bdf1adbe34f4b0be53579079c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4fc522cdedc3213639cd563b4339694f.setIcon(icon_f96e780bdf1adbe34f4b0be53579079c);
+        
+    
+        var popup_44f97934b037d56a6cf9e8896e112131 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7fa17f55571781e09f040ed8db9344e = $(`<div id="html_d7fa17f55571781e09f040ed8db9344e" style="width: 100.0%; height: 100.0%;"><b>Canada - BC</b><br>Date: 4/8/2016<br>Time: 7:37<br>City: Kamloops<br>Shape: Changing<br>Summary: Flying object outside of aircraft.</div>`)[0];
+                popup_44f97934b037d56a6cf9e8896e112131.setContent(html_d7fa17f55571781e09f040ed8db9344e);
+            
+        
+
+        marker_4fc522cdedc3213639cd563b4339694f.bindPopup(popup_44f97934b037d56a6cf9e8896e112131)
+        ;
+
+        
+    
+    
+            var marker_0a5da297e56bb21e2358539e5755a0fe = L.marker(
+                [43.8372828, -66.1156036],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_ce0a7871425088dfde47038da329f010 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0a5da297e56bb21e2358539e5755a0fe.setIcon(icon_ce0a7871425088dfde47038da329f010);
+        
+    
+        var popup_fdf692910c00d1d164fe13cd0f4691b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79d053a0e110a5e3e69acf244335694d = $(`<div id="html_79d053a0e110a5e3e69acf244335694d" style="width: 100.0%; height: 100.0%;"><b>Canada - NS</b><br>Date: 3/8/2016<br>Time: 4:10<br>City: Yarmouth<br>Shape: Other<br>Summary: Three white lights on top an one light on bottom a cluster of lights  together not moving or flashing.</div>`)[0];
+                popup_fdf692910c00d1d164fe13cd0f4691b8.setContent(html_79d053a0e110a5e3e69acf244335694d);
+            
+        
+
+        marker_0a5da297e56bb21e2358539e5755a0fe.bindPopup(popup_fdf692910c00d1d164fe13cd0f4691b8)
+        ;
+
+        
+    
+    
+            var marker_1283128455809e4293d11f1e45ee8f31 = L.marker(
+                [42.8850972, -79.2521394],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_e975cd418981e4a3f39f8a91db870d76 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1283128455809e4293d11f1e45ee8f31.setIcon(icon_e975cd418981e4a3f39f8a91db870d76);
+        
+    
+        var popup_0e27ca9eb87086a090eac0d04cad08bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d02396c44980e40a63ece5f1f30e88e0 = $(`<div id="html_d02396c44980e40a63ece5f1f30e88e0" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 1/8/2016<br>Time: 10:30<br>City: Port Colborne<br>Shape: Light<br>Summary: LOTS OF ACTIVITY OVER LAKE ERIE DURING FIREWORKS ON CIVIC HOLIDAY.</div>`)[0];
+                popup_0e27ca9eb87086a090eac0d04cad08bf.setContent(html_d02396c44980e40a63ece5f1f30e88e0);
+            
+        
+
+        marker_1283128455809e4293d11f1e45ee8f31.bindPopup(popup_0e27ca9eb87086a090eac0d04cad08bf)
+        ;
+
+        
+    
+    
+            var marker_adb0926097010b971f937ec83c356068 = L.marker(
+                [46.2483846, -60.087349],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_6d393978f7d65da8d58dec6ccc32ab63 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_adb0926097010b971f937ec83c356068.setIcon(icon_6d393978f7d65da8d58dec6ccc32ab63);
+        
+    
+        var popup_b7889dff7897fe3b9f1618e2ca692206 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0425722a451b92858baf18e704280c46 = $(`<div id="html_0425722a451b92858baf18e704280c46" style="width: 100.0%; height: 100.0%;"><b>Canada - NS</b><br>Date: 1/8/2016<br>Time: 9:30<br>City: New Waterford<br>Shape: Circle<br>Summary: Strange balls of light seen in sky over Cape Breton Island, Nova Scotia,  Canada.</div>`)[0];
+                popup_b7889dff7897fe3b9f1618e2ca692206.setContent(html_0425722a451b92858baf18e704280c46);
+            
+        
+
+        marker_adb0926097010b971f937ec83c356068.bindPopup(popup_b7889dff7897fe3b9f1618e2ca692206)
+        ;
+
+        
+    
+    
+            var marker_7a83fbe4138a54062b209e345630e95b = L.marker(
+                [63.5926909, -135.896142],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_561007115e164055322631adb255dd49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7a83fbe4138a54062b209e345630e95b.setIcon(icon_561007115e164055322631adb255dd49);
+        
+    
+        var popup_773ffea2ce4c02ca59c544b316ae8250 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_360efd06fbc642163f502f887b96a3bd = $(`<div id="html_360efd06fbc642163f502f887b96a3bd" style="width: 100.0%; height: 100.0%;"><b>Canada - YT</b><br>Date: 1/8/2016<br>Time: 5:00<br>City: Mayo<br>Shape: Triangle<br>Summary: White triangle with speed of a modern jet. Sky cracked open. ((anonymous  report))</div>`)[0];
+                popup_773ffea2ce4c02ca59c544b316ae8250.setContent(html_360efd06fbc642163f502f887b96a3bd);
+            
+        
+
+        marker_7a83fbe4138a54062b209e345630e95b.bindPopup(popup_773ffea2ce4c02ca59c544b316ae8250)
+        ;
+
+        
+    
+    
+            var marker_0bef20a9788eb48434986b8b1f2557ff = L.marker(
+                [49.1261437, -122.6248463],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_b909ab8af4b47bf4c0665e14ff18d4c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0bef20a9788eb48434986b8b1f2557ff.setIcon(icon_b909ab8af4b47bf4c0665e14ff18d4c8);
+        
+    
+        var popup_7e5efdb40edde296ec52eda65dede4b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a36452876ffd0eb295933f11b044e03 = $(`<div id="html_4a36452876ffd0eb295933f11b044e03" style="width: 100.0%; height: 100.0%;"><b>Canada - BC</b><br>Date: 7/28/2016<br>Time: 17:55<br>City: Milner<br>Shape: Light<br>Summary: Rolling rapid white light moved rapidly across the lawn. ((anonymous  report))</div>`)[0];
+                popup_7e5efdb40edde296ec52eda65dede4b2.setContent(html_4a36452876ffd0eb295933f11b044e03);
+            
+        
+
+        marker_0bef20a9788eb48434986b8b1f2557ff.bindPopup(popup_7e5efdb40edde296ec52eda65dede4b2)
+        ;
+
+        
+    
+    
+            var marker_d3a5abaff67952a5f6458c59c0243116 = L.marker(
+                [55.087014, -105.3218079],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_a78e556b4c11850d77ffe6c6fb0ef97e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d3a5abaff67952a5f6458c59c0243116.setIcon(icon_a78e556b4c11850d77ffe6c6fb0ef97e);
+        
+    
+        var popup_bdb80d3d0293787cc2759b541f906ef1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66db3daa9aa717c2b5b288d001ff8f1d = $(`<div id="html_66db3daa9aa717c2b5b288d001ff8f1d" style="width: 100.0%; height: 100.0%;"><b>Canada - SK</b><br>Date: 7/27/2016<br>Time: 3:33<br>City: Air Ronge<br>Shape: Light<br>Summary: Around 3:33 am on July 27/16,I seen what looked like a bright star flying  slow,from North to south,south/east.It took about 3 Minutes t</div>`)[0];
+                popup_bdb80d3d0293787cc2759b541f906ef1.setContent(html_66db3daa9aa717c2b5b288d001ff8f1d);
+            
+        
+
+        marker_d3a5abaff67952a5f6458c59c0243116.bindPopup(popup_bdb80d3d0293787cc2759b541f906ef1)
+        ;
+
+        
+    
+    
+            var marker_4fc88c04390d1cb8deb40e79e29a15af = L.marker(
+                [50.6323125, -96.9881075],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_014cc9dc14d4e25c9bd74b78d1cb92c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4fc88c04390d1cb8deb40e79e29a15af.setIcon(icon_014cc9dc14d4e25c9bd74b78d1cb92c1);
+        
+    
+        var popup_310523c44e88aed7529e89900b71a23a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f482de73755c02de1eb55077fd33db8d = $(`<div id="html_f482de73755c02de1eb55077fd33db8d" style="width: 100.0%; height: 100.0%;"><b>Canada - MB</b><br>Date: 7/24/2016<br>Time: 22:30<br>City: Gimli<br>Shape: Light<br>Summary: Two bright red lights seen after dark, moving slowly across the beach, over  the lake, and then rapidly diminishing into distance.</div>`)[0];
+                popup_310523c44e88aed7529e89900b71a23a.setContent(html_f482de73755c02de1eb55077fd33db8d);
+            
+        
+
+        marker_4fc88c04390d1cb8deb40e79e29a15af.bindPopup(popup_310523c44e88aed7529e89900b71a23a)
+        ;
+
+        
+    
+    
+            var marker_460122624649c7ad220293fb244dae93 = L.marker(
+                [55.0, -124.9999999],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_c54437169477b9b52351774d5d8eb35d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_460122624649c7ad220293fb244dae93.setIcon(icon_c54437169477b9b52351774d5d8eb35d);
+        
+    
+        var popup_aa22a7ae1629ea078ea0866baf8a0b79 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1427ab75ccd2112911bcd895e50f4d69 = $(`<div id="html_1427ab75ccd2112911bcd895e50f4d69" style="width: 100.0%; height: 100.0%;"><b>Canada - BC</b><br>Date: 7/24/2016<br>Time: 1:30<br>City: British Columbia<br>Shape: Oval<br>Summary: Yellow orbs seen while on an Alaskan cruise.</div>`)[0];
+                popup_aa22a7ae1629ea078ea0866baf8a0b79.setContent(html_1427ab75ccd2112911bcd895e50f4d69);
+            
+        
+
+        marker_460122624649c7ad220293fb244dae93.bindPopup(popup_aa22a7ae1629ea078ea0866baf8a0b79)
+        ;
+
+        
+    
+    
+            var marker_b361a312d749782e38ab37cf478317a8 = L.marker(
+                [43.255205, -79.8682019],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_558d1bafa3cec0f4cb5d78c6aa3c4ab6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b361a312d749782e38ab37cf478317a8.setIcon(icon_558d1bafa3cec0f4cb5d78c6aa3c4ab6);
+        
+    
+        var popup_4547494746aab43a81094284638d336d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7233b93713c5ec740b30e6c01d89662f = $(`<div id="html_7233b93713c5ec740b30e6c01d89662f" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 7/24/2016<br>Time: 0:45<br>City: Hamilton<br>Shape: Disk<br>Summary: It was approximately 12:45 am (00:45) in Hamilton, Ontario, Canada, when I  heard a faint whirring sound coming from outside. I was sit</div>`)[0];
+                popup_4547494746aab43a81094284638d336d.setContent(html_7233b93713c5ec740b30e6c01d89662f);
+            
+        
+
+        marker_b361a312d749782e38ab37cf478317a8.bindPopup(popup_4547494746aab43a81094284638d336d)
+        ;
+
+        
+    
+    
+            var marker_674ddb0d617f6237988aae3fb7e39ea5 = L.marker(
+                [52.0918456, -114.7417789],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_d9d703418ecdd09f4453534c47285797 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_674ddb0d617f6237988aae3fb7e39ea5.setIcon(icon_d9d703418ecdd09f4453534c47285797);
+        
+    
+        var popup_2b35ba57c464b6b6b47d09cee80933dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b569887a8f88d618f8adf592b51cf1b = $(`<div id="html_2b569887a8f88d618f8adf592b51cf1b" style="width: 100.0%; height: 100.0%;"><b>Canada - AB</b><br>Date: 7/23/2016<br>Time: 2:00<br>City: Caroline<br>Shape: Triangle<br>Summary: Equilateral triangle of lights few overtop of us, twice. ((anonymous  report))((NUFORC Note: Sighting of ISS. PD))</div>`)[0];
+                popup_2b35ba57c464b6b6b47d09cee80933dd.setContent(html_2b569887a8f88d618f8adf592b51cf1b);
+            
+        
+
+        marker_674ddb0d617f6237988aae3fb7e39ea5.bindPopup(popup_2b35ba57c464b6b6b47d09cee80933dd)
+        ;
+
+        
+    
+    
+            var marker_707ab8f90dee48934a9615a07d3cc043 = L.marker(
+                [43.6529206, -79.3849007],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_6c60c43f0750a41d765cf1e1a66fec49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_707ab8f90dee48934a9615a07d3cc043.setIcon(icon_6c60c43f0750a41d765cf1e1a66fec49);
+        
+    
+        var popup_f40e958ed5cb05b3192af37631858a1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44f4286fca047108b20396ec9e209393 = $(`<div id="html_44f4286fca047108b20396ec9e209393" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 7/18/2016<br>Time: 3:57<br>City: Toronto<br>Shape: Circle<br>Summary: Light moving north-south to Lake Ontario and follow, for an instant, by a  big Circle of Light</div>`)[0];
+                popup_f40e958ed5cb05b3192af37631858a1e.setContent(html_44f4286fca047108b20396ec9e209393);
+            
+        
+
+        marker_707ab8f90dee48934a9615a07d3cc043.bindPopup(popup_f40e958ed5cb05b3192af37631858a1e)
+        ;
+
+        
+    
+    
+            var marker_5cf2cf4f8c072e731c2956a2f3d668e0 = L.marker(
+                [48.3824747, -123.73147],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_05d9741c419f0dea7f1f37042b412f25 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5cf2cf4f8c072e731c2956a2f3d668e0.setIcon(icon_05d9741c419f0dea7f1f37042b412f25);
+        
+    
+        var popup_8c18b736b6851a5d7fe60595fce7989d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94c5a19c3b5631c525cf75bad2960716 = $(`<div id="html_94c5a19c3b5631c525cf75bad2960716" style="width: 100.0%; height: 100.0%;"><b>Canada - BC</b><br>Date: 7/16/2016<br>Time: 23:30<br>City: Sooke<br>Shape: Circle<br>Summary: Bright green sphere with long trailing tracer making 90 deg turns moving at  a very high rate of speed across the night sky</div>`)[0];
+                popup_8c18b736b6851a5d7fe60595fce7989d.setContent(html_94c5a19c3b5631c525cf75bad2960716);
+            
+        
+
+        marker_5cf2cf4f8c072e731c2956a2f3d668e0.bindPopup(popup_8c18b736b6851a5d7fe60595fce7989d)
+        ;
+
+        
+    
+    
+            var marker_59b16ccfcc8c5d4584a981551b567b5f = L.marker(
+                [53.5343609, -113.5065084],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_fdf097b95f9fb2df85284016136a0ca8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_59b16ccfcc8c5d4584a981551b567b5f.setIcon(icon_fdf097b95f9fb2df85284016136a0ca8);
+        
+    
+        var popup_995da14a394a45f686896ed43c8329b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60fa4223507dd5c37f42f35aa37bc296 = $(`<div id="html_60fa4223507dd5c37f42f35aa37bc296" style="width: 100.0%; height: 100.0%;"><b>Canada - AB</b><br>Date: 7/15/2016<br>Time: 20:10<br>City: Edmonton<br>Shape: Triangle<br>Summary: Triangle of pulsating lights (plus 2 below). Lights appeared towards the  tail end of the storm clouds.</div>`)[0];
+                popup_995da14a394a45f686896ed43c8329b7.setContent(html_60fa4223507dd5c37f42f35aa37bc296);
+            
+        
+
+        marker_59b16ccfcc8c5d4584a981551b567b5f.bindPopup(popup_995da14a394a45f686896ed43c8329b7)
+        ;
+
+        
+    
+    
+            var marker_29bc13ec9f8721763c0fc104b4d32ad2 = L.marker(
+                [45.452853, -73.6442547],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_34b77bb06237c7d9202a2e2180fa5687 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_29bc13ec9f8721763c0fc104b4d32ad2.setIcon(icon_34b77bb06237c7d9202a2e2180fa5687);
+        
+    
+        var popup_4221977250416391bdc80472c068a384 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ddb786a68751d06f4f6fe29a8062114 = $(`<div id="html_8ddb786a68751d06f4f6fe29a8062114" style="width: 100.0%; height: 100.0%;"><b>Canada - QC</b><br>Date: 10/7/2016<br>Time: 9:11<br>City: Montreal West<br>Shape: Unknown<br>Summary: Two stripes speed across moon in telescope in barely a second; no trees in  view. Quickly disappear. ((NUFORC Note: Contrails??? PD))</div>`)[0];
+                popup_4221977250416391bdc80472c068a384.setContent(html_8ddb786a68751d06f4f6fe29a8062114);
+            
+        
+
+        marker_29bc13ec9f8721763c0fc104b4d32ad2.bindPopup(popup_4221977250416391bdc80472c068a384)
+        ;
+
+        
+    
+    
+            var marker_cd3aacd951813b75ad8e0fcd9f809bdc = L.marker(
+                [53.5343609, -113.5065084],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_0cabfcddeb027a202566de9a661b1789 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cd3aacd951813b75ad8e0fcd9f809bdc.setIcon(icon_0cabfcddeb027a202566de9a661b1789);
+        
+    
+        var popup_ee0de0a40c46dba1276702b125777e0a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3800ce41c537a35a12096dd55a774b8d = $(`<div id="html_3800ce41c537a35a12096dd55a774b8d" style="width: 100.0%; height: 100.0%;"><b>Canada - AB</b><br>Date: 10/7/2016<br>Time: 11:00<br>City: Edmonton<br>Shape: Egg<br>Summary: Watched 5 luminous balls, in triangle formation.</div>`)[0];
+                popup_ee0de0a40c46dba1276702b125777e0a.setContent(html_3800ce41c537a35a12096dd55a774b8d);
+            
+        
+
+        marker_cd3aacd951813b75ad8e0fcd9f809bdc.bindPopup(popup_ee0de0a40c46dba1276702b125777e0a)
+        ;
+
+        
+    
+    
+            var marker_4fc84e110a5791c390a5886a7958e318 = L.marker(
+                [55.171025, -118.7951659],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_d880e33f25bf8f93960e3b46ff22ac2b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4fc84e110a5791c390a5886a7958e318.setIcon(icon_d880e33f25bf8f93960e3b46ff22ac2b);
+        
+    
+        var popup_8410b3bb9de6a711999fc9c40f55777a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee3febb56bf491e522f785225bbb40d9 = $(`<div id="html_ee3febb56bf491e522f785225bbb40d9" style="width: 100.0%; height: 100.0%;"><b>Canada - AB</b><br>Date: 6/7/2016<br>Time: 3:00<br>City: Grande Prairie<br>Shape: Light<br>Summary: Glowing orb lights coming out of what looked like northern lights.</div>`)[0];
+                popup_8410b3bb9de6a711999fc9c40f55777a.setContent(html_ee3febb56bf491e522f785225bbb40d9);
+            
+        
+
+        marker_4fc84e110a5791c390a5886a7958e318.bindPopup(popup_8410b3bb9de6a711999fc9c40f55777a)
+        ;
+
+        
+    
+    
+            var marker_6438847ffe81a922d10895eee14f2539 = L.marker(
+                [49.1637659, -123.9379792],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_058b98952a4859288fac9fefc9607610 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6438847ffe81a922d10895eee14f2539.setIcon(icon_058b98952a4859288fac9fefc9607610);
+        
+    
+        var popup_51a1840b732bea56d7bba990c94504ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9721ee09dde645d92260006c2c1eb6f = $(`<div id="html_f9721ee09dde645d92260006c2c1eb6f" style="width: 100.0%; height: 100.0%;"><b>Canada - BC</b><br>Date: 4/7/2016<br>Time: 3:30<br>City: Nanaimo<br>Shape: Unknown<br>Summary: I went outside for a smoke, looked up to admire stars...and I saw a star  darting in and out.....drifting too fast.</div>`)[0];
+                popup_51a1840b732bea56d7bba990c94504ff.setContent(html_f9721ee09dde645d92260006c2c1eb6f);
+            
+        
+
+        marker_6438847ffe81a922d10895eee14f2539.bindPopup(popup_51a1840b732bea56d7bba990c94504ff)
+        ;
+
+        
+    
+    
+            var marker_38908ffd79213249490a47135e07edfa = L.marker(
+                [49.1850834, -122.8446548],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_7e81ae6838eb4c5306183f5536cf29c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_38908ffd79213249490a47135e07edfa.setIcon(icon_7e81ae6838eb4c5306183f5536cf29c2);
+        
+    
+        var popup_0f05eeb369f854d3c25c2cadd7f9cdd0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29a2b65f124c128750acee43ddc39b9f = $(`<div id="html_29a2b65f124c128750acee43ddc39b9f" style="width: 100.0%; height: 100.0%;"><b>Canada - BC</b><br>Date: 3/7/2016<br>Time: 1:30<br>City: Surrey<br>Shape: Unknown<br>Summary: Blue crown light formation over Burnaby.</div>`)[0];
+                popup_0f05eeb369f854d3c25c2cadd7f9cdd0.setContent(html_29a2b65f124c128750acee43ddc39b9f);
+            
+        
+
+        marker_38908ffd79213249490a47135e07edfa.bindPopup(popup_0f05eeb369f854d3c25c2cadd7f9cdd0)
+        ;
+
+        
+    
+    
+            var marker_3334563dcb101c478548c31616eec172 = L.marker(
+                [49.694285, -112.8515619],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_6982b10360c7a9e7679eed0662dec884 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3334563dcb101c478548c31616eec172.setIcon(icon_6982b10360c7a9e7679eed0662dec884);
+        
+    
+        var popup_1633826a5526cd9aa76ec1f083dd7c10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_821b42a4193387591806e3b510ed9ed4 = $(`<div id="html_821b42a4193387591806e3b510ed9ed4" style="width: 100.0%; height: 100.0%;"><b>Canada - AB</b><br>Date: 1/7/2016<br>Time: 11:05<br>City: Lethbridge<br>Shape: Light<br>Summary: Red object with severe elevation changes and erratic movements during  fireworks show in Lethbridge, Alberta.</div>`)[0];
+                popup_1633826a5526cd9aa76ec1f083dd7c10.setContent(html_821b42a4193387591806e3b510ed9ed4);
+            
+        
+
+        marker_3334563dcb101c478548c31616eec172.bindPopup(popup_1633826a5526cd9aa76ec1f083dd7c10)
+        ;
+
+        
+    
+    
+            var marker_4bf21cb0dca85d5fc5220e621c152e78 = L.marker(
+                [44.1074003, -78.8200171],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_591e281e44522fd9b206a2c3e40e141e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4bf21cb0dca85d5fc5220e621c152e78.setIcon(icon_591e281e44522fd9b206a2c3e40e141e);
+        
+    
+        var popup_11fbd10cbbf3f5ade73ff3adc9225512 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85cf1ce6344e2a1a201a64207a608ce4 = $(`<div id="html_85cf1ce6344e2a1a201a64207a608ce4" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 6/26/2016<br>Time: 3:20<br>City: Blackstock<br>Shape: Light<br>Summary: Was sitting in hot tub with girlfriend at 3:20 am very clear night looking  up at stars when I noticed a light which looked like a star</div>`)[0];
+                popup_11fbd10cbbf3f5ade73ff3adc9225512.setContent(html_85cf1ce6344e2a1a201a64207a608ce4);
+            
+        
+
+        marker_4bf21cb0dca85d5fc5220e621c152e78.bindPopup(popup_11fbd10cbbf3f5ade73ff3adc9225512)
+        ;
+
+        
+    
+    
+            var marker_071c275860f101c6eb78f5986df7afd5 = L.marker(
+                [49.7396419, -96.8786348],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_c7c94bdc49d866e249a70a50505e3de1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_071c275860f101c6eb78f5986df7afd5.setIcon(icon_c7c94bdc49d866e249a70a50505e3de1);
+        
+    
+        var popup_96a537d2527de3bc92a0f8ed9be0e753 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d5088cc9f06a0a67311d86b9e38f848 = $(`<div id="html_4d5088cc9f06a0a67311d86b9e38f848" style="width: 100.0%; height: 100.0%;"><b>Canada - MB</b><br>Date: 6/25/2016<br>Time: 22:20<br>City: Lorette<br>Shape: Sphere<br>Summary: Orange sphere streaking across the sky in Lorette, MB.</div>`)[0];
+                popup_96a537d2527de3bc92a0f8ed9be0e753.setContent(html_4d5088cc9f06a0a67311d86b9e38f848);
+            
+        
+
+        marker_071c275860f101c6eb78f5986df7afd5.bindPopup(popup_96a537d2527de3bc92a0f8ed9be0e753)
+        ;
+
+        
+    
+    
+            var marker_481d36b5412ed4eb425c4f89be465147 = L.marker(
+                [45.4314173, -73.1637448],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_b564d5d54d14335d73f57a2cf1a39e4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_481d36b5412ed4eb425c4f89be465147.setIcon(icon_b564d5d54d14335d73f57a2cf1a39e4f);
+        
+    
+        var popup_7dc0b51a297371219435109eb98b89b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c3348202c5f1473c5ddeec61534d0e7 = $(`<div id="html_6c3348202c5f1473c5ddeec61534d0e7" style="width: 100.0%; height: 100.0%;"><b>Canada - QC</b><br>Date: 6/24/2016<br>Time: 23:30<br>City: Marieville<br>Shape: Cylinder<br>Summary: Dark cylinder with lights @ both end, speed approx 300 km/h @ 2000 feet  going in straight line @ approx 340 deg. North without noise,</div>`)[0];
+                popup_7dc0b51a297371219435109eb98b89b3.setContent(html_6c3348202c5f1473c5ddeec61534d0e7);
+            
+        
+
+        marker_481d36b5412ed4eb425c4f89be465147.bindPopup(popup_7dc0b51a297371219435109eb98b89b3)
+        ;
+
+        
+    
+    
+            var marker_3921eadb34f21b6e22d74ca56c576d9c = L.marker(
+                [47.625811, -65.6525134],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_b3f008eac8516823d5f4505b2d9802b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3921eadb34f21b6e22d74ca56c576d9c.setIcon(icon_b3f008eac8516823d5f4505b2d9802b3);
+        
+    
+        var popup_0b62e7fd0d252e381ff947058c535325 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6bc257582cff7d2620127f64f9627fb = $(`<div id="html_f6bc257582cff7d2620127f64f9627fb" style="width: 100.0%; height: 100.0%;"><b>Canada - NB</b><br>Date: 6/22/2016<br>Time: 0:00<br>City: Bathurst<br>Shape: Other<br>Summary: Unknown flying object spotted.</div>`)[0];
+                popup_0b62e7fd0d252e381ff947058c535325.setContent(html_f6bc257582cff7d2620127f64f9627fb);
+            
+        
+
+        marker_3921eadb34f21b6e22d74ca56c576d9c.bindPopup(popup_0b62e7fd0d252e381ff947058c535325)
+        ;
+
+        
+    
+    
+            var marker_83abd4f42d018a0ec88ce2f92ccc7fb3 = L.marker(
+                [42.9923449, -82.3800378],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_8974932c8497fa894e58bb72a666b4b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_83abd4f42d018a0ec88ce2f92ccc7fb3.setIcon(icon_8974932c8497fa894e58bb72a666b4b2);
+        
+    
+        var popup_9a4a189924ba8bb496e50ac0cbb41fce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_790b1aa3555e302b281e5d7917b739ca = $(`<div id="html_790b1aa3555e302b281e5d7917b739ca" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 6/17/2016<br>Time: 22:40<br>City: Sarnia<br>Shape: Sphere<br>Summary: ((HOAX??)) Star orbs with large red auras. ((anonymous report))</div>`)[0];
+                popup_9a4a189924ba8bb496e50ac0cbb41fce.setContent(html_790b1aa3555e302b281e5d7917b739ca);
+            
+        
+
+        marker_83abd4f42d018a0ec88ce2f92ccc7fb3.bindPopup(popup_9a4a189924ba8bb496e50ac0cbb41fce)
+        ;
+
+        
+    
+    
+            var marker_104648ba2a488ad02930568979800882 = L.marker(
+                [45.435081, -76.3573839],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_58843841c417fbb4f8294ae189749fde = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_104648ba2a488ad02930568979800882.setIcon(icon_58843841c417fbb4f8294ae189749fde);
+        
+    
+        var popup_cabbe47313904122c46f63bdeb0ccfc1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a82bcdd988e3e827b9cfb618cd7aaca = $(`<div id="html_5a82bcdd988e3e827b9cfb618cd7aaca" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 6/17/2016<br>Time: 21:00<br>City: Arnprior<br>Shape: Sphere<br>Summary: A planet like object with tethered satellite that orbited in about 10  seconds and exploded into hundreds of pieces, remaining visible.</div>`)[0];
+                popup_cabbe47313904122c46f63bdeb0ccfc1.setContent(html_5a82bcdd988e3e827b9cfb618cd7aaca);
+            
+        
+
+        marker_104648ba2a488ad02930568979800882.bindPopup(popup_cabbe47313904122c46f63bdeb0ccfc1)
+        ;
+
+        
+    
+    
+            var marker_63a59889a305a4d20e21e3fa37ae34b9 = L.marker(
+                [45.4563052, -75.7228827],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_f43a466ebe0097206006fe08878c719f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_63a59889a305a4d20e21e3fa37ae34b9.setIcon(icon_f43a466ebe0097206006fe08878c719f);
+        
+    
+        var popup_81efcc82e945cb3610221a6022ae2e1b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f3ca0f8221d27b89a03e61e24671240 = $(`<div id="html_0f3ca0f8221d27b89a03e61e24671240" style="width: 100.0%; height: 100.0%;"><b>Canada - QC</b><br>Date: 6/16/2016<br>Time: 21:45<br>City: Gatineau<br>Shape: Teardrop<br>Summary: Something with bright red lights just zoomed by my window in the sky.  ((anonymous report))</div>`)[0];
+                popup_81efcc82e945cb3610221a6022ae2e1b.setContent(html_0f3ca0f8221d27b89a03e61e24671240);
+            
+        
+
+        marker_63a59889a305a4d20e21e3fa37ae34b9.bindPopup(popup_81efcc82e945cb3610221a6022ae2e1b)
+        ;
+
+        
+    
+    
+            var marker_34f2b5700d89a0d7dde1c4fda7f938f0 = L.marker(
+                [43.037725, -80.8821099],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_8f3055511f35e61a163c0082cf21c6e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_34f2b5700d89a0d7dde1c4fda7f938f0.setIcon(icon_8f3055511f35e61a163c0082cf21c6e6);
+        
+    
+        var popup_1be316a108912fa6ca6ec370d0ad1ba7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d836bb5a41ebc94273ee27db227f834 = $(`<div id="html_9d836bb5a41ebc94273ee27db227f834" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 6/15/2016<br>Time: 20:00<br>City: Ingersoll<br>Shape: Other<br>Summary: 2 credible witnesses saw a massive, "V" shaped UFO, appearing to bend the  atmosphere while moving slowly overhead.</div>`)[0];
+                popup_1be316a108912fa6ca6ec370d0ad1ba7.setContent(html_9d836bb5a41ebc94273ee27db227f834);
+            
+        
+
+        marker_34f2b5700d89a0d7dde1c4fda7f938f0.bindPopup(popup_1be316a108912fa6ca6ec370d0ad1ba7)
+        ;
+
+        
+    
+    
+            var marker_68d8fe22c13f06fb5f294cfc5d27656f = L.marker(
+                [43.975028, -78.6164469],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_9ec721d8e48b785802386bb445e04a92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_68d8fe22c13f06fb5f294cfc5d27656f.setIcon(icon_9ec721d8e48b785802386bb445e04a92);
+        
+    
+        var popup_60fa62495b447d3eddec84ec92291747 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b293db13e172cd9884d7867b92f400ce = $(`<div id="html_b293db13e172cd9884d7867b92f400ce" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 10/6/2016<br>Time: 10:53<br>City: Orono<br>Shape: Light<br>Summary: Star-like object, 4 to 5 times bigger than Mars, with no sound, slowly  travelling from over head to the south then slowly dimmed out</div>`)[0];
+                popup_60fa62495b447d3eddec84ec92291747.setContent(html_b293db13e172cd9884d7867b92f400ce);
+            
+        
+
+        marker_68d8fe22c13f06fb5f294cfc5d27656f.bindPopup(popup_60fa62495b447d3eddec84ec92291747)
+        ;
+
+        
+    
+    
+            var marker_88c48ceee899a422ae273a7d1558a36e = L.marker(
+                [42.2487615, -82.9906442],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_e9399f86aae0a3ac6b30a985d0430a06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_88c48ceee899a422ae273a7d1558a36e.setIcon(icon_e9399f86aae0a3ac6b30a985d0430a06);
+        
+    
+        var popup_dc55337b6ae6302d784df9581094d7ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b09aaa5a7fa0d5928c3a7244c30ad6c3 = $(`<div id="html_b09aaa5a7fa0d5928c3a7244c30ad6c3" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 10/6/2016<br>Time: 10:30<br>City: Sharron<br>Shape: Light<br>Summary: Star like objects moving across the sky.</div>`)[0];
+                popup_dc55337b6ae6302d784df9581094d7ca.setContent(html_b09aaa5a7fa0d5928c3a7244c30ad6c3);
+            
+        
+
+        marker_88c48ceee899a422ae273a7d1558a36e.bindPopup(popup_dc55337b6ae6302d784df9581094d7ca)
+        ;
+
+        
+    
+    
+            var marker_a609809ae7f0c22ac0f00ce3bf380813 = L.marker(
+                [49.8833343, -97.166674],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_4ff212bf3de202c8b8293ce677471ad7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a609809ae7f0c22ac0f00ce3bf380813.setIcon(icon_4ff212bf3de202c8b8293ce677471ad7);
+        
+    
+        var popup_e2ae9cacefec1e5e61088d16ae811971 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29ad8f339e0d238c95bc614c1adc696d = $(`<div id="html_29ad8f339e0d238c95bc614c1adc696d" style="width: 100.0%; height: 100.0%;"><b>Canada - MB</b><br>Date: 9/6/2016<br>Time: 10:00<br>City: Winnipeg<br>Shape: Circle<br>Summary: POSSIBLE UFO. ((anonymous report))</div>`)[0];
+                popup_e2ae9cacefec1e5e61088d16ae811971.setContent(html_29ad8f339e0d238c95bc614c1adc696d);
+            
+        
+
+        marker_a609809ae7f0c22ac0f00ce3bf380813.bindPopup(popup_e2ae9cacefec1e5e61088d16ae811971)
+        ;
+
+        
+    
+    
+            var marker_8ea8b60022407aad4eb609a25cd45b92 = L.marker(
+                [45.497684, -73.6125179],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_897477bb0614f3737c81a7e7dcb5238d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8ea8b60022407aad4eb609a25cd45b92.setIcon(icon_897477bb0614f3737c81a7e7dcb5238d);
+        
+    
+        var popup_b73a5ca4528ba32825e51f0647ca3bdd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca423e45a32b3bf63a6d665df0debadf = $(`<div id="html_ca423e45a32b3bf63a6d665df0debadf" style="width: 100.0%; height: 100.0%;"><b>Canada - QC</b><br>Date: 5/6/2016<br>Time: 9:45<br>City: Montreal<br>Shape: Light<br>Summary: bright white light</div>`)[0];
+                popup_b73a5ca4528ba32825e51f0647ca3bdd.setContent(html_ca423e45a32b3bf63a6d665df0debadf);
+            
+        
+
+        marker_8ea8b60022407aad4eb609a25cd45b92.bindPopup(popup_b73a5ca4528ba32825e51f0647ca3bdd)
+        ;
+
+        
+    
+    
+            var marker_7672d010c46c76bf250fffed0ccf0f8e = L.marker(
+                [44.4560807, -80.8978757],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_818e6910baaeb0af10bf5e157d9bd4f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7672d010c46c76bf250fffed0ccf0f8e.setIcon(icon_818e6910baaeb0af10bf5e157d9bd4f3);
+        
+    
+        var popup_5cf0051c30b19bdbf01118187a52cc28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_720fa2877b89e2fd04f8271b2df0cbc4 = $(`<div id="html_720fa2877b89e2fd04f8271b2df0cbc4" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 3/6/2016<br>Time: 6:00<br>City: Chatsworth<br>Shape: Light<br>Summary: ((HOAX??)) Seen star like object move from side to side flash and then  disappear. ((anonymous report))</div>`)[0];
+                popup_5cf0051c30b19bdbf01118187a52cc28.setContent(html_720fa2877b89e2fd04f8271b2df0cbc4);
+            
+        
+
+        marker_7672d010c46c76bf250fffed0ccf0f8e.bindPopup(popup_5cf0051c30b19bdbf01118187a52cc28)
+        ;
+
+        
+    
+    
+            var marker_ea9a7f6f7927c7330b819d9b4a9986c7 = L.marker(
+                [44.591445, -75.6865309],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_4d2cbe1c2f2c133caaa1ea4211aac691 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ea9a7f6f7927c7330b819d9b4a9986c7.setIcon(icon_4d2cbe1c2f2c133caaa1ea4211aac691);
+        
+    
+        var popup_a6604f3dcfb793991c7b9796946749f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c476091da283d3096eb4485685b48380 = $(`<div id="html_c476091da283d3096eb4485685b48380" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 5/30/2016<br>Time: 2:20<br>City: Brockville<br>Shape: Cylinder<br>Summary: Rotating cylinder.</div>`)[0];
+                popup_a6604f3dcfb793991c7b9796946749f0.setContent(html_c476091da283d3096eb4485685b48380);
+            
+        
+
+        marker_ea9a7f6f7927c7330b819d9b4a9986c7.bindPopup(popup_a6604f3dcfb793991c7b9796946749f0)
+        ;
+
+        
+    
+    
+            var marker_0b9678e700d21e5fa2ac143e48cc946c = L.marker(
+                [43.0100818, -81.1432935],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_d3f5a10d0412297723e571b4c3c72294 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0b9678e700d21e5fa2ac143e48cc946c.setIcon(icon_d3f5a10d0412297723e571b4c3c72294);
+        
+    
+        var popup_3e3bbf866ed492eabaf068a52f77262c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14fb06c3b7085101398dbac419e424cc = $(`<div id="html_14fb06c3b7085101398dbac419e424cc" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 5/29/2016<br>Time: 20:50<br>City: Vaughn<br>Shape: Diamond<br>Summary: ((HOAX??)) Craft flying one on top of eachother no lights color black  dimond shape direction west to east no noise or lights.</div>`)[0];
+                popup_3e3bbf866ed492eabaf068a52f77262c.setContent(html_14fb06c3b7085101398dbac419e424cc);
+            
+        
+
+        marker_0b9678e700d21e5fa2ac143e48cc946c.bindPopup(popup_3e3bbf866ed492eabaf068a52f77262c)
+        ;
+
+        
+    
+    
+            var marker_5e830b3ac9ecec9538f7db37aa71a721 = L.marker(
+                [46.1431973, -82.3066856],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_9d4bdb51bf08b017d9389c7fc9926c4e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5e830b3ac9ecec9538f7db37aa71a721.setIcon(icon_9d4bdb51bf08b017d9389c7fc9926c4e);
+        
+    
+        var popup_8a89e7c8cc2cbd9180db90a909bf89d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39fb138d8245568ef915218b313d216d = $(`<div id="html_39fb138d8245568ef915218b313d216d" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 5/27/2016<br>Time: 22:16<br>City: Sagamok Indian Reserve<br>Shape: Light<br>Summary: Bright Light traveling fast in sky!!!</div>`)[0];
+                popup_8a89e7c8cc2cbd9180db90a909bf89d1.setContent(html_39fb138d8245568ef915218b313d216d);
+            
+        
+
+        marker_5e830b3ac9ecec9538f7db37aa71a721.bindPopup(popup_8a89e7c8cc2cbd9180db90a909bf89d1)
+        ;
+
+        
+    
+    
+            var marker_a127321f65e8e76d59828dd67069c124 = L.marker(
+                [46.373464, -82.6528929],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_34888fcbeee1333ba60ec249e599b372 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a127321f65e8e76d59828dd67069c124.setIcon(icon_34888fcbeee1333ba60ec249e599b372);
+        
+    
+        var popup_4287dec4fc09d6e734f2f4b1f5e48308 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_205fe614bed64623a9469e6faab9cd23 = $(`<div id="html_205fe614bed64623a9469e6faab9cd23" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 5/23/2016<br>Time: 23:30<br>City: Elliot Lake<br>Shape: Unknown<br>Summary: Transformer buzz while camping on the lake, and observed three moving  lights which appeared as stars blink out from left to right.</div>`)[0];
+                popup_4287dec4fc09d6e734f2f4b1f5e48308.setContent(html_205fe614bed64623a9469e6faab9cd23);
+            
+        
+
+        marker_a127321f65e8e76d59828dd67069c124.bindPopup(popup_4287dec4fc09d6e734f2f4b1f5e48308)
+        ;
+
+        
+    
+    
+            var marker_76facb634ba816196339f3ab2cb9bdb5 = L.marker(
+                [43.8356637, -79.0905385],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_be6345507ac7db713065d0e9dd4eeaa4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_76facb634ba816196339f3ab2cb9bdb5.setIcon(icon_be6345507ac7db713065d0e9dd4eeaa4);
+        
+    
+        var popup_6b76ee60f039a56891f2250152065933 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_128ae5b233c1799b56cb87b4437eb67c = $(`<div id="html_128ae5b233c1799b56cb87b4437eb67c" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 5/13/2016<br>Time: 13:00<br>City: Pickering<br>Shape: Unknown<br>Summary: What is this? Not the light, the scales on the top left!</div>`)[0];
+                popup_6b76ee60f039a56891f2250152065933.setContent(html_128ae5b233c1799b56cb87b4437eb67c);
+            
+        
+
+        marker_76facb634ba816196339f3ab2cb9bdb5.bindPopup(popup_6b76ee60f039a56891f2250152065933)
+        ;
+
+        
+    
+    
+            var marker_5ac98b298f9337319495e23364c9b273 = L.marker(
+                [45.4563052, -75.7228827],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_048b958db3851d197cd2b8a4d9d4356f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5ac98b298f9337319495e23364c9b273.setIcon(icon_048b958db3851d197cd2b8a4d9d4356f);
+        
+    
+        var popup_0496e797210e52b7bf2fdfcf67e612ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3966a552fd2094c3486d361559013f33 = $(`<div id="html_3966a552fd2094c3486d361559013f33" style="width: 100.0%; height: 100.0%;"><b>Canada - QC</b><br>Date: 11/5/2016<br>Time: 9:05<br>City: Gatineau<br>Shape: Light<br>Summary: Two separate lights touching each other, then one going in circle (up and  down) quite fast.</div>`)[0];
+                popup_0496e797210e52b7bf2fdfcf67e612ea.setContent(html_3966a552fd2094c3486d361559013f33);
+            
+        
+
+        marker_5ac98b298f9337319495e23364c9b273.bindPopup(popup_0496e797210e52b7bf2fdfcf67e612ea)
+        ;
+
+        
+    
+    
+            var marker_4c787923f98f4504fc246b5ce79dfd56 = L.marker(
+                [44.537924, -78.5465379],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_0caee4fab82b0e85e75ff7b41ba27685 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4c787923f98f4504fc246b5ce79dfd56.setIcon(icon_0caee4fab82b0e85e75ff7b41ba27685);
+        
+    
+        var popup_379a07c58d4bdd4aadd945cbcbdec245 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85357ae439ddc5c2def28496bc1716c1 = $(`<div id="html_85357ae439ddc5c2def28496bc1716c1" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 11/5/2016<br>Time: 5:10<br>City: Bobcaygeon<br>Shape: Circle<br>Summary: Object moving from toronto towards a indirectionacross bobcaygeon</div>`)[0];
+                popup_379a07c58d4bdd4aadd945cbcbdec245.setContent(html_85357ae439ddc5c2def28496bc1716c1);
+            
+        
+
+        marker_4c787923f98f4504fc246b5ce79dfd56.bindPopup(popup_379a07c58d4bdd4aadd945cbcbdec245)
+        ;
+
+        
+    
+    
+            var marker_6f429886083825936957cb1fdefce022 = L.marker(
+                [45.4029964, -71.8876809],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_a4ba1453874adc2b0e185bdc5160e0ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6f429886083825936957cb1fdefce022.setIcon(icon_a4ba1453874adc2b0e185bdc5160e0ae);
+        
+    
+        var popup_d5d7a394a7eb5745f0f4d2cdea704566 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8e737940f5735efa5425728bbcd509a = $(`<div id="html_d8e737940f5735efa5425728bbcd509a" style="width: 100.0%; height: 100.0%;"><b>Canada - QC</b><br>Date: 7/5/2016<br>Time: 7:00<br>City: Sherbrooke<br>Shape: Circle<br>Summary: 2 white orbs UFO in day time, and then jets. Very bright.</div>`)[0];
+                popup_d5d7a394a7eb5745f0f4d2cdea704566.setContent(html_d8e737940f5735efa5425728bbcd509a);
+            
+        
+
+        marker_6f429886083825936957cb1fdefce022.bindPopup(popup_d5d7a394a7eb5745f0f4d2cdea704566)
+        ;
+
+        
+    
+    
+            var marker_cc0fb197209090fe95d9cdec300b9d03 = L.marker(
+                [52.968492, -113.3679199],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_24345bb6290893aceaeadda3e00ac0b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cc0fb197209090fe95d9cdec300b9d03.setIcon(icon_24345bb6290893aceaeadda3e00ac0b0);
+        
+    
+        var popup_98ba7af21b1c45610c977e0f2e54d564 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6b013d74561b133bb78aded75bbf63c = $(`<div id="html_b6b013d74561b133bb78aded75bbf63c" style="width: 100.0%; height: 100.0%;"><b>Canada - AB</b><br>Date: 5/5/2016<br>Time: 3:00<br>City: Wetaskiwin<br>Shape: Disk<br>Summary: ((HOAX??)) Flew over a school in wetaskiwin Alberta and was looking like it  was going down. ((anonymous report))</div>`)[0];
+                popup_98ba7af21b1c45610c977e0f2e54d564.setContent(html_b6b013d74561b133bb78aded75bbf63c);
+            
+        
+
+        marker_cc0fb197209090fe95d9cdec300b9d03.bindPopup(popup_98ba7af21b1c45610c977e0f2e54d564)
+        ;
+
+        
+    
+    
+            var marker_e3003445ffbb81ba81f82456bb76a4df = L.marker(
+                [49.1690609, -122.6480819],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_9aa29f6245d2ca99486ebae3d05168fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e3003445ffbb81ba81f82456bb76a4df.setIcon(icon_9aa29f6245d2ca99486ebae3d05168fe);
+        
+    
+        var popup_bbfb3b7956ea2d6822f40b95e4da2eb4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67afd9b24dd6a1bf616929ab1756865d = $(`<div id="html_67afd9b24dd6a1bf616929ab1756865d" style="width: 100.0%; height: 100.0%;"><b>Canada - BC</b><br>Date: 2/5/2016<br>Time: 8:20<br>City: Walnut Grove<br>Shape: Disk<br>Summary: 2 discs glowing a brilliant silver- white in the sky sitting stationary.</div>`)[0];
+                popup_bbfb3b7956ea2d6822f40b95e4da2eb4.setContent(html_67afd9b24dd6a1bf616929ab1756865d);
+            
+        
+
+        marker_e3003445ffbb81ba81f82456bb76a4df.bindPopup(popup_bbfb3b7956ea2d6822f40b95e4da2eb4)
+        ;
+
+        
+    
+    
+            var marker_d6d74eae0edf320b0668bf5b2a36fd7e = L.marker(
+                [53.0120768, -112.8387295],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_37f9b816b52cccd9ed68c3c5e1e64b30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d6d74eae0edf320b0668bf5b2a36fd7e.setIcon(icon_37f9b816b52cccd9ed68c3c5e1e64b30);
+        
+    
+        var popup_e99ed470aa5c38b04eb33068a920f6ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c87fe5cf73ac71ea389bdc5cb0e3831 = $(`<div id="html_6c87fe5cf73ac71ea389bdc5cb0e3831" style="width: 100.0%; height: 100.0%;"><b>Canada - AB</b><br>Date: 1/5/2016<br>Time: 1:00<br>City: Camrose<br>Shape: Triangle<br>Summary: 3 lights in perfect triangle move fast from north to south in night sky.  ((anonymous report))</div>`)[0];
+                popup_e99ed470aa5c38b04eb33068a920f6ff.setContent(html_6c87fe5cf73ac71ea389bdc5cb0e3831);
+            
+        
+
+        marker_d6d74eae0edf320b0668bf5b2a36fd7e.bindPopup(popup_e99ed470aa5c38b04eb33068a920f6ff)
+        ;
+
+        
+    
+    
+            var marker_f14f3674d52a2c0035d62235a095790e = L.marker(
+                [50.6323125, -96.9881075],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_bd0e67b439fed2d103dbfcd9200cabe3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f14f3674d52a2c0035d62235a095790e.setIcon(icon_bd0e67b439fed2d103dbfcd9200cabe3);
+        
+    
+        var popup_3039257c9fd19ed06b08e39844c49b70 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eda5b782d8b6341361c959804ac795fa = $(`<div id="html_eda5b782d8b6341361c959804ac795fa" style="width: 100.0%; height: 100.0%;"><b>Canada - MB</b><br>Date: 1/5/2016<br>Time: 12:15<br>City: Gimli<br>Shape: Chevron<br>Summary: Sighted a chevron or checkmark object with dull orange lights and spotted 9  more objects very soon afterward.</div>`)[0];
+                popup_3039257c9fd19ed06b08e39844c49b70.setContent(html_eda5b782d8b6341361c959804ac795fa);
+            
+        
+
+        marker_f14f3674d52a2c0035d62235a095790e.bindPopup(popup_3039257c9fd19ed06b08e39844c49b70)
+        ;
+
+        
+    
+    
+            var marker_396a8acb3b7d8a046c007ba473ed2141 = L.marker(
+                [43.9172764, -78.8614873],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_9406f06328aa3e30478bc24243539011 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_396a8acb3b7d8a046c007ba473ed2141.setIcon(icon_9406f06328aa3e30478bc24243539011);
+        
+    
+        var popup_2621bf2d30d7e696fceb20f7a7c70a14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c4aaf66bc707046904e33a9adde8c18 = $(`<div id="html_4c4aaf66bc707046904e33a9adde8c18" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 4/24/2016<br>Time: 22:00<br>City: Oshawa<br>Shape: Light<br>Summary: Falling white light with flashing colours</div>`)[0];
+                popup_2621bf2d30d7e696fceb20f7a7c70a14.setContent(html_4c4aaf66bc707046904e33a9adde8c18);
+            
+        
+
+        marker_396a8acb3b7d8a046c007ba473ed2141.bindPopup(popup_2621bf2d30d7e696fceb20f7a7c70a14)
+        ;
+
+        
+    
+    
+            var marker_fdc952ce8927261086c43e0859423722 = L.marker(
+                [43.1654193, -79.2391708],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_4143dbf15cc08308f305ffd178fc4270 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fdc952ce8927261086c43e0859423722.setIcon(icon_4143dbf15cc08308f305ffd178fc4270);
+        
+    
+        var popup_33f4f546e43ce3b700a77a547f2adfed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e00e88cb35212b28a0ffe219bae4783 = $(`<div id="html_7e00e88cb35212b28a0ffe219bae4783" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 4/24/2016<br>Time: 22:00<br>City: St. Catharines<br>Shape: Other<br>Summary: 2 UFOs seen moving in sequence. Came close together. Went apart, reversed,  and disappeared together. Orange in color.</div>`)[0];
+                popup_33f4f546e43ce3b700a77a547f2adfed.setContent(html_7e00e88cb35212b28a0ffe219bae4783);
+            
+        
+
+        marker_fdc952ce8927261086c43e0859423722.bindPopup(popup_33f4f546e43ce3b700a77a547f2adfed)
+        ;
+
+        
+    
+    
+            var marker_3127a20c592054ece1d95836b96b1310 = L.marker(
+                [54.129722, -111.5680559],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_6b91e0e42b9c76177f73704345bb78ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3127a20c592054ece1d95836b96b1310.setIcon(icon_6b91e0e42b9c76177f73704345bb78ac);
+        
+    
+        var popup_8216fa6f25d1ceb6752856b414e9eed1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_330d1ed1a89200ff396b05c924524341 = $(`<div id="html_330d1ed1a89200ff396b05c924524341" style="width: 100.0%; height: 100.0%;"><b>Canada - AB</b><br>Date: 4/22/2016<br>Time: 23:15<br>City: Ashmont<br>Shape: Light<br>Summary: Red flashing light heads towards the ground</div>`)[0];
+                popup_8216fa6f25d1ceb6752856b414e9eed1.setContent(html_330d1ed1a89200ff396b05c924524341);
+            
+        
+
+        marker_3127a20c592054ece1d95836b96b1310.bindPopup(popup_8216fa6f25d1ceb6752856b414e9eed1)
+        ;
+
+        
+    
+    
+            var marker_b6f94ffcd143d62fb1b291f20c3b98d3 = L.marker(
+                [49.1204123, -122.6598956],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_85a8e3285fdac08be68334f10e2c4ea2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b6f94ffcd143d62fb1b291f20c3b98d3.setIcon(icon_85a8e3285fdac08be68334f10e2c4ea2);
+        
+    
+        var popup_4aae900454f161ba25a74e9f4b1e5779 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3736877d84b31ce484594c34829dcbcb = $(`<div id="html_3736877d84b31ce484594c34829dcbcb" style="width: 100.0%; height: 100.0%;"><b>Canada - BC</b><br>Date: 4/18/2016<br>Time: 21:00<br>City: Langley<br>Shape: Light<br>Summary: Glimmering ball of light seen low on horizon. ((NUFORC Note: Possible  sighting of Sirius?? PD))</div>`)[0];
+                popup_4aae900454f161ba25a74e9f4b1e5779.setContent(html_3736877d84b31ce484594c34829dcbcb);
+            
+        
+
+        marker_b6f94ffcd143d62fb1b291f20c3b98d3.bindPopup(popup_4aae900454f161ba25a74e9f4b1e5779)
+        ;
+
+        
+    
+    
+            var marker_c874d3460bd2e305da99e81a04d21a59 = L.marker(
+                [45.4210328, -75.6900218],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_d6944dc0d8f5c9d6cd51d5d0448a25b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c874d3460bd2e305da99e81a04d21a59.setIcon(icon_d6944dc0d8f5c9d6cd51d5d0448a25b1);
+        
+    
+        var popup_80c394bb3f5b6d37a3f230ea2368e0d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c2b755a40ca3439e593c59b9c9efcc3 = $(`<div id="html_1c2b755a40ca3439e593c59b9c9efcc3" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 4/17/2016<br>Time: 21:45<br>City: Ottawa<br>Shape: Unknown<br>Summary: Orange Lights - Out of This World.</div>`)[0];
+                popup_80c394bb3f5b6d37a3f230ea2368e0d4.setContent(html_1c2b755a40ca3439e593c59b9c9efcc3);
+            
+        
+
+        marker_c874d3460bd2e305da99e81a04d21a59.bindPopup(popup_80c394bb3f5b6d37a3f230ea2368e0d4)
+        ;
+
+        
+    
+    
+            var marker_08e4a718f6ddcdf43dbe148ba3b02edf = L.marker(
+                [51.02532675, -114.0498684],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_731aa889569b54be4044e17d70cbf3d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_08e4a718f6ddcdf43dbe148ba3b02edf.setIcon(icon_731aa889569b54be4044e17d70cbf3d7);
+        
+    
+        var popup_af4918b02aa3b3b1e582343f862784b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ff12947d524cb1983d53ced2d045d54 = $(`<div id="html_7ff12947d524cb1983d53ced2d045d54" style="width: 100.0%; height: 100.0%;"><b>Canada - AB</b><br>Date: 4/17/2016<br>Time: 3:50<br>City: Calgary<br>Shape: Triangle<br>Summary: Group of of triangular objects in a triangle formation passed from S to N  over the W side of Calgary, AB. ((anonymous))</div>`)[0];
+                popup_af4918b02aa3b3b1e582343f862784b0.setContent(html_7ff12947d524cb1983d53ced2d045d54);
+            
+        
+
+        marker_08e4a718f6ddcdf43dbe148ba3b02edf.bindPopup(popup_af4918b02aa3b3b1e582343f862784b0)
+        ;
+
+        
+    
+    
+            var marker_424561437beecb637d5e3662a9942c13 = L.marker(
+                [49.2608944, -123.1139382],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_dd36eff68a785ce90f6a337f8d37918d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_424561437beecb637d5e3662a9942c13.setIcon(icon_dd36eff68a785ce90f6a337f8d37918d);
+        
+    
+        var popup_043612125d93c28169d4346c7d6d267e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cac77d1083164c53235c2602e29fe9f6 = $(`<div id="html_cac77d1083164c53235c2602e29fe9f6" style="width: 100.0%; height: 100.0%;"><b>Canada - BC</b><br>Date: 4/16/2016<br>Time: 18:00<br>City: Vancouver<br>Shape: Sphere<br>Summary: Disc or spherical object moves over activity occurring on roof of tall  building; appears to observe activity.</div>`)[0];
+                popup_043612125d93c28169d4346c7d6d267e.setContent(html_cac77d1083164c53235c2602e29fe9f6);
+            
+        
+
+        marker_424561437beecb637d5e3662a9942c13.bindPopup(popup_043612125d93c28169d4346c7d6d267e)
+        ;
+
+        
+    
+    
+            var marker_e1d8313fd6af1d397fe5dcf41d7e28bd = L.marker(
+                [55.171025, -118.7951659],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_87b385426f8e82d1cf1fc4b0e917d905 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e1d8313fd6af1d397fe5dcf41d7e28bd.setIcon(icon_87b385426f8e82d1cf1fc4b0e917d905);
+        
+    
+        var popup_8cd92ab637f06761401929e423d6ac41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1e07d54d1d37730bb53c59530f0784e = $(`<div id="html_c1e07d54d1d37730bb53c59530f0784e" style="width: 100.0%; height: 100.0%;"><b>Canada - AB</b><br>Date: 4/14/2016<br>Time: 21:50<br>City: Grande Prairie<br>Shape: Light<br>Summary: Bright light appears in the sky, and two lights shoot off of it in varying  directions.</div>`)[0];
+                popup_8cd92ab637f06761401929e423d6ac41.setContent(html_c1e07d54d1d37730bb53c59530f0784e);
+            
+        
+
+        marker_e1d8313fd6af1d397fe5dcf41d7e28bd.bindPopup(popup_8cd92ab637f06761401929e423d6ac41)
+        ;
+
+        
+    
+    
+            var marker_8f1cb222a8276bd8fefa08ed99ece8fb = L.marker(
+                [51.02532675, -114.0498684],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_810205fefd59304bf47cc4a78906c2f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8f1cb222a8276bd8fefa08ed99ece8fb.setIcon(icon_810205fefd59304bf47cc4a78906c2f8);
+        
+    
+        var popup_df4de650bbbacf9a26b43e668561e264 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d4b44e3aa79f2590b540870aa731744 = $(`<div id="html_4d4b44e3aa79f2590b540870aa731744" style="width: 100.0%; height: 100.0%;"><b>Canada - AB</b><br>Date: 10/4/2016<br>Time: 11:20<br>City: Calgary<br>Shape: Formation<br>Summary: Luminious bird like objects crossing the sky.</div>`)[0];
+                popup_df4de650bbbacf9a26b43e668561e264.setContent(html_4d4b44e3aa79f2590b540870aa731744);
+            
+        
+
+        marker_8f1cb222a8276bd8fefa08ed99ece8fb.bindPopup(popup_df4de650bbbacf9a26b43e668561e264)
+        ;
+
+        
+    
+    
+            var marker_5691df30d43266a6374228a64d77b0d6 = L.marker(
+                [45.4210328, -75.6900218],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_a990918063e81dea8f1eb36e7c258f3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5691df30d43266a6374228a64d77b0d6.setIcon(icon_a990918063e81dea8f1eb36e7c258f3a);
+        
+    
+        var popup_eed1ddb54049a8b0cdb1108bab660c23 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0502f69a020eebab32ae83c1a2236d33 = $(`<div id="html_0502f69a020eebab32ae83c1a2236d33" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 8/4/2016<br>Time: 9:45<br>City: Ottawa<br>Shape: Unknown<br>Summary: Pulsating bright white and blue light darting in different directions and  specific patterns. ((NUFORC Note: Arcturus?? PD))</div>`)[0];
+                popup_eed1ddb54049a8b0cdb1108bab660c23.setContent(html_0502f69a020eebab32ae83c1a2236d33);
+            
+        
+
+        marker_5691df30d43266a6374228a64d77b0d6.bindPopup(popup_eed1ddb54049a8b0cdb1108bab660c23)
+        ;
+
+        
+    
+    
+            var marker_6437b128a05346e62c191ade61dcf8fe = L.marker(
+                [45.9646491, -66.6437528],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_ccaa5f9bf94c95da4798340b13b2bb61 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6437b128a05346e62c191ade61dcf8fe.setIcon(icon_ccaa5f9bf94c95da4798340b13b2bb61);
+        
+    
+        var popup_40e66d228231c0d70dc0457b8162b973 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd9bd7c9feb32dbae22ce22dbf2a458f = $(`<div id="html_cd9bd7c9feb32dbae22ce22dbf2a458f" style="width: 100.0%; height: 100.0%;"><b>Canada - NB</b><br>Date: 7/4/2016<br>Time: 9:00<br>City: Fredericton<br>Shape: Unknown<br>Summary: Low flying object with red and green lights - Making a lot of noise.</div>`)[0];
+                popup_40e66d228231c0d70dc0457b8162b973.setContent(html_cd9bd7c9feb32dbae22ce22dbf2a458f);
+            
+        
+
+        marker_6437b128a05346e62c191ade61dcf8fe.bindPopup(popup_40e66d228231c0d70dc0457b8162b973)
+        ;
+
+        
+    
+    
+            var marker_221036f2578e866462d8d8c7de9c0b69 = L.marker(
+                [44.568948, -80.9493259],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_9867e20b6d2e6f0f5ebabc07150bc4f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_221036f2578e866462d8d8c7de9c0b69.setIcon(icon_9867e20b6d2e6f0f5ebabc07150bc4f2);
+        
+    
+        var popup_e6abd3ba08ea78dfc979f9ca841d75c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e75ee5aafc57bbd642d4cec47e6c9c81 = $(`<div id="html_e75ee5aafc57bbd642d4cec47e6c9c81" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 1/4/2016<br>Time: 9:10<br>City: Owen Sound<br>Shape: Light<br>Summary: Two people saw a bright white light cross the night sky, heading in a  north-east direction.</div>`)[0];
+                popup_e6abd3ba08ea78dfc979f9ca841d75c8.setContent(html_e75ee5aafc57bbd642d4cec47e6c9c81);
+            
+        
+
+        marker_221036f2578e866462d8d8c7de9c0b69.bindPopup(popup_e6abd3ba08ea78dfc979f9ca841d75c8)
+        ;
+
+        
+    
+    
+            var marker_b11d84b1e4a357907c9e4a34377bbb83 = L.marker(
+                [45.7781707, -65.377103],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_9133a57c6f17ac592019e99f58f10001 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b11d84b1e4a357907c9e4a34377bbb83.setIcon(icon_9133a57c6f17ac592019e99f58f10001);
+        
+    
+        var popup_02a6290ee251653deceda1660286d276 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b4106f7cbb400c5036aebee52ee1146 = $(`<div id="html_0b4106f7cbb400c5036aebee52ee1146" style="width: 100.0%; height: 100.0%;"><b>Canada - NB</b><br>Date: 3/21/2016<br>Time: 5:00<br>City: South Branch<br>Shape: Other<br>Summary: Entity seen at 5:00 am. We were awakened by our 7 month old son crying, we  heard this on the baby monitor.</div>`)[0];
+                popup_02a6290ee251653deceda1660286d276.setContent(html_0b4106f7cbb400c5036aebee52ee1146);
+            
+        
+
+        marker_b11d84b1e4a357907c9e4a34377bbb83.bindPopup(popup_02a6290ee251653deceda1660286d276)
+        ;
+
+        
+    
+    
+            var marker_e307cbcd6883ae8fc98197cf24982320 = L.marker(
+                [45.4810426, -75.5099599],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_93fc2005c0928781f7b2a5445dbabe98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e307cbcd6883ae8fc98197cf24982320.setIcon(icon_93fc2005c0928781f7b2a5445dbabe98);
+        
+    
+        var popup_3b38ba6759403d4edfd2eca6a5315d68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e340d9d632b21486657bd388dda8f457 = $(`<div id="html_e340d9d632b21486657bd388dda8f457" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 3/18/2016<br>Time: 19:20<br>City: Orleans<br>Shape: Fireball<br>Summary: At approximately 19:20 on Friday, March 18, 2016, I was travelling West  down RR128 when I spotted a bright light in the sky to my left</div>`)[0];
+                popup_3b38ba6759403d4edfd2eca6a5315d68.setContent(html_e340d9d632b21486657bd388dda8f457);
+            
+        
+
+        marker_e307cbcd6883ae8fc98197cf24982320.bindPopup(popup_3b38ba6759403d4edfd2eca6a5315d68)
+        ;
+
+        
+    
+    
+            var marker_76a53c5d06775d66da9eeb97d54840cb = L.marker(
+                [43.714575, -79.7523866],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_fa900081e1ca74ad2d2d00da46e607c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_76a53c5d06775d66da9eeb97d54840cb.setIcon(icon_fa900081e1ca74ad2d2d00da46e607c2);
+        
+    
+        var popup_02e77ad9e029d706e34738b53532a76a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94196cac4c71b8970b825ff892933c0b = $(`<div id="html_94196cac4c71b8970b825ff892933c0b" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 3/17/2016<br>Time: 4:15<br>City: Brampton<br>Shape: Unknown<br>Summary: Hovering object so bright like a star. ((NUFORC Note: We suspect a possible  sighting of a star or planet. PD))</div>`)[0];
+                popup_02e77ad9e029d706e34738b53532a76a.setContent(html_94196cac4c71b8970b825ff892933c0b);
+            
+        
+
+        marker_76a53c5d06775d66da9eeb97d54840cb.bindPopup(popup_02e77ad9e029d706e34738b53532a76a)
+        ;
+
+        
+    
+    
+            var marker_1d9d8b054f1a1286d6a140425fbe8f53 = L.marker(
+                [42.988576, -81.2466429],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_fb415092ca01511d47b94327c4052882 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1d9d8b054f1a1286d6a140425fbe8f53.setIcon(icon_fb415092ca01511d47b94327c4052882);
+        
+    
+        var popup_59d46e8765f1a5e037602592d1cf8eb4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b448c6eb7bf7149fa2f1a8cdc569b052 = $(`<div id="html_b448c6eb7bf7149fa2f1a8cdc569b052" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 3/15/2016<br>Time: 20:20<br>City: London<br>Shape: Light<br>Summary: White flashing stationary light west of London, Ontario.</div>`)[0];
+                popup_59d46e8765f1a5e037602592d1cf8eb4.setContent(html_b448c6eb7bf7149fa2f1a8cdc569b052);
+            
+        
+
+        marker_1d9d8b054f1a1286d6a140425fbe8f53.bindPopup(popup_59d46e8765f1a5e037602592d1cf8eb4)
+        ;
+
+        
+    
+    
+            var marker_69c56b1e24d5c94453022b7bb97b1f0a = L.marker(
+                [53.633239, -113.6288449],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_766ebde3dbd7bd2bcda1aeefc0b31f3f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_69c56b1e24d5c94453022b7bb97b1f0a.setIcon(icon_766ebde3dbd7bd2bcda1aeefc0b31f3f);
+        
+    
+        var popup_4a3cc226f6ed718681ade39c99f8a6b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c907d4675f604054e950c531f858b3d = $(`<div id="html_8c907d4675f604054e950c531f858b3d" style="width: 100.0%; height: 100.0%;"><b>Canada - AB</b><br>Date: 3/15/2016<br>Time: nan<br>City: St. Albert<br>Shape: Unknown<br>Summary: Large, twin-prop plane flying very low and very slow strange looking no  sound no lights no id made a 45 degree turn without banking</div>`)[0];
+                popup_4a3cc226f6ed718681ade39c99f8a6b3.setContent(html_8c907d4675f604054e950c531f858b3d);
+            
+        
+
+        marker_69c56b1e24d5c94453022b7bb97b1f0a.bindPopup(popup_4a3cc226f6ed718681ade39c99f8a6b3)
+        ;
+
+        
+    
+    
+            var marker_35b91b7bd216c7bd22c4777b22b5c97e = L.marker(
+                [45.3402359, -80.0370221],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_7f0decc131ae41c62601162e69347fe4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_35b91b7bd216c7bd22c4777b22b5c97e.setIcon(icon_7f0decc131ae41c62601162e69347fe4);
+        
+    
+        var popup_01dbde95816d2607a14c6d32c0684d73 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79b86c1678de678dcda779177d170d71 = $(`<div id="html_79b86c1678de678dcda779177d170d71" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 3/13/2016<br>Time: 0:30<br>City: Parry Sound<br>Shape: Circle<br>Summary: White craft followed by red craft near Parry Sound Ontario Sunday Morning</div>`)[0];
+                popup_01dbde95816d2607a14c6d32c0684d73.setContent(html_79b86c1678de678dcda779177d170d71);
+            
+        
+
+        marker_35b91b7bd216c7bd22c4777b22b5c97e.bindPopup(popup_01dbde95816d2607a14c6d32c0684d73)
+        ;
+
+        
+    
+    
+            var marker_8129bab2e6830423bddefe8fb9aa48e5 = L.marker(
+                [43.9172764, -78.8614873],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_620ff1735ff3d6c3fc3048ca92e33db2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8129bab2e6830423bddefe8fb9aa48e5.setIcon(icon_620ff1735ff3d6c3fc3048ca92e33db2);
+        
+    
+        var popup_1f729eac14551780a05cad4595594e1c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c43ae11fd68feb76756ae82ab4cbcc43 = $(`<div id="html_c43ae11fd68feb76756ae82ab4cbcc43" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 3/3/2016<br>Time: 11:35<br>City: Oshawa<br>Shape: Light<br>Summary: Two low white oval shaped lights staying stationary</div>`)[0];
+                popup_1f729eac14551780a05cad4595594e1c.setContent(html_c43ae11fd68feb76756ae82ab4cbcc43);
+            
+        
+
+        marker_8129bab2e6830423bddefe8fb9aa48e5.bindPopup(popup_1f729eac14551780a05cad4595594e1c)
+        ;
+
+        
+    
+    
+            var marker_e1b3f2a942e1d8329b8672c4c67bcf8c = L.marker(
+                [49.8833343, -97.166674],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_37b21a728bd7a946dd73b3d05a55158f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e1b3f2a942e1d8329b8672c4c67bcf8c.setIcon(icon_37b21a728bd7a946dd73b3d05a55158f);
+        
+    
+        var popup_f464fb5506eae24b6edc12c894b91718 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99c7d77ab64e108052112c9f91c0070d = $(`<div id="html_99c7d77ab64e108052112c9f91c0070d" style="width: 100.0%; height: 100.0%;"><b>Canada - MB</b><br>Date: 2/3/2016<br>Time: 8:35<br>City: Winnipeg<br>Shape: Circle<br>Summary: Was observing stars through telescope looking for M46/M47 when I saw a  "moving star" heading towards "10-11 o clock."</div>`)[0];
+                popup_f464fb5506eae24b6edc12c894b91718.setContent(html_99c7d77ab64e108052112c9f91c0070d);
+            
+        
+
+        marker_e1b3f2a942e1d8329b8672c4c67bcf8c.bindPopup(popup_f464fb5506eae24b6edc12c894b91718)
+        ;
+
+        
+    
+    
+            var marker_5ec04b4bf8cfd2f85552a60849f22ec0 = L.marker(
+                [43.9508384, -78.2917518],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_f8c999120955036a48eeb055d033ecdf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5ec04b4bf8cfd2f85552a60849f22ec0.setIcon(icon_f8c999120955036a48eeb055d033ecdf);
+        
+    
+        var popup_ee4ebf43e5d487217de713dc9960a1a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6bb5c2b1a466593e77f9eefab1acf214 = $(`<div id="html_6bb5c2b1a466593e77f9eefab1acf214" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 2/29/2016<br>Time: 20:45<br>City: Port Hope<br>Shape: Light<br>Summary: Strange glowing lights, approximately 4, moving in circular motion through  the clouds lighting up behind the clouds.</div>`)[0];
+                popup_ee4ebf43e5d487217de713dc9960a1a1.setContent(html_6bb5c2b1a466593e77f9eefab1acf214);
+            
+        
+
+        marker_5ec04b4bf8cfd2f85552a60849f22ec0.bindPopup(popup_ee4ebf43e5d487217de713dc9960a1a1)
+        ;
+
+        
+    
+    
+            var marker_dee1207a326a992501d232351e5af98e = L.marker(
+                [49.2608944, -123.1139382],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_8834a93ddb47421b5aaf0641f8e87531 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dee1207a326a992501d232351e5af98e.setIcon(icon_8834a93ddb47421b5aaf0641f8e87531);
+        
+    
+        var popup_e3d72164657d9e4678f4a29d0b663dec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_528c60f90c4b85678782e99d6626a7e0 = $(`<div id="html_528c60f90c4b85678782e99d6626a7e0" style="width: 100.0%; height: 100.0%;"><b>Canada - BC</b><br>Date: 2/26/2016<br>Time: 0:50<br>City: Vancouver<br>Shape: Disk<br>Summary: I observed UFO through 15x70 binoculars, so close that I could see black  dust on the walls of the "vehicle."</div>`)[0];
+                popup_e3d72164657d9e4678f4a29d0b663dec.setContent(html_528c60f90c4b85678782e99d6626a7e0);
+            
+        
+
+        marker_dee1207a326a992501d232351e5af98e.bindPopup(popup_e3d72164657d9e4678f4a29d0b663dec)
+        ;
+
+        
+    
+    
+            var marker_e3b836d546e5b4a4b6347671d54c7e0a = L.marker(
+                [46.0945258, -64.7354771],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_b0994bed2ae13182c38bb440df28f35a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e3b836d546e5b4a4b6347671d54c7e0a.setIcon(icon_b0994bed2ae13182c38bb440df28f35a);
+        
+    
+        var popup_8dbe274354d263524ba33de8184265fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_499b2f876a942553b9d1119b5f1d5816 = $(`<div id="html_499b2f876a942553b9d1119b5f1d5816" style="width: 100.0%; height: 100.0%;"><b>Canada - NB</b><br>Date: 2/23/2016<br>Time: 22:00<br>City: Dieppe<br>Shape: Fireball<br>Summary: Glowing orange star, or Mars look-alike, floating in sky.</div>`)[0];
+                popup_8dbe274354d263524ba33de8184265fd.setContent(html_499b2f876a942553b9d1119b5f1d5816);
+            
+        
+
+        marker_e3b836d546e5b4a4b6347671d54c7e0a.bindPopup(popup_8dbe274354d263524ba33de8184265fd)
+        ;
+
+        
+    
+    
+            var marker_63d7966f4302c839829cf9c3e8401472 = L.marker(
+                [48.4283327, -123.3649268],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_00556e88910c1adefb97d0b14dff4258 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_63d7966f4302c839829cf9c3e8401472.setIcon(icon_00556e88910c1adefb97d0b14dff4258);
+        
+    
+        var popup_2766f947b3dacd4f0c757d11ba64bf0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0362875e24113574f1e932a6d144d80d = $(`<div id="html_0362875e24113574f1e932a6d144d80d" style="width: 100.0%; height: 100.0%;"><b>Canada - BC</b><br>Date: 2/18/2016<br>Time: 21:00<br>City: Victoria<br>Shape: Light<br>Summary: ZIG ZAGGING SATELLITE EVENTUALLY MAKING A TURN OVER CLOUD COVER</div>`)[0];
+                popup_2766f947b3dacd4f0c757d11ba64bf0e.setContent(html_0362875e24113574f1e932a6d144d80d);
+            
+        
+
+        marker_63d7966f4302c839829cf9c3e8401472.bindPopup(popup_2766f947b3dacd4f0c757d11ba64bf0e)
+        ;
+
+        
+    
+    
+            var marker_056d7f629666645ae225d492045d8601 = L.marker(
+                [49.016667, -123.0833329],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_593e18903143810120087810e3eaca5d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_056d7f629666645ae225d492045d8601.setIcon(icon_593e18903143810120087810e3eaca5d);
+        
+    
+        var popup_6d00059a173bf186a61d8a5e0e40041d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3eec5d996fecb7a61c6265f4f27049e = $(`<div id="html_f3eec5d996fecb7a61c6265f4f27049e" style="width: 100.0%; height: 100.0%;"><b>Canada - BC</b><br>Date: 9/2/2016<br>Time: 12:45<br>City: Tsawwassen<br>Shape: Sphere<br>Summary: Blue-green sphere appears over the ocean, hovers for a few seconds, before  shooting off, and vanished.</div>`)[0];
+                popup_6d00059a173bf186a61d8a5e0e40041d.setContent(html_f3eec5d996fecb7a61c6265f4f27049e);
+            
+        
+
+        marker_056d7f629666645ae225d492045d8601.bindPopup(popup_6d00059a173bf186a61d8a5e0e40041d)
+        ;
+
+        
+    
+    
+            var marker_49ab2e921dec298b7b16dc0773873bd4 = L.marker(
+                [49.2192655, -122.6014679],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_4111b1ebf4bbc92086f751059ee77de5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_49ab2e921dec298b7b16dc0773873bd4.setIcon(icon_4111b1ebf4bbc92086f751059ee77de5);
+        
+    
+        var popup_663967cb0a535515c73d9d4b6c804e30 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15fdce213af3ddf960933452efdb87be = $(`<div id="html_15fdce213af3ddf960933452efdb87be" style="width: 100.0%; height: 100.0%;"><b>Canada - BC</b><br>Date: 8/2/2016<br>Time: 11:00<br>City: Maple Ridge<br>Shape: Unknown<br>Summary: Sitting on my deck between 11:55 pm and until 12:00am approximately. First  saw 4 orange lights low moving together at plane speed or fa</div>`)[0];
+                popup_663967cb0a535515c73d9d4b6c804e30.setContent(html_15fdce213af3ddf960933452efdb87be);
+            
+        
+
+        marker_49ab2e921dec298b7b16dc0773873bd4.bindPopup(popup_663967cb0a535515c73d9d4b6c804e30)
+        ;
+
+        
+    
+    
+            var marker_ca957be0bb9c2222b233dd047af04a35 = L.marker(
+                [55.171025, -118.7951659],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_95542c87bed9fc17936db785a726de8d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ca957be0bb9c2222b233dd047af04a35.setIcon(icon_95542c87bed9fc17936db785a726de8d);
+        
+    
+        var popup_a6e28024a55e6d0f50af8d75982be002 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_562a65438aae91fb1fb084cb70b8633a = $(`<div id="html_562a65438aae91fb1fb084cb70b8633a" style="width: 100.0%; height: 100.0%;"><b>Canada - AB</b><br>Date: 1/30/2016<br>Time: 1:00<br>City: Grande Prairie<br>Shape: Light<br>Summary: Saw a blinking light in the sky, at first I thought it was a plane but then  I noticed how it was moving. ((NUFORC Note: Sirius? PD))</div>`)[0];
+                popup_a6e28024a55e6d0f50af8d75982be002.setContent(html_562a65438aae91fb1fb084cb70b8633a);
+            
+        
+
+        marker_ca957be0bb9c2222b233dd047af04a35.bindPopup(popup_a6e28024a55e6d0f50af8d75982be002)
+        ;
+
+        
+    
+    
+            var marker_06f84faf4885f5603546ff71fc980fc8 = L.marker(
+                [44.9905115, -64.1363748],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_d794f607bde0b52410e6968aaeb8837a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_06f84faf4885f5603546ff71fc980fc8.setIcon(icon_d794f607bde0b52410e6968aaeb8837a);
+        
+    
+        var popup_4187edb4f87ad744ce64f8b8aba12293 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73220cac8d9264e771f03253779ab260 = $(`<div id="html_73220cac8d9264e771f03253779ab260" style="width: 100.0%; height: 100.0%;"><b>Canada - NS</b><br>Date: 1/25/2016<br>Time: 19:28<br>City: Windsor<br>Shape: Light<br>Summary: Flashing lights of mulitiple colors in sky. Not moving and flashes not  consistant. ((NUFORC Note: Twinkling star? PD))</div>`)[0];
+                popup_4187edb4f87ad744ce64f8b8aba12293.setContent(html_73220cac8d9264e771f03253779ab260);
+            
+        
+
+        marker_06f84faf4885f5603546ff71fc980fc8.bindPopup(popup_4187edb4f87ad744ce64f8b8aba12293)
+        ;
+
+        
+    
+    
+            var marker_74f5973df925c0293f958b8d8ce65d43 = L.marker(
+                [56.724101, -111.3766479],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_3a83e3e1fe9d4b77c786e1a34e534e54 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_74f5973df925c0293f958b8d8ce65d43.setIcon(icon_3a83e3e1fe9d4b77c786e1a34e534e54);
+        
+    
+        var popup_b413e994853a3d3df5e625276221b42f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a126160939bda2c470965d19dd853751 = $(`<div id="html_a126160939bda2c470965d19dd853751" style="width: 100.0%; height: 100.0%;"><b>Canada - AB</b><br>Date: 1/18/2016<br>Time: 20:00<br>City: Fort McMurray<br>Shape: Other<br>Summary: Was walking home from work seen four red circles moving in the sky as if  they were weightless me and several people in the community se</div>`)[0];
+                popup_b413e994853a3d3df5e625276221b42f.setContent(html_a126160939bda2c470965d19dd853751);
+            
+        
+
+        marker_74f5973df925c0293f958b8d8ce65d43.bindPopup(popup_b413e994853a3d3df5e625276221b42f)
+        ;
+
+        
+    
+    
+            var marker_f42b7d8708465a5543b1dc9e7aa7e8d7 = L.marker(
+                [44.54948445, -78.26143982],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_37d2923abcc86b334959de255e1c20a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f42b7d8708465a5543b1dc9e7aa7e8d7.setIcon(icon_37d2923abcc86b334959de255e1c20a4);
+        
+    
+        var popup_03d3287665f287f399d4d98524b2da6a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9c6eca6e83f4fd7a4d9e7a543ef9d63 = $(`<div id="html_d9c6eca6e83f4fd7a4d9e7a543ef9d63" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 1/16/2016<br>Time: 3:00<br>City: Kawartha Lakes<br>Shape: Unknown<br>Summary: Bright Light followed by pulsating red glow</div>`)[0];
+                popup_03d3287665f287f399d4d98524b2da6a.setContent(html_d9c6eca6e83f4fd7a4d9e7a543ef9d63);
+            
+        
+
+        marker_f42b7d8708465a5543b1dc9e7aa7e8d7.bindPopup(popup_03d3287665f287f399d4d98524b2da6a)
+        ;
+
+        
+    
+    
+            var marker_061fc8f633f286b6f12ab5e90d2edf4c = L.marker(
+                [53.5256963, -113.2966312],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_ff785d088e0f2a96f7f1eb5c223dc4e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_061fc8f633f286b6f12ab5e90d2edf4c.setIcon(icon_ff785d088e0f2a96f7f1eb5c223dc4e4);
+        
+    
+        var popup_1a6328e4c684c150a03d68644afa158f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15d611927e5355f0f437fcc8c8d129f9 = $(`<div id="html_15d611927e5355f0f437fcc8c8d129f9" style="width: 100.0%; height: 100.0%;"><b>Canada - AB</b><br>Date: 1/15/2016<br>Time: 20:00<br>City: Sherwood Park<br>Shape: Formation<br>Summary: Red lights in sky, flying in formation.</div>`)[0];
+                popup_1a6328e4c684c150a03d68644afa158f.setContent(html_15d611927e5355f0f437fcc8c8d129f9);
+            
+        
+
+        marker_061fc8f633f286b6f12ab5e90d2edf4c.bindPopup(popup_1a6328e4c684c150a03d68644afa158f)
+        ;
+
+        
+    
+    
+            var marker_d4e598d5506e9ffe9648cc2c72df7a22 = L.marker(
+                [50.65085341, -120.349746],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_a6e4df44fabd25c41c2468f841f527b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d4e598d5506e9ffe9648cc2c72df7a22.setIcon(icon_a6e4df44fabd25c41c2468f841f527b7);
+        
+    
+        var popup_3095484795247b6b43811701801bf26b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32d8e83eb47a7f97b1c51243e8fb8f8c = $(`<div id="html_32d8e83eb47a7f97b1c51243e8fb8f8c" style="width: 100.0%; height: 100.0%;"><b>Canada - BC</b><br>Date: 1/13/2016<br>Time: 18:45<br>City: Kamloops<br>Shape: Unknown<br>Summary: Massive dome shaped bright brilliant blue light, like a huge welding arc  spanning a massive distance on the hor., of crown land.</div>`)[0];
+                popup_3095484795247b6b43811701801bf26b.setContent(html_32d8e83eb47a7f97b1c51243e8fb8f8c);
+            
+        
+
+        marker_d4e598d5506e9ffe9648cc2c72df7a22.bindPopup(popup_3095484795247b6b43811701801bf26b)
+        ;
+
+        
+    
+    
+            var marker_107f445b3e7f03f31e99c8c0d40f7a6c = L.marker(
+                [43.879548, -79.7382599],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_fe6f53d2ce4cd689813ab9db3fd14617 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_107f445b3e7f03f31e99c8c0d40f7a6c.setIcon(icon_fe6f53d2ce4cd689813ab9db3fd14617);
+        
+    
+        var popup_f3440493f5563798509676a2b1d7ca63 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c78790814317fe6b965272ccb32b50c = $(`<div id="html_8c78790814317fe6b965272ccb32b50c" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 11/1/2016<br>Time: 8:30<br>City: Bolton<br>Shape: Light<br>Summary: Circular changing lights. ((NUFORC Note: Possibly Sirius. PD))</div>`)[0];
+                popup_f3440493f5563798509676a2b1d7ca63.setContent(html_8c78790814317fe6b965272ccb32b50c);
+            
+        
+
+        marker_107f445b3e7f03f31e99c8c0d40f7a6c.bindPopup(popup_f3440493f5563798509676a2b1d7ca63)
+        ;
+
+        
+    
+    
+            var marker_69ba9cfba39973d67a6280f77a5727fb = L.marker(
+                [49.321542, -123.0743409],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_e42fd5aec3e595463ceb797208efdd74 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_69ba9cfba39973d67a6280f77a5727fb.setIcon(icon_e42fd5aec3e595463ceb797208efdd74);
+        
+    
+        var popup_b52ac02cd01a8fd101735d05eede2d4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53761f8db36a54baf48869dc3f2d16fc = $(`<div id="html_53761f8db36a54baf48869dc3f2d16fc" style="width: 100.0%; height: 100.0%;"><b>Canada - BC</b><br>Date: 6/1/2016<br>Time: 9:30<br>City: North Vancouver<br>Shape: Disk<br>Summary: Giant mother ship sighted in Indian Arm-Mount Seymour side, from Deep Cove.</div>`)[0];
+                popup_b52ac02cd01a8fd101735d05eede2d4a.setContent(html_53761f8db36a54baf48869dc3f2d16fc);
+            
+        
+
+        marker_69ba9cfba39973d67a6280f77a5727fb.bindPopup(popup_b52ac02cd01a8fd101735d05eede2d4a)
+        ;
+
+        
+    
+    
+            var marker_a7fc26c4d034db0b14572eda3a06e674 = L.marker(
+                [49.321542, -123.0743409],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_d9d334f5aba295ef92b1fd3de41c8575 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a7fc26c4d034db0b14572eda3a06e674.setIcon(icon_d9d334f5aba295ef92b1fd3de41c8575);
+        
+    
+        var popup_ae169e417eca5332d7becfa2bcf36687 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67d408de64dc1669606d04b08c49f732 = $(`<div id="html_67d408de64dc1669606d04b08c49f732" style="width: 100.0%; height: 100.0%;"><b>Canada - BC</b><br>Date: 6/1/2016<br>Time: 9:30<br>City: North Vancouver<br>Shape: Disk<br>Summary: We saw a giant silent floating disc hovering above Deep Cove's marina inlet  in North Vancouver, shining very bright lights around.</div>`)[0];
+                popup_ae169e417eca5332d7becfa2bcf36687.setContent(html_67d408de64dc1669606d04b08c49f732);
+            
+        
+
+        marker_a7fc26c4d034db0b14572eda3a06e674.bindPopup(popup_ae169e417eca5332d7becfa2bcf36687)
+        ;
+
+        
+    
+    
+            var marker_2f84bffd22bf723cc94f50ca63ec43f3 = L.marker(
+                [56.250094, -120.8334656],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_e30ed17b2f9da5908378b8f0f3e95c42 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2f84bffd22bf723cc94f50ca63ec43f3.setIcon(icon_e30ed17b2f9da5908378b8f0f3e95c42);
+        
+    
+        var popup_51daf6a3b876fa558a57b6a3dc925e96 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ce1b41a5ac1f1e8a6958b267cd7c118 = $(`<div id="html_4ce1b41a5ac1f1e8a6958b267cd7c118" style="width: 100.0%; height: 100.0%;"><b>Canada - BC</b><br>Date: 4/1/2016<br>Time: 6:30<br>City: Fort St. John<br>Shape: Light<br>Summary: Flash of light a white beem at the end opened a blue starshap opening and  vanish</div>`)[0];
+                popup_51daf6a3b876fa558a57b6a3dc925e96.setContent(html_4ce1b41a5ac1f1e8a6958b267cd7c118);
+            
+        
+
+        marker_2f84bffd22bf723cc94f50ca63ec43f3.bindPopup(popup_51daf6a3b876fa558a57b6a3dc925e96)
+        ;
+
+        
+    
+    
+            var marker_cc10ea01d645fe341feae78c4a17267c = L.marker(
+                [42.5673904, -82.4959678],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_3aff3ba10cd4a1a18d9bcd452fb8ae92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cc10ea01d645fe341feae78c4a17267c.setIcon(icon_3aff3ba10cd4a1a18d9bcd452fb8ae92);
+        
+    
+        var popup_8df8ed065e31dd172c35027efd07b8c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07334fffd73b5b7ce085817e53921a5b = $(`<div id="html_07334fffd73b5b7ce085817e53921a5b" style="width: 100.0%; height: 100.0%;"><b>Canada - ON</b><br>Date: 3/1/2016<br>Time: 9:00<br>City: Walpole Island<br>Shape: Light<br>Summary: One bright light at helicopter height where black triangle showed up last  month.</div>`)[0];
+                popup_8df8ed065e31dd172c35027efd07b8c4.setContent(html_07334fffd73b5b7ce085817e53921a5b);
+            
+        
+
+        marker_cc10ea01d645fe341feae78c4a17267c.bindPopup(popup_8df8ed065e31dd172c35027efd07b8c4)
+        ;
+
+        
+    
+    
+            var marker_aaa5b6153b1de761da0f58687132a4eb = L.marker(
+                [54.1376057, -115.6751168],
+                {}
+            ).addTo(map_9fb083fc17c5cf925e8fab4dda6dcc41);
+        
+    
+            var icon_672837500eaccc1cc9cbad5049d5b184 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_aaa5b6153b1de761da0f58687132a4eb.setIcon(icon_672837500eaccc1cc9cbad5049d5b184);
+        
+    
+        var popup_248108e0ffb87915a8dfa9d051f810da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c57758bc1edea0923095189af42ebc3 = $(`<div id="html_9c57758bc1edea0923095189af42ebc3" style="width: 100.0%; height: 100.0%;"><b>Canada - AB</b><br>Date: 2/1/2016<br>Time: 7:00<br>City: Whitecourt<br>Shape: Flash<br>Summary: Quick, bright flash in the sky.</div>`)[0];
+                popup_248108e0ffb87915a8dfa9d051f810da.setContent(html_9c57758bc1edea0923095189af42ebc3);
+            
+        
+
+        marker_aaa5b6153b1de761da0f58687132a4eb.bindPopup(popup_248108e0ffb87915a8dfa9d051f810da)
+        ;
+
+        
+    
+</script>
+</html>

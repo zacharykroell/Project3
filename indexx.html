@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFO Sightings Maps</title>
+
+    <!-- Include Leaflet and other necessary libraries -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+
+    <!-- Define the onStateChange function to handle dropdown selection -->
+    <script>
+        function onStateChange() {
+            var selectedState = document.getElementById("stateSelector").value;
+            if (selectedState === "USA") {
+                // Show the main USA map
+                document.getElementById("mainMap").style.display = "block";
+                // Hide the state-specific maps
+                document.getElementById("californiaMap").style.display = "none";
+                document.getElementById("newYorkMap").style.display = "none";
+                document.getElementById("texasMap").style.display = "none";
+                document.getElementById("canadaMap").style.display = "none";
+            } else if (selectedState === "CA") {
+                // Show the California map
+                document.getElementById("mainMap").style.display = "none";
+                document.getElementById("californiaMap").style.display = "block";
+                document.getElementById("newYorkMap").style.display = "none";
+                document.getElementById("texasMap").style.display = "none";
+                document.getElementById("canadaMap").style.display = "none";
+            } else if (selectedState === "NY") {
+                // Show the New York map
+                document.getElementById("mainMap").style.display = "none";
+                document.getElementById("californiaMap").style.display = "none";
+                document.getElementById("newYorkMap").style.display = "block";
+                document.getElementById("texasMap").style.display = "none";
+                document.getElementById("canadaMap").style.display = "none";
+            } else if (selectedState === "TX") {
+                // Show the Texas map
+                document.getElementById("mainMap").style.display = "none";
+                document.getElementById("californiaMap").style.display = "none";
+                document.getElementById("newYorkMap").style.display = "none";
+                document.getElementById("texasMap").style.display = "block";
+                document.getElementById("canadaMap").style.display = "none";
+            } else if (selectedState === "CANADA") {
+                // Show the Texas map
+                document.getElementById("mainMap").style.display = "none";
+                document.getElementById("californiaMap").style.display = "none";
+                document.getElementById("newYorkMap").style.display = "none";
+                document.getElementById("texasMap").style.display = "none";
+                document.getElementById("canadaMap").style.display = "block";
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>UFO Sightings Maps</h1>
+
+    <!-- Dropdown menu to select a state -->
+    <label for="stateSelector">Select a State:</label>
+    <select id="stateSelector" onchange="onStateChange()">
+        <option value="USA">USA (Main Map)</option>
+        <option value="CA">California (CA)</option>
+        <option value="NY">New York (NY)</option>
+        <option value="TX">Texas (TX)</option>
+        <option value="CANADA">CANADA</option>
+    </select>
+
+    <!-- Main map of the USA with all UFO data -->
+    <div id="mainMap" style="display: block;">
+        <iframe src="ufo_sightings_usa_map.html" width="100%" height="500" frameborder="0"></iframe>
+    </div>
+
+    <!-- California map -->
+    <div id="californiaMap" style="display: none;">
+        <iframe src="california_ufo_map.html" width="100%" height="500" frameborder="0"></iframe>
+    </div>
+
+    <!-- New York map -->
+    <div id="newYorkMap" style="display: none;">
+        <iframe src="new_york_ufo_map.html" width="100%" height="500" frameborder="0"></iframe>
+    </div>
+
+    <!-- Texas map -->
+    <div id="texasMap" style="display: none;">
+        <iframe src="texas_ufo_map.html" width="100%" height="500" frameborder="0"></iframe>
+    </div>
+    <!-- Canada map -->
+    <div id="canadaMap" style="display: none;">
+        <iframe src="ufo_sightings_canada_map.html" width="100%" height="500" frameborder="0"></iframe>
+    </div>
+</body>
+</html>

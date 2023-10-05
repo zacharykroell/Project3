@@ -1,0 +1,3822 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e6ffd4421c3f626968a06b89a337ae59 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e6ffd4421c3f626968a06b89a337ae59" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e6ffd4421c3f626968a06b89a337ae59 = L.map(
+                "map_e6ffd4421c3f626968a06b89a337ae59",
+                {
+                    center: [31.9686, -99.9018],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a7a2622eb14aea11ffb28fe995c85e94 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var marker_6872e4e4c5bfe0dd394d360dd182610c = L.marker(
+                [32.9481789, -96.7297205],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_1e9241d43008db87eb2b6cac4a5cce80 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_6872e4e4c5bfe0dd394d360dd182610c.setIcon(icon_1e9241d43008db87eb2b6cac4a5cce80);
+        
+    
+        var popup_97eb39026a912e9b94740574ea884360 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11488f103405366c51739b08c338243c = $(`<div id="html_11488f103405366c51739b08c338243c" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 12/19/2016<br>Time: 1:27<br>City: Richardson<br>Shape: Triangle<br>Summary: 3 triangular shaped craft - flying in V-formation from West to East, just  North of Dallas Texas, and the night sky was very clear</div>`)[0];
+                popup_97eb39026a912e9b94740574ea884360.setContent(html_11488f103405366c51739b08c338243c);
+            
+        
+
+        marker_6872e4e4c5bfe0dd394d360dd182610c.bindPopup(popup_97eb39026a912e9b94740574ea884360)
+        ;
+
+        
+    
+    
+            var marker_c456ae737716f8986e425366e75029c9 = L.marker(
+                [29.5639758, -95.2864298],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_2e8237b0133f646bcae5bbd02f809619 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_c456ae737716f8986e425366e75029c9.setIcon(icon_2e8237b0133f646bcae5bbd02f809619);
+        
+    
+        var popup_206ef369674791ab5a6407019b43056f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a27e3ea2e335de512b2c46bf7af7b9ea = $(`<div id="html_a27e3ea2e335de512b2c46bf7af7b9ea" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 10/12/2016<br>Time: 7:12<br>City: Pearland<br>Shape: Oval<br>Summary: White round object comes under front door and flies thru living room (on  video).</div>`)[0];
+                popup_206ef369674791ab5a6407019b43056f.setContent(html_a27e3ea2e335de512b2c46bf7af7b9ea);
+            
+        
+
+        marker_c456ae737716f8986e425366e75029c9.bindPopup(popup_206ef369674791ab5a6407019b43056f)
+        ;
+
+        
+    
+    
+            var marker_0e1487405e1d5bca875eb247314cdaf9 = L.marker(
+                [29.0338575, -95.4343858],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_cfeb3a3a6f5fa764d1a6a25d1bd0dff3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_0e1487405e1d5bca875eb247314cdaf9.setIcon(icon_cfeb3a3a6f5fa764d1a6a25d1bd0dff3);
+        
+    
+        var popup_f5e3e15b5a66b404f18b552ba87b5191 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c49e8cf65dc4673e1f5675e557a645d0 = $(`<div id="html_c49e8cf65dc4673e1f5675e557a645d0" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 6/12/2016<br>Time: 1:15<br>City: Lake Jackson<br>Shape: Unknown<br>Summary: House Shaking Aerial Down Burst.</div>`)[0];
+                popup_f5e3e15b5a66b404f18b552ba87b5191.setContent(html_c49e8cf65dc4673e1f5675e557a645d0);
+            
+        
+
+        marker_0e1487405e1d5bca875eb247314cdaf9.bindPopup(popup_f5e3e15b5a66b404f18b552ba87b5191)
+        ;
+
+        
+    
+    
+            var marker_cd2097efef13414b0c9e380fe72663be = L.marker(
+                [29.9057817, -96.6727527],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_ad89fb14fb6d03694fb246f87e486fae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_cd2097efef13414b0c9e380fe72663be.setIcon(icon_ad89fb14fb6d03694fb246f87e486fae);
+        
+    
+        var popup_a556e439a7abad28bf971c8a7ddf5fbc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5e9799be2e2d1a0e84dfa40be1acbe7 = $(`<div id="html_e5e9799be2e2d1a0e84dfa40be1acbe7" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 11/30/2016<br>Time: 19:30<br>City: Fayetteville<br>Shape: Triangle<br>Summary: I was just star gazing around seven thirty pm on November 30th. Saw  something bright orange out of the corner of my eye so I quickly gr</div>`)[0];
+                popup_a556e439a7abad28bf971c8a7ddf5fbc.setContent(html_e5e9799be2e2d1a0e84dfa40be1acbe7);
+            
+        
+
+        marker_cd2097efef13414b0c9e380fe72663be.bindPopup(popup_a556e439a7abad28bf971c8a7ddf5fbc)
+        ;
+
+        
+    
+    
+            var marker_7cc1198362715883f7c30b7a2291bd40 = L.marker(
+                [27.8002542, -97.3955743],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_dd0c45b61767890114a6f2c46f00f86f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_7cc1198362715883f7c30b7a2291bd40.setIcon(icon_dd0c45b61767890114a6f2c46f00f86f);
+        
+    
+        var popup_33a11e417fff32d0523dab090408f986 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a27d85eb5c1fe20cdb53f842c877f57a = $(`<div id="html_a27d85eb5c1fe20cdb53f842c877f57a" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 11/25/2016<br>Time: 7:48<br>City: Corpus Christi<br>Shape: Unknown<br>Summary: I have a picture. ((NUFORC Note: Lens flare? PD))</div>`)[0];
+                popup_33a11e417fff32d0523dab090408f986.setContent(html_a27d85eb5c1fe20cdb53f842c877f57a);
+            
+        
+
+        marker_7cc1198362715883f7c30b7a2291bd40.bindPopup(popup_33a11e417fff32d0523dab090408f986)
+        ;
+
+        
+    
+    
+            var marker_8bc868f907625254d4ac317c61c58500 = L.marker(
+                [33.1976496, -96.615447],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_5bce0969b7a8b4adafcc18e08adf7624 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_8bc868f907625254d4ac317c61c58500.setIcon(icon_5bce0969b7a8b4adafcc18e08adf7624);
+        
+    
+        var popup_ad2d915d5ec262842b070bd691370f9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_463bb8d65093bb3668c940c56a16246f = $(`<div id="html_463bb8d65093bb3668c940c56a16246f" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 11/20/2016<br>Time: 0:00<br>City: McKinney<br>Shape: Light<br>Summary: Four to six light clusters in eastern sky.</div>`)[0];
+                popup_ad2d915d5ec262842b070bd691370f9f.setContent(html_463bb8d65093bb3668c940c56a16246f);
+            
+        
+
+        marker_8bc868f907625254d4ac317c61c58500.bindPopup(popup_ad2d915d5ec262842b070bd691370f9f)
+        ;
+
+        
+    
+    
+            var marker_08b9483ccafb4f98722ea6241facb2ba = L.marker(
+                [32.8629195, -96.97917017],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_6b3d299332cbc2333718f3eb7047e8a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_08b9483ccafb4f98722ea6241facb2ba.setIcon(icon_6b3d299332cbc2333718f3eb7047e8a1);
+        
+    
+        var popup_6241840620d1d418b921b1c41de859a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47d230cfe03fe65422509f84d6dcb45c = $(`<div id="html_47d230cfe03fe65422509f84d6dcb45c" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 11/14/2016<br>Time: 19:21<br>City: Irving<br>Shape: Other<br>Summary: Two observers. Both are professionals working in Children's television. One  of which is the producer of a network locally in Fort Worth</div>`)[0];
+                popup_6241840620d1d418b921b1c41de859a1.setContent(html_47d230cfe03fe65422509f84d6dcb45c);
+            
+        
+
+        marker_08b9483ccafb4f98722ea6241facb2ba.bindPopup(popup_6241840620d1d418b921b1c41de859a1)
+        ;
+
+        
+    
+    
+            var marker_65cb8576b3c0e2ef8ba088b7a6038ff0 = L.marker(
+                [32.8465405, -97.06673619],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_f89ca8aceaa6aabc2def9958c5bb5c7d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_65cb8576b3c0e2ef8ba088b7a6038ff0.setIcon(icon_f89ca8aceaa6aabc2def9958c5bb5c7d);
+        
+    
+        var popup_3961342a2ad3ba77afc37115f40a9fd7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08bb78b20da38022319a005a12b00cb9 = $(`<div id="html_08bb78b20da38022319a005a12b00cb9" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 10/11/2016<br>Time: 6:40<br>City: Euless<br>Shape: Circle<br>Summary: Bright red object in early night sky. Turned to purple moved horizontally  and quickly vanished.</div>`)[0];
+                popup_3961342a2ad3ba77afc37115f40a9fd7.setContent(html_08bb78b20da38022319a005a12b00cb9);
+            
+        
+
+        marker_65cb8576b3c0e2ef8ba088b7a6038ff0.bindPopup(popup_3961342a2ad3ba77afc37115f40a9fd7)
+        ;
+
+        
+    
+    
+            var marker_f388ad0bd6339e0ea39668c04f6607ee = L.marker(
+                [30.1902067, -98.086678],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_28ade45977f8338eb857cd74d15a394a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_f388ad0bd6339e0ea39668c04f6607ee.setIcon(icon_28ade45977f8338eb857cd74d15a394a);
+        
+    
+        var popup_a482b5a0e1a4e023951770091d49e637 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7edf476daa1efcccf26107efec060bd = $(`<div id="html_a7edf476daa1efcccf26107efec060bd" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 6/11/2016<br>Time: 9:20<br>City: Dripping Springs<br>Shape: Light<br>Summary: Multiple white lights moving as a group west out of Austin, Texas</div>`)[0];
+                popup_a482b5a0e1a4e023951770091d49e637.setContent(html_a7edf476daa1efcccf26107efec060bd);
+            
+        
+
+        marker_f388ad0bd6339e0ea39668c04f6607ee.bindPopup(popup_a482b5a0e1a4e023951770091d49e637)
+        ;
+
+        
+    
+    
+            var marker_29664534073de900003b535cb2faf7a5 = L.marker(
+                [29.4238472, -95.2441008],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_0cf1133c7116f047483ecc3ff902bf71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_29664534073de900003b535cb2faf7a5.setIcon(icon_0cf1133c7116f047483ecc3ff902bf71);
+        
+    
+        var popup_0568121aa57a4dc0733acd992f1f4110 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_438142dfd5e7d0a64db9095f8f566446 = $(`<div id="html_438142dfd5e7d0a64db9095f8f566446" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 4/11/2016<br>Time: 7:05<br>City: Alvin<br>Shape: Circle<br>Summary: Driving home from the store, I looked up at the sky I notice what seem to  be five asteroids or fiery balls of fire line up. When it go</div>`)[0];
+                popup_0568121aa57a4dc0733acd992f1f4110.setContent(html_438142dfd5e7d0a64db9095f8f566446);
+            
+        
+
+        marker_29664534073de900003b535cb2faf7a5.bindPopup(popup_0568121aa57a4dc0733acd992f1f4110)
+        ;
+
+        
+    
+    
+            var marker_b493e1de1b7c4fbc056087bc95e556c6 = L.marker(
+                [29.675779, -95.40215851],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_510bdd0d2dace9d1b48e2a2ea462fb66 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_b493e1de1b7c4fbc056087bc95e556c6.setIcon(icon_510bdd0d2dace9d1b48e2a2ea462fb66);
+        
+    
+        var popup_05cb79f8fd58556ec203bdd2acbd9ddb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2bb31f816d53202dc4417bda02624ffa = $(`<div id="html_2bb31f816d53202dc4417bda02624ffa" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 4/11/2016<br>Time: 7:00<br>City: Houston<br>Shape: Formation<br>Summary: Formation of 6 or 7 fireballs hovering in the sky above Sugarland, TX</div>`)[0];
+                popup_05cb79f8fd58556ec203bdd2acbd9ddb.setContent(html_2bb31f816d53202dc4417bda02624ffa);
+            
+        
+
+        marker_b493e1de1b7c4fbc056087bc95e556c6.bindPopup(popup_05cb79f8fd58556ec203bdd2acbd9ddb)
+        ;
+
+        
+    
+    
+            var marker_dad47dd8ce35fde9d2b317dda0a11115 = L.marker(
+                [27.7903032, -97.6688842],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_2fca1a45a29403414653ba543025143c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_dad47dd8ce35fde9d2b317dda0a11115.setIcon(icon_2fca1a45a29403414653ba543025143c);
+        
+    
+        var popup_825e6a21e386df591a71b79c1d644e0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e412e0dfe40cf108781e627f8d26fa2 = $(`<div id="html_8e412e0dfe40cf108781e627f8d26fa2" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 1/11/2016<br>Time: 10:15<br>City: Robstown<br>Shape: Circle<br>Summary: The object was round and had a red light with a blinking green light.</div>`)[0];
+                popup_825e6a21e386df591a71b79c1d644e0c.setContent(html_8e412e0dfe40cf108781e627f8d26fa2);
+            
+        
+
+        marker_dad47dd8ce35fde9d2b317dda0a11115.bindPopup(popup_825e6a21e386df591a71b79c1d644e0c)
+        ;
+
+        
+    
+    
+            var marker_e8cd2496bc67bf6c0e97ef6755486d79 = L.marker(
+                [29.675779, -95.40215851],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_936af978be4ae928a25a50408f748ede = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_e8cd2496bc67bf6c0e97ef6755486d79.setIcon(icon_936af978be4ae928a25a50408f748ede);
+        
+    
+        var popup_d8cd7782bc996000277af6248d3640ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c21802525ed39e10b5e68017f802fd54 = $(`<div id="html_c21802525ed39e10b5e68017f802fd54" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 1/11/2016<br>Time: 12:01<br>City: Houston<br>Shape: Circle<br>Summary: We were in River Oaks at a stop light right by River Oaks movie theater. My  husband and I were talking and were at a red light.</div>`)[0];
+                popup_d8cd7782bc996000277af6248d3640ed.setContent(html_c21802525ed39e10b5e68017f802fd54);
+            
+        
+
+        marker_e8cd2496bc67bf6c0e97ef6755486d79.bindPopup(popup_d8cd7782bc996000277af6248d3640ed)
+        ;
+
+        
+    
+    
+            var marker_744f45328f52c93490a69ec04faa368f = L.marker(
+                [29.5688411, -97.9647268],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_46a4f1ce894ee77f0e53c2ae60a027bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_744f45328f52c93490a69ec04faa368f.setIcon(icon_46a4f1ce894ee77f0e53c2ae60a027bd);
+        
+    
+        var popup_a98071be8216894a746f5fcf73adf81c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d55efcaa2917953a13142089847727a = $(`<div id="html_9d55efcaa2917953a13142089847727a" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 10/30/2016<br>Time: 19:46<br>City: Seguin<br>Shape: Cone<br>Summary: Long, cone-shaped, object with white, red and green lights seen by 2 people.</div>`)[0];
+                popup_a98071be8216894a746f5fcf73adf81c.setContent(html_9d55efcaa2917953a13142089847727a);
+            
+        
+
+        marker_744f45328f52c93490a69ec04faa368f.bindPopup(popup_a98071be8216894a746f5fcf73adf81c)
+        ;
+
+        
+    
+    
+            var marker_f17bfdb0b3af3fd1e4bf798ccaea8d75 = L.marker(
+                [29.4238472, -95.2441008],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_33be14d18748e7c99079263636622e27 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_f17bfdb0b3af3fd1e4bf798ccaea8d75.setIcon(icon_33be14d18748e7c99079263636622e27);
+        
+    
+        var popup_fff2d06184fe7b50165d884ea7b79c7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a8ab4241c6bd4f0bf581d3354ac06d7 = $(`<div id="html_4a8ab4241c6bd4f0bf581d3354ac06d7" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 10/29/2016<br>Time: 2:21<br>City: Alvin<br>Shape: Light<br>Summary: 1 very bright, large flashing light colors or red, blue, green white and  moving side to side and diangle.((NUFORC Note: Star? PD))</div>`)[0];
+                popup_fff2d06184fe7b50165d884ea7b79c7c.setContent(html_4a8ab4241c6bd4f0bf581d3354ac06d7);
+            
+        
+
+        marker_f17bfdb0b3af3fd1e4bf798ccaea8d75.bindPopup(popup_fff2d06184fe7b50165d884ea7b79c7c)
+        ;
+
+        
+    
+    
+            var marker_e2ab058754f34a9335153f25f2a896c8 = L.marker(
+                [30.7573109, -98.2289006],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_129ce36ecb59c2bde2b671620207930f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_e2ab058754f34a9335153f25f2a896c8.setIcon(icon_129ce36ecb59c2bde2b671620207930f);
+        
+    
+        var popup_e395680a569c38df830fbe600b62e6b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4613d72fe1bf90e0e11dddbf474d91b9 = $(`<div id="html_4613d72fe1bf90e0e11dddbf474d91b9" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 10/28/2016<br>Time: 0:30<br>City: Burnet<br>Shape: Fireball<br>Summary: A fireball to the eye, but through binoculars it was a saucer with lights  around the bottom.</div>`)[0];
+                popup_e395680a569c38df830fbe600b62e6b6.setContent(html_4613d72fe1bf90e0e11dddbf474d91b9);
+            
+        
+
+        marker_e2ab058754f34a9335153f25f2a896c8.bindPopup(popup_e395680a569c38df830fbe600b62e6b6)
+        ;
+
+        
+    
+    
+            var marker_ee637cd468f6faf014ff39d9231b05ce = L.marker(
+                [32.753177, -97.3327458],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_b8e8c081f40990e07e58cca3bcb06712 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_ee637cd468f6faf014ff39d9231b05ce.setIcon(icon_b8e8c081f40990e07e58cca3bcb06712);
+        
+    
+        var popup_1d785a5196d2cc70389ca9b9d163e0ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f3defea78e6472edb84c64c47261587 = $(`<div id="html_2f3defea78e6472edb84c64c47261587" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 10/26/2016<br>Time: 17:30<br>City: Fort Worth<br>Shape: Cigar<br>Summary: Noticed something very bright reflecting the sun.</div>`)[0];
+                popup_1d785a5196d2cc70389ca9b9d163e0ab.setContent(html_2f3defea78e6472edb84c64c47261587);
+            
+        
+
+        marker_ee637cd468f6faf014ff39d9231b05ce.bindPopup(popup_1d785a5196d2cc70389ca9b9d163e0ab)
+        ;
+
+        
+    
+    
+            var marker_24a7eef7b7e1836c7bed9ad978a66e68 = L.marker(
+                [33.353949, -97.69372387],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_ba3c9414e4ccd1625043e6eb5725c760 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_24a7eef7b7e1836c7bed9ad978a66e68.setIcon(icon_ba3c9414e4ccd1625043e6eb5725c760);
+        
+    
+        var popup_bad534d4c831182b8b073ed526679cd2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39522c0f857754639bece7b0ecbd38c0 = $(`<div id="html_39522c0f857754639bece7b0ecbd38c0" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 10/22/2016<br>Time: 20:00<br>City: Alvord<br>Shape: Triangle<br>Summary: 3 green lights triangle Alvord, Texas.</div>`)[0];
+                popup_bad534d4c831182b8b073ed526679cd2.setContent(html_39522c0f857754639bece7b0ecbd38c0);
+            
+        
+
+        marker_24a7eef7b7e1836c7bed9ad978a66e68.bindPopup(popup_bad534d4c831182b8b073ed526679cd2)
+        ;
+
+        
+    
+    
+            var marker_9b1e2e39079922147e9ce2c44e7c0d41 = L.marker(
+                [33.2618362, -97.2374667],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_7ea0573f6325a96876795e7eb4e0efe2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_9b1e2e39079922147e9ce2c44e7c0d41.setIcon(icon_7ea0573f6325a96876795e7eb4e0efe2);
+        
+    
+        var popup_05d3d5bb22febe04d3886fb9e44016f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_958956d25b0bac606536982fac80c907 = $(`<div id="html_958956d25b0bac606536982fac80c907" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 10/22/2016<br>Time: 14:25<br>City: Krum<br>Shape: Disk<br>Summary: Fighter jets being followed by silver disc heading towards Lockheed in Ft.  Worth, TX.</div>`)[0];
+                popup_05d3d5bb22febe04d3886fb9e44016f6.setContent(html_958956d25b0bac606536982fac80c907);
+            
+        
+
+        marker_9b1e2e39079922147e9ce2c44e7c0d41.bindPopup(popup_05d3d5bb22febe04d3886fb9e44016f6)
+        ;
+
+        
+    
+    
+            var marker_8b93671ec754c6b9fc3e60850e8187d0 = L.marker(
+                [32.9537349, -96.8902815],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_bc98c0474c3025e4d38921c9df87d3f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_8b93671ec754c6b9fc3e60850e8187d0.setIcon(icon_bc98c0474c3025e4d38921c9df87d3f8);
+        
+    
+        var popup_b16c3e945d902c47330548157b3df0f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_54d300b4cf6cf590b72faa27a1e993ef = $(`<div id="html_54d300b4cf6cf590b72faa27a1e993ef" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 10/21/2016<br>Time: 12:40<br>City: Carrollton<br>Shape: Sphere<br>Summary: White in color with a white tail sperical shape. ((NUFORC Note: Possibly a  high-altitude a/c, with a contrail behind it? PD))</div>`)[0];
+                popup_b16c3e945d902c47330548157b3df0f5.setContent(html_54d300b4cf6cf590b72faa27a1e993ef);
+            
+        
+
+        marker_8b93671ec754c6b9fc3e60850e8187d0.bindPopup(popup_b16c3e945d902c47330548157b3df0f5)
+        ;
+
+        
+    
+    
+            var marker_39a2d34f57265137a32cbfe2fdb7cbf8 = L.marker(
+                [31.124062, -97.9030784],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_b6038c23964e314f36dd19ee0480d4bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_39a2d34f57265137a32cbfe2fdb7cbf8.setIcon(icon_b6038c23964e314f36dd19ee0480d4bc);
+        
+    
+        var popup_a0552011ef68343c0fa36b4fb8ba509a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7633884e4b034d87f97886b2c36479e = $(`<div id="html_b7633884e4b034d87f97886b2c36479e" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 10/20/2016<br>Time: 20:10<br>City: Copperas Cove<br>Shape: Circle<br>Summary: Yellow motionless sphere.</div>`)[0];
+                popup_a0552011ef68343c0fa36b4fb8ba509a.setContent(html_b7633884e4b034d87f97886b2c36479e);
+            
+        
+
+        marker_39a2d34f57265137a32cbfe2fdb7cbf8.bindPopup(popup_a0552011ef68343c0fa36b4fb8ba509a)
+        ;
+
+        
+    
+    
+            var marker_23fbeda6532f016c7d2db3253b422e3b = L.marker(
+                [32.5631924, -97.1416767],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_fdaa9c515e41be46df8635f3d18bc6f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_23fbeda6532f016c7d2db3253b422e3b.setIcon(icon_fdaa9c515e41be46df8635f3d18bc6f4);
+        
+    
+        var popup_fcc353a46953791cbba1ce4177923cde = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49e7257b37b33405d2d5a92647b4f813 = $(`<div id="html_49e7257b37b33405d2d5a92647b4f813" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 10/16/2016<br>Time: 21:31<br>City: Mansfield<br>Shape: Light<br>Summary: Orbital object in the sky hovering over Hwy 360 south of Hwy I-20 remaining  stationary. There are lights illuminating from the object;</div>`)[0];
+                popup_fcc353a46953791cbba1ce4177923cde.setContent(html_49e7257b37b33405d2d5a92647b4f813);
+            
+        
+
+        marker_23fbeda6532f016c7d2db3253b422e3b.bindPopup(popup_fcc353a46953791cbba1ce4177923cde)
+        ;
+
+        
+    
+    
+            var marker_c5b1514ba07afcfac8871d387fbaa1c9 = L.marker(
+                [29.675779, -95.40215851],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_50b574431e23fd1fed5c52e0c4378f2f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_c5b1514ba07afcfac8871d387fbaa1c9.setIcon(icon_50b574431e23fd1fed5c52e0c4378f2f);
+        
+    
+        var popup_50f52335776e40c62419d0af4cde1be5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b656e7cae4d583fb2fe5136113f1e8bd = $(`<div id="html_b656e7cae4d583fb2fe5136113f1e8bd" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 10/15/2016<br>Time: 17:00<br>City: Houston<br>Shape: Diamond<br>Summary: Small bright diamond, exposed by the sun.</div>`)[0];
+                popup_50f52335776e40c62419d0af4cde1be5.setContent(html_b656e7cae4d583fb2fe5136113f1e8bd);
+            
+        
+
+        marker_c5b1514ba07afcfac8871d387fbaa1c9.bindPopup(popup_50f52335776e40c62419d0af4cde1be5)
+        ;
+
+        
+    
+    
+            var marker_9a8cae2f5398170403cd43b94a02651a = L.marker(
+                [29.4246002, -98.4951404],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_d781413ffb19b51d2b8e3234010b3cbc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_9a8cae2f5398170403cd43b94a02651a.setIcon(icon_d781413ffb19b51d2b8e3234010b3cbc);
+        
+    
+        var popup_89a757c527809a0e0f746a8affe8c2e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb23f75c82672f305f8cf16a0c1ef506 = $(`<div id="html_cb23f75c82672f305f8cf16a0c1ef506" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 10/13/2016<br>Time: 20:36<br>City: San Antonio<br>Shape: Diamond<br>Summary: A diamond shaped craft with white lights.</div>`)[0];
+                popup_89a757c527809a0e0f746a8affe8c2e4.setContent(html_cb23f75c82672f305f8cf16a0c1ef506);
+            
+        
+
+        marker_9a8cae2f5398170403cd43b94a02651a.bindPopup(popup_89a757c527809a0e0f746a8affe8c2e4)
+        ;
+
+        
+    
+    
+            var marker_1c759b98f79bfcb0ec9ae168cc6bf67e = L.marker(
+                [29.675779, -95.40215851],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_56fe1c3113e6ba4cf158ebb56422b77f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_1c759b98f79bfcb0ec9ae168cc6bf67e.setIcon(icon_56fe1c3113e6ba4cf158ebb56422b77f);
+        
+    
+        var popup_2cca8863cb5db7a0b26da8ef65a5e6d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24d61cfd4d7caa5736926bfdf2202bb8 = $(`<div id="html_24d61cfd4d7caa5736926bfdf2202bb8" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 10/13/2016<br>Time: 17:00<br>City: Houston<br>Shape: Diamond<br>Summary: Update to my report.</div>`)[0];
+                popup_2cca8863cb5db7a0b26da8ef65a5e6d9.setContent(html_24d61cfd4d7caa5736926bfdf2202bb8);
+            
+        
+
+        marker_1c759b98f79bfcb0ec9ae168cc6bf67e.bindPopup(popup_2cca8863cb5db7a0b26da8ef65a5e6d9)
+        ;
+
+        
+    
+    
+            var marker_0d89f60588337a1cc9291c6d21cd1077 = L.marker(
+                [32.4420826, -97.7941966],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_886723435224041d568eca8c8edb0f03 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_0d89f60588337a1cc9291c6d21cd1077.setIcon(icon_886723435224041d568eca8c8edb0f03);
+        
+    
+        var popup_0812c4555640f9c738ea8fbf769e8556 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_114ef72813d7582a02cd9478dbc3df86 = $(`<div id="html_114ef72813d7582a02cd9478dbc3df86" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 11/10/2016<br>Time: 7:30<br>City: Granbury<br>Shape: Cone<br>Summary: Unknown object in the west north sky after sundown.</div>`)[0];
+                popup_0812c4555640f9c738ea8fbf769e8556.setContent(html_114ef72813d7582a02cd9478dbc3df86);
+            
+        
+
+        marker_0d89f60588337a1cc9291c6d21cd1077.bindPopup(popup_0812c4555640f9c738ea8fbf769e8556)
+        ;
+
+        
+    
+    
+            var marker_d450b47654934df14680638c80ce6829 = L.marker(
+                [30.2711286, -97.7436994],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_bb0f6e268774e80624edae8fab21ffa3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_d450b47654934df14680638c80ce6829.setIcon(icon_bb0f6e268774e80624edae8fab21ffa3);
+        
+    
+        var popup_4f38e08f77912491f62c576f1d9fd246 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f8a1b7da545bf8b5de2b3212053f962 = $(`<div id="html_5f8a1b7da545bf8b5de2b3212053f962" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 10/10/2016<br>Time: 9:40<br>City: Austin<br>Shape: Unknown<br>Summary: Strip of bright orange lights in a "S" shape or 2, rotating slowly, moving  slow and silent heading east. ((anonymous report))</div>`)[0];
+                popup_4f38e08f77912491f62c576f1d9fd246.setContent(html_5f8a1b7da545bf8b5de2b3212053f962);
+            
+        
+
+        marker_d450b47654934df14680638c80ce6829.bindPopup(popup_4f38e08f77912491f62c576f1d9fd246)
+        ;
+
+        
+    
+    
+            var marker_31fdacc2d678ca56afeec6caea538d33 = L.marker(
+                [30.0474332, -99.1403188],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_79c3d84de58cbca1e5631f3fafa87299 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_31fdacc2d678ca56afeec6caea538d33.setIcon(icon_79c3d84de58cbca1e5631f3fafa87299);
+        
+    
+        var popup_2653a93f76488418247bbbef78d43b76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91dd9cc0d7d668fd8f02c2293e2df0ef = $(`<div id="html_91dd9cc0d7d668fd8f02c2293e2df0ef" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 10/10/2016<br>Time: 5:00<br>City: Kerrville<br>Shape: Triangle<br>Summary: Red triangular lights and sphere witnessed by 3 people in early morning sky  in Texas.</div>`)[0];
+                popup_2653a93f76488418247bbbef78d43b76.setContent(html_91dd9cc0d7d668fd8f02c2293e2df0ef);
+            
+        
+
+        marker_31fdacc2d678ca56afeec6caea538d33.bindPopup(popup_2653a93f76488418247bbbef78d43b76)
+        ;
+
+        
+    
+    
+            var marker_0a207f47b98bb5f8db3645f773d522c5 = L.marker(
+                [33.1976496, -96.615447],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_a01a2cb280cb2b8ba43db293f671ca57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_0a207f47b98bb5f8db3645f773d522c5.setIcon(icon_a01a2cb280cb2b8ba43db293f671ca57);
+        
+    
+        var popup_c8233733100dd0ce8c1119dfad013bfa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a78c56cf4e8af852561e02e296ef9732 = $(`<div id="html_a78c56cf4e8af852561e02e296ef9732" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 9/10/2016<br>Time: 1:05<br>City: McKinney<br>Shape: Light<br>Summary: Light moving N to S over McKinney.</div>`)[0];
+                popup_c8233733100dd0ce8c1119dfad013bfa.setContent(html_a78c56cf4e8af852561e02e296ef9732);
+            
+        
+
+        marker_0a207f47b98bb5f8db3645f773d522c5.bindPopup(popup_c8233733100dd0ce8c1119dfad013bfa)
+        ;
+
+        
+    
+    
+            var marker_ee2311dd953a0a6456a870966f99d8d0 = L.marker(
+                [33.0151208, -96.6130477],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_01da8d18ef039da43dc53e2e2a06c52c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_ee2311dd953a0a6456a870966f99d8d0.setIcon(icon_01da8d18ef039da43dc53e2e2a06c52c);
+        
+    
+        var popup_7110f4c94e197fb60d929678be140442 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e032dd8cb2b85a885f33ba34b4188dc = $(`<div id="html_3e032dd8cb2b85a885f33ba34b4188dc" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 2/10/2016<br>Time: 8:45<br>City: Murphy<br>Shape: Rectangle<br>Summary: Sitting in backyard with my wife facing the South sky. We both noticed a  dull bronze colored rectangle heading in a straight line from</div>`)[0];
+                popup_7110f4c94e197fb60d929678be140442.setContent(html_3e032dd8cb2b85a885f33ba34b4188dc);
+            
+        
+
+        marker_ee2311dd953a0a6456a870966f99d8d0.bindPopup(popup_7110f4c94e197fb60d929678be140442)
+        ;
+
+        
+    
+    
+            var marker_9b4240d932fd92e0233136b156c693d1 = L.marker(
+                [29.675779, -95.40215851],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_ad5608040178f96930b983e4a5240618 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_9b4240d932fd92e0233136b156c693d1.setIcon(icon_ad5608040178f96930b983e4a5240618);
+        
+    
+        var popup_e1978f5edec80c06d01892e0e71a99b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d645403db1ff5a9f108a40d522fa5d8 = $(`<div id="html_4d645403db1ff5a9f108a40d522fa5d8" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 2/10/2016<br>Time: 4:30<br>City: Houston<br>Shape: Circle<br>Summary: Houston, TX, sighting of strange lights and power/signal outage.</div>`)[0];
+                popup_e1978f5edec80c06d01892e0e71a99b4.setContent(html_4d645403db1ff5a9f108a40d522fa5d8);
+            
+        
+
+        marker_9b4240d932fd92e0233136b156c693d1.bindPopup(popup_e1978f5edec80c06d01892e0e71a99b4)
+        ;
+
+        
+    
+    
+            var marker_444b1ef166449041395e3e8bd6e3067b = L.marker(
+                [33.0136764, -96.6925095],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_eacb9de6016362459ffc8cb2eb10d740 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_444b1ef166449041395e3e8bd6e3067b.setIcon(icon_eacb9de6016362459ffc8cb2eb10d740);
+        
+    
+        var popup_5a432d75001ec7d2c7a76c4b836bfa9e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_179bea89e4b2d0c5e00714cb130153b7 = $(`<div id="html_179bea89e4b2d0c5e00714cb130153b7" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 1/10/2016<br>Time: 8:41<br>City: Plano<br>Shape: Light<br>Summary: Royal blue blinking lights in formation across North Dallas sky.</div>`)[0];
+                popup_5a432d75001ec7d2c7a76c4b836bfa9e.setContent(html_179bea89e4b2d0c5e00714cb130153b7);
+            
+        
+
+        marker_444b1ef166449041395e3e8bd6e3067b.bindPopup(popup_5a432d75001ec7d2c7a76c4b836bfa9e)
+        ;
+
+        
+    
+    
+            var marker_c0aa0ad259abb2fbc34f2701eeb8e93a = L.marker(
+                [32.7481864, -98.0092092],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_155657d8b4ac4791254ebff4f03f7682 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_c0aa0ad259abb2fbc34f2701eeb8e93a.setIcon(icon_155657d8b4ac4791254ebff4f03f7682);
+        
+    
+        var popup_cc9555bf4af29090ce2db33a952cd20f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ec6cdd05635ceed14f463089bbbd7cf = $(`<div id="html_7ec6cdd05635ceed14f463089bbbd7cf" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 1/10/2016<br>Time: 8:35<br>City: Millsap<br>Shape: Disk<br>Summary: Bright blue flying saucer near Stephenville, TX, with a small plane  following it.</div>`)[0];
+                popup_cc9555bf4af29090ce2db33a952cd20f.setContent(html_7ec6cdd05635ceed14f463089bbbd7cf);
+            
+        
+
+        marker_c0aa0ad259abb2fbc34f2701eeb8e93a.bindPopup(popup_cc9555bf4af29090ce2db33a952cd20f)
+        ;
+
+        
+    
+    
+            var marker_7e86dee9f48bb5ad80e36b531b03ce2c = L.marker(
+                [35.2072185, -101.8338245],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_57e810154864f821689547959d561f26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_7e86dee9f48bb5ad80e36b531b03ce2c.setIcon(icon_57e810154864f821689547959d561f26);
+        
+    
+        var popup_9a80b97f4e8e38634a1fd661a0399347 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a198373218062d52f69d45d7a0b13232 = $(`<div id="html_a198373218062d52f69d45d7a0b13232" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 9/27/2016<br>Time: 15:10<br>City: Amarillo<br>Shape: Teardrop<br>Summary: Round, Shiny, almost transparent, still object in the sky, facing West</div>`)[0];
+                popup_9a80b97f4e8e38634a1fd661a0399347.setContent(html_a198373218062d52f69d45d7a0b13232);
+            
+        
+
+        marker_7e86dee9f48bb5ad80e36b531b03ce2c.bindPopup(popup_9a80b97f4e8e38634a1fd661a0399347)
+        ;
+
+        
+    
+    
+            var marker_a705411ece2a5e71eba4860d1c8e2399 = L.marker(
+                [32.7762719, -96.7968558],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_1b980bc5b862c72c413bc50b62803ea0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_a705411ece2a5e71eba4860d1c8e2399.setIcon(icon_1b980bc5b862c72c413bc50b62803ea0);
+        
+    
+        var popup_a0df8595f645b695819d5c5a2cac7355 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2410606ff3b6693b5ffc74d71c01b7df = $(`<div id="html_2410606ff3b6693b5ffc74d71c01b7df" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 9/26/2016<br>Time: 21:50<br>City: Dallas<br>Shape: Light<br>Summary: During the dallas cowboy football game on tv a camera pointed at the dallas  skyline picked up an object of light moving from rt to left</div>`)[0];
+                popup_a0df8595f645b695819d5c5a2cac7355.setContent(html_2410606ff3b6693b5ffc74d71c01b7df);
+            
+        
+
+        marker_a705411ece2a5e71eba4860d1c8e2399.bindPopup(popup_a0df8595f645b695819d5c5a2cac7355)
+        ;
+
+        
+    
+    
+            var marker_37dbd7c84ee7b5dfe347727cce1d441d = L.marker(
+                [30.0466051, -94.8852025],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_833434cf2d4b42f13942f0d449ee26d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_37dbd7c84ee7b5dfe347727cce1d441d.setIcon(icon_833434cf2d4b42f13942f0d449ee26d7);
+        
+    
+        var popup_fbe327d929a6e2330ff7c404ab43b409 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4bffde0ff63c54fe4ba83aa98c3d7d37 = $(`<div id="html_4bffde0ff63c54fe4ba83aa98c3d7d37" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 9/25/2016<br>Time: 0:09<br>City: Dayton<br>Shape: Triangle<br>Summary: ((HOAX??)) Boomerang style craft. ((anonymous report))</div>`)[0];
+                popup_fbe327d929a6e2330ff7c404ab43b409.setContent(html_4bffde0ff63c54fe4ba83aa98c3d7d37);
+            
+        
+
+        marker_37dbd7c84ee7b5dfe347727cce1d441d.bindPopup(popup_fbe327d929a6e2330ff7c404ab43b409)
+        ;
+
+        
+    
+    
+            var marker_27218da69c7ec432054daea0a3562694 = L.marker(
+                [27.7522487, -98.0697248],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_ce63e8d3547006863076410d14f491c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_27218da69c7ec432054daea0a3562694.setIcon(icon_ce63e8d3547006863076410d14f491c7);
+        
+    
+        var popup_832b294e49d88b282d1dcc9b2d5571c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd49798ccb54858c07d953b699fbebdf = $(`<div id="html_fd49798ccb54858c07d953b699fbebdf" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 9/24/2016<br>Time: 4:00<br>City: Alice<br>Shape: Light<br>Summary: A bright light in the sky!</div>`)[0];
+                popup_832b294e49d88b282d1dcc9b2d5571c1.setContent(html_fd49798ccb54858c07d953b699fbebdf);
+            
+        
+
+        marker_27218da69c7ec432054daea0a3562694.bindPopup(popup_832b294e49d88b282d1dcc9b2d5571c1)
+        ;
+
+        
+    
+    
+            var marker_713606a62c741a153eda6b48f1cd28cc = L.marker(
+                [30.2711286, -97.7436994],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_f741b011a0b4c3550ef1b8e1f6a1bd91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_713606a62c741a153eda6b48f1cd28cc.setIcon(icon_f741b011a0b4c3550ef1b8e1f6a1bd91);
+        
+    
+        var popup_008ce91061835794d2491b5eb1b4022f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e67edaa6d5b65c65efe38682a5ba811 = $(`<div id="html_1e67edaa6d5b65c65efe38682a5ba811" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 9/21/2016<br>Time: 19:50<br>City: Austin<br>Shape: Unknown<br>Summary: Security camera facing south recorded a brief very bright pinkish flash in  the entire sky.</div>`)[0];
+                popup_008ce91061835794d2491b5eb1b4022f.setContent(html_1e67edaa6d5b65c65efe38682a5ba811);
+            
+        
+
+        marker_713606a62c741a153eda6b48f1cd28cc.bindPopup(popup_008ce91061835794d2491b5eb1b4022f)
+        ;
+
+        
+    
+    
+            var marker_27c18abb10266203cc596f3dad616a17 = L.marker(
+                [31.802096, -98.1897588],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_55229b3077cf13d8c974ab6815d83e8b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_27c18abb10266203cc596f3dad616a17.setIcon(icon_55229b3077cf13d8c974ab6815d83e8b);
+        
+    
+        var popup_33e37a189da3c358ef289abaaad5507b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_576653c4024858e38847da76ebce66b3 = $(`<div id="html_576653c4024858e38847da76ebce66b3" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 9/20/2016<br>Time: 22:13<br>City: Springtown<br>Shape: Oval<br>Summary: Strange craft and flight pattern seen in Springtown Texas night sky.</div>`)[0];
+                popup_33e37a189da3c358ef289abaaad5507b.setContent(html_576653c4024858e38847da76ebce66b3);
+            
+        
+
+        marker_27c18abb10266203cc596f3dad616a17.bindPopup(popup_33e37a189da3c358ef289abaaad5507b)
+        ;
+
+        
+    
+    
+            var marker_2850047f2412e4cf9ce11024f133ccca = L.marker(
+                [33.1506744, -96.8236115],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_c2a443651068199b257a7bfa79aa66cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_2850047f2412e4cf9ce11024f133ccca.setIcon(icon_c2a443651068199b257a7bfa79aa66cb);
+        
+    
+        var popup_91e329bf96ff59061db2a11bf2e6587d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22db0d32441b1766bebda3e271d523f8 = $(`<div id="html_22db0d32441b1766bebda3e271d523f8" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 9/16/2016<br>Time: 21:00<br>City: Frisco<br>Shape: Flash<br>Summary: Flashing orange lights above the clouds in Texas.</div>`)[0];
+                popup_91e329bf96ff59061db2a11bf2e6587d.setContent(html_22db0d32441b1766bebda3e271d523f8);
+            
+        
+
+        marker_2850047f2412e4cf9ce11024f133ccca.bindPopup(popup_91e329bf96ff59061db2a11bf2e6587d)
+        ;
+
+        
+    
+    
+            var marker_bb3e667f42a828f04f2a84f8a67c6c74 = L.marker(
+                [29.584395, -98.9489192],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_83b65905258d9fadc9eb01ef2d6c5b8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_bb3e667f42a828f04f2a84f8a67c6c74.setIcon(icon_83b65905258d9fadc9eb01ef2d6c5b8c);
+        
+    
+        var popup_d89d72540bfadda598a9582fde01fba9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_856ac272bc7fc13ead76efddfec645e3 = $(`<div id="html_856ac272bc7fc13ead76efddfec645e3" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 9/15/2016<br>Time: 21:00<br>City: Lakehills<br>Shape: Sphere<br>Summary: Large spheres of light appear over Medina Lake</div>`)[0];
+                popup_d89d72540bfadda598a9582fde01fba9.setContent(html_856ac272bc7fc13ead76efddfec645e3);
+            
+        
+
+        marker_bb3e667f42a828f04f2a84f8a67c6c74.bindPopup(popup_d89d72540bfadda598a9582fde01fba9)
+        ;
+
+        
+    
+    
+            var marker_2e8b4e054da9568a6f1e3c43811aa328 = L.marker(
+                [29.8826436, -97.9405827],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_e6ebc89ce1df28f6c249091f2a97d0c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_2e8b4e054da9568a6f1e3c43811aa328.setIcon(icon_e6ebc89ce1df28f6c249091f2a97d0c5);
+        
+    
+        var popup_c3b143ed0960fbef44fe1af919088e9c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_579a9ac641aa25c3df1e4f8dca0c6b9b = $(`<div id="html_579a9ac641aa25c3df1e4f8dca0c6b9b" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 9/14/2016<br>Time: 3:05<br>City: San Marcos<br>Shape: Formation<br>Summary: Formation of bright round lights. ((anonymous report))</div>`)[0];
+                popup_c3b143ed0960fbef44fe1af919088e9c.setContent(html_579a9ac641aa25c3df1e4f8dca0c6b9b);
+            
+        
+
+        marker_2e8b4e054da9568a6f1e3c43811aa328.bindPopup(popup_c3b143ed0960fbef44fe1af919088e9c)
+        ;
+
+        
+    
+    
+            var marker_9c8cc92c4c3bbd56abe0b7a2f1c57094 = L.marker(
+                [29.584395, -98.9489192],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_c5faa1eddbb3888542347f65594d7317 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_9c8cc92c4c3bbd56abe0b7a2f1c57094.setIcon(icon_c5faa1eddbb3888542347f65594d7317);
+        
+    
+        var popup_a78533879fdf243e14d544eefb4dcbeb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_024c78c92c866b9c0f7ed0509654d1e3 = $(`<div id="html_024c78c92c866b9c0f7ed0509654d1e3" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 9/13/2016<br>Time: 21:30<br>City: Lakehills<br>Shape: Sphere<br>Summary: Orange spheres appear near Medina Lake, blinking on and off for several  minutes.</div>`)[0];
+                popup_a78533879fdf243e14d544eefb4dcbeb.setContent(html_024c78c92c866b9c0f7ed0509654d1e3);
+            
+        
+
+        marker_9c8cc92c4c3bbd56abe0b7a2f1c57094.bindPopup(popup_a78533879fdf243e14d544eefb4dcbeb)
+        ;
+
+        
+    
+    
+            var marker_5e6884498dc7a2378e1fbbe52500465e = L.marker(
+                [30.2711286, -97.7436994],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_7358d1705b3bf945fbcbb8a55283c184 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_5e6884498dc7a2378e1fbbe52500465e.setIcon(icon_7358d1705b3bf945fbcbb8a55283c184);
+        
+    
+        var popup_e09819c6b578f976d5bf5727560581f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9000224c3b8166a93d6f36ad678d37bd = $(`<div id="html_9000224c3b8166a93d6f36ad678d37bd" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 11/9/2016<br>Time: 7:43<br>City: Austin<br>Shape: Fireball<br>Summary: ((HOAX??)) Fireball passes overhead, shiny disc appears and lands.  ((anonymous report))</div>`)[0];
+                popup_e09819c6b578f976d5bf5727560581f7.setContent(html_9000224c3b8166a93d6f36ad678d37bd);
+            
+        
+
+        marker_5e6884498dc7a2378e1fbbe52500465e.bindPopup(popup_e09819c6b578f976d5bf5727560581f7)
+        ;
+
+        
+    
+    
+            var marker_78973e0c20ea16a3d477852a643efb35 = L.marker(
+                [26.1947962, -98.1836215],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_9d1fed6f9cd643822ca62418dcb411a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_78973e0c20ea16a3d477852a643efb35.setIcon(icon_9d1fed6f9cd643822ca62418dcb411a1);
+        
+    
+        var popup_326deed8359f82e262b0ea0c974b92e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fee58679297d76173626f520c937dcc0 = $(`<div id="html_fee58679297d76173626f520c937dcc0" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 10/9/2016<br>Time: 2:45<br>City: Pharr<br>Shape: Fireball<br>Summary: Fireball in the sky.</div>`)[0];
+                popup_326deed8359f82e262b0ea0c974b92e9.setContent(html_fee58679297d76173626f520c937dcc0);
+            
+        
+
+        marker_78973e0c20ea16a3d477852a643efb35.bindPopup(popup_326deed8359f82e262b0ea0c974b92e9)
+        ;
+
+        
+    
+    
+            var marker_bc065f4c229606df5c440702ecdca088 = L.marker(
+                [35.8156121, -101.9104354],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_7c4fe0ba7e11eec68dac2d820a725587 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_bc065f4c229606df5c440702ecdca088.setIcon(icon_7c4fe0ba7e11eec68dac2d820a725587);
+        
+    
+        var popup_bcbbbc0e195e98c63796a3a4f674f74e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8596262fc0ec18d1d33d0f1fd9d374fd = $(`<div id="html_8596262fc0ec18d1d33d0f1fd9d374fd" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 9/9/2016<br>Time: 11:30<br>City: Moore<br>Shape: Formation<br>Summary: 3 different strobing lights. ((anonymous report))</div>`)[0];
+                popup_bcbbbc0e195e98c63796a3a4f674f74e.setContent(html_8596262fc0ec18d1d33d0f1fd9d374fd);
+            
+        
+
+        marker_bc065f4c229606df5c440702ecdca088.bindPopup(popup_bcbbbc0e195e98c63796a3a4f674f74e)
+        ;
+
+        
+    
+    
+            var marker_3f5f79329c97000c22e982e4058f4cae = L.marker(
+                [28.8554434, -98.5316313],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_0c5e41ecc781eb8f67ba34fa34b74b8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_3f5f79329c97000c22e982e4058f4cae.setIcon(icon_0c5e41ecc781eb8f67ba34fa34b74b8e);
+        
+    
+        var popup_b89252225d4ea1e97ed7ee84da28cc10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4697403b129c2d0e6810e988a545f8da = $(`<div id="html_4697403b129c2d0e6810e988a545f8da" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 6/9/2016<br>Time: 10:00<br>City: Atascosa<br>Shape: Unknown<br>Summary: I saw 3 yellow lights in the shape of a triangle.But,it was not a spaceship  so tosay but 3 separate objects forming a triangle.</div>`)[0];
+                popup_b89252225d4ea1e97ed7ee84da28cc10.setContent(html_4697403b129c2d0e6810e988a545f8da);
+            
+        
+
+        marker_3f5f79329c97000c22e982e4058f4cae.bindPopup(popup_b89252225d4ea1e97ed7ee84da28cc10)
+        ;
+
+        
+    
+    
+            var marker_5c7eaef58d654b7b5d8ce83b3c34b79c = L.marker(
+                [29.1831247, -94.9729395],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_bd7f06a3ea5c3f689871729ff1857abc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_5c7eaef58d654b7b5d8ce83b3c34b79c.setIcon(icon_bd7f06a3ea5c3f689871729ff1857abc);
+        
+    
+        var popup_79f20a67a87f3adf6cce8654a4bc423c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f13cb8fe4cf6edc28d5b69d08133a68 = $(`<div id="html_7f13cb8fe4cf6edc28d5b69d08133a68" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 5/9/2016<br>Time: 5:20<br>City: Jamaica Beach<br>Shape: Light<br>Summary: Multiple lights in a cross shape. Flashing in an alternating pattern for  about 90 seconds until vanishing completely</div>`)[0];
+                popup_79f20a67a87f3adf6cce8654a4bc423c.setContent(html_7f13cb8fe4cf6edc28d5b69d08133a68);
+            
+        
+
+        marker_5c7eaef58d654b7b5d8ce83b3c34b79c.bindPopup(popup_79f20a67a87f3adf6cce8654a4bc423c)
+        ;
+
+        
+    
+    
+            var marker_5194a36d5b69fad84f825ebfa49dc405 = L.marker(
+                [30.4393696, -97.6200042],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_e2110c4259bb714185b68db154462748 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_5194a36d5b69fad84f825ebfa49dc405.setIcon(icon_e2110c4259bb714185b68db154462748);
+        
+    
+        var popup_b71a09906020a6bba564483352cefeac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d92047bd742a40c10ea942de3cd1c55 = $(`<div id="html_9d92047bd742a40c10ea942de3cd1c55" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 4/9/2016<br>Time: 9:00<br>City: Pflugerville<br>Shape: Fireball<br>Summary: Fireballs over central TX.</div>`)[0];
+                popup_b71a09906020a6bba564483352cefeac.setContent(html_9d92047bd742a40c10ea942de3cd1c55);
+            
+        
+
+        marker_5194a36d5b69fad84f825ebfa49dc405.bindPopup(popup_b71a09906020a6bba564483352cefeac)
+        ;
+
+        
+    
+    
+            var marker_42327ba10cb9ab66367b243600768a21 = L.marker(
+                [29.16941, -95.4318846],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_8d5c8a9c72bf06c0df62fcc25c99aa2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_42327ba10cb9ab66367b243600768a21.setIcon(icon_8d5c8a9c72bf06c0df62fcc25c99aa2a);
+        
+    
+        var popup_c9cac37b78c00ba920e5b77096346abe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b39a8074fa75b898aefe3c963b33ead7 = $(`<div id="html_b39a8074fa75b898aefe3c963b33ead7" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 2/9/2016<br>Time: 8:35<br>City: Angleton<br>Shape: Flash<br>Summary: One set of white flashing aviation lights became to singulr flashing lights.</div>`)[0];
+                popup_c9cac37b78c00ba920e5b77096346abe.setContent(html_b39a8074fa75b898aefe3c963b33ead7);
+            
+        
+
+        marker_42327ba10cb9ab66367b243600768a21.bindPopup(popup_c9cac37b78c00ba920e5b77096346abe)
+        ;
+
+        
+    
+    
+            var marker_fde58b90791096e8e88286531ec250b5 = L.marker(
+                [30.0798826, -95.4172548],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_b74d1e59563dd5a78a00db18e70bc7ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_fde58b90791096e8e88286531ec250b5.setIcon(icon_b74d1e59563dd5a78a00db18e70bc7ea);
+        
+    
+        var popup_7de0409d6f1d45f29e8cb6bd20c6b638 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d3a06887ba5b910066c83e58108d3e5 = $(`<div id="html_7d3a06887ba5b910066c83e58108d3e5" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 8/30/2016<br>Time: 22:30<br>City: Spring<br>Shape: Light<br>Summary: 4 white glows in the cloud cover circling like sparrows within a 1/4 mile.</div>`)[0];
+                popup_7de0409d6f1d45f29e8cb6bd20c6b638.setContent(html_7d3a06887ba5b910066c83e58108d3e5);
+            
+        
+
+        marker_fde58b90791096e8e88286531ec250b5.bindPopup(popup_7de0409d6f1d45f29e8cb6bd20c6b638)
+        ;
+
+        
+    
+    
+            var marker_974d2f01a286494c20a5c2c607114ba6 = L.marker(
+                [29.4246002, -98.4951404],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_7eb0c9de564c06cf2c4a3443af50bc5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_974d2f01a286494c20a5c2c607114ba6.setIcon(icon_7eb0c9de564c06cf2c4a3443af50bc5c);
+        
+    
+        var popup_95787678ecbe1006cc966c44185ac680 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf19ed3bb2e385dd7f7df1c1cde1d9fc = $(`<div id="html_bf19ed3bb2e385dd7f7df1c1cde1d9fc" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 8/26/2016<br>Time: 20:00<br>City: San Antonio<br>Shape: Light<br>Summary: I live on the northside and at 8pm I notice that dark clouds and lightning  began forming on the westside of town-my next destination. W</div>`)[0];
+                popup_95787678ecbe1006cc966c44185ac680.setContent(html_bf19ed3bb2e385dd7f7df1c1cde1d9fc);
+            
+        
+
+        marker_974d2f01a286494c20a5c2c607114ba6.bindPopup(popup_95787678ecbe1006cc966c44185ac680)
+        ;
+
+        
+    
+    
+            var marker_f6805103767946df27996ece8a93f620 = L.marker(
+                [30.5217116, -97.8278329],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_ab1ebeeb09a77163f615728fa40c4398 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_f6805103767946df27996ece8a93f620.setIcon(icon_ab1ebeeb09a77163f615728fa40c4398);
+        
+    
+        var popup_904d001d398bf99f15ebdbba66942278 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59f180d19914de2256a78ce3da38ab5b = $(`<div id="html_59f180d19914de2256a78ce3da38ab5b" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 8/25/2016<br>Time: 22:15<br>City: Cedar Park<br>Shape: Light<br>Summary: Extremely bright light grew faint and stopped.</div>`)[0];
+                popup_904d001d398bf99f15ebdbba66942278.setContent(html_59f180d19914de2256a78ce3da38ab5b);
+            
+        
+
+        marker_f6805103767946df27996ece8a93f620.bindPopup(popup_904d001d398bf99f15ebdbba66942278)
+        ;
+
+        
+    
+    
+            var marker_2359568b3864426230c40ff8ef904e73 = L.marker(
+                [29.7355047, -94.9774273],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_9fd8ccf5b8c80685f05b651cd4d72384 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_2359568b3864426230c40ff8ef904e73.setIcon(icon_9fd8ccf5b8c80685f05b651cd4d72384);
+        
+    
+        var popup_df99932f159a43675f915e88c6751ea3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28a8b279531415f07eff71a0c872bc88 = $(`<div id="html_28a8b279531415f07eff71a0c872bc88" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 8/23/2016<br>Time: 23:30<br>City: Baytown<br>Shape: Other<br>Summary: Huge cloud of smoke, with a bright flashing light changing from pink to  purple at each flash. Appeared to be from a very large fire.</div>`)[0];
+                popup_df99932f159a43675f915e88c6751ea3.setContent(html_28a8b279531415f07eff71a0c872bc88);
+            
+        
+
+        marker_2359568b3864426230c40ff8ef904e73.bindPopup(popup_df99932f159a43675f915e88c6751ea3)
+        ;
+
+        
+    
+    
+            var marker_09eee3d6e54b73ac5d410854b3501fb9 = L.marker(
+                [30.2035419, -93.8662818],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_755cf9e9b91d5e38833aa4df9ed34862 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_09eee3d6e54b73ac5d410854b3501fb9.setIcon(icon_755cf9e9b91d5e38833aa4df9ed34862);
+        
+    
+        var popup_e40754980d7b9323a6f3c54dda8b3839 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5b7753db10b2f5271e3edb1151a1909 = $(`<div id="html_b5b7753db10b2f5271e3edb1151a1909" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 8/22/2016<br>Time: 2:00<br>City: Mauriceville<br>Shape: Light<br>Summary: Bright white flashing and moving light that followed along side 2  passengers in a car over 20 miles up above the tree line at night</div>`)[0];
+                popup_e40754980d7b9323a6f3c54dda8b3839.setContent(html_b5b7753db10b2f5271e3edb1151a1909);
+            
+        
+
+        marker_09eee3d6e54b73ac5d410854b3501fb9.bindPopup(popup_e40754980d7b9323a6f3c54dda8b3839)
+        ;
+
+        
+    
+    
+            var marker_426580f5438a9370cc565ecab4999581 = L.marker(
+                [32.4426403, -96.229977],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_4a046475c42148c60530f0ade409e490 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_426580f5438a9370cc565ecab4999581.setIcon(icon_4a046475c42148c60530f0ade409e490);
+        
+    
+        var popup_734bb4bfec4b814f14b52254568030aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b741306c7dad8198bc3c3da010875ecc = $(`<div id="html_b741306c7dad8198bc3c3da010875ecc" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 8/18/2016<br>Time: 0:00<br>City: Kemp<br>Shape: Circle<br>Summary: Color changing light in the sky. ((NUFORC Note: Possible twinkling star??  PD))</div>`)[0];
+                popup_734bb4bfec4b814f14b52254568030aa.setContent(html_b741306c7dad8198bc3c3da010875ecc);
+            
+        
+
+        marker_426580f5438a9370cc565ecab4999581.bindPopup(popup_734bb4bfec4b814f14b52254568030aa)
+        ;
+
+        
+    
+    
+            var marker_0474c84115e23fcc421357eded5f02ec = L.marker(
+                [29.7355047, -94.9774273],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_badb38a5c8313e8c069680035bdb8705 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_0474c84115e23fcc421357eded5f02ec.setIcon(icon_badb38a5c8313e8c069680035bdb8705);
+        
+    
+        var popup_ea705cee9d438494c36e287e38c96874 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_692fd373d9ff43c13e4bec449548e4f9 = $(`<div id="html_692fd373d9ff43c13e4bec449548e4f9" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 8/17/2016<br>Time: 5:00<br>City: Baytown<br>Shape: Triangle<br>Summary: Seen 3 bright white lights on each corner of the craft.. Stationary; as big  as half of our football stadium. ((anonymous report))</div>`)[0];
+                popup_ea705cee9d438494c36e287e38c96874.setContent(html_692fd373d9ff43c13e4bec449548e4f9);
+            
+        
+
+        marker_0474c84115e23fcc421357eded5f02ec.bindPopup(popup_ea705cee9d438494c36e287e38c96874)
+        ;
+
+        
+    
+    
+            var marker_cd624d9eb454e23e5010a27f3e7b856d = L.marker(
+                [35.2072185, -101.8338245],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_3c0b34d1b000f5b4507327b6c2395681 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_cd624d9eb454e23e5010a27f3e7b856d.setIcon(icon_3c0b34d1b000f5b4507327b6c2395681);
+        
+    
+        var popup_897a145f42e8844092467aabb966a651 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4fe85ce5bad7fb1d7d1f16ec84e1af4 = $(`<div id="html_e4fe85ce5bad7fb1d7d1f16ec84e1af4" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 8/16/2016<br>Time: 21:30<br>City: Amarillo<br>Shape: Sphere<br>Summary: Thank you for reading this report and taking my claims seriously.</div>`)[0];
+                popup_897a145f42e8844092467aabb966a651.setContent(html_e4fe85ce5bad7fb1d7d1f16ec84e1af4);
+            
+        
+
+        marker_cd624d9eb454e23e5010a27f3e7b856d.bindPopup(popup_897a145f42e8844092467aabb966a651)
+        ;
+
+        
+    
+    
+            var marker_33a9948fbffaf75f5d5c194832c644f9 = L.marker(
+                [30.327985, -97.6191693],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_256c06ceb2803e6996ae48a93beaa435 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_33a9948fbffaf75f5d5c194832c644f9.setIcon(icon_256c06ceb2803e6996ae48a93beaa435);
+        
+    
+        var popup_07ddf6894652b40c4ad984dce8334fb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a019d8b5d4347e16e639f921405ef5be = $(`<div id="html_a019d8b5d4347e16e639f921405ef5be" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 4/8/2016<br>Time: 10:50<br>City: Del Valle<br>Shape: Triangle<br>Summary: Triangular blue aircraft seen leaving/darting from commercial airplane at  night.</div>`)[0];
+                popup_07ddf6894652b40c4ad984dce8334fb3.setContent(html_a019d8b5d4347e16e639f921405ef5be);
+            
+        
+
+        marker_33a9948fbffaf75f5d5c194832c644f9.bindPopup(popup_07ddf6894652b40c4ad984dce8334fb3)
+        ;
+
+        
+    
+    
+            var marker_cb7deca97c53e67d54e110107f67e164 = L.marker(
+                [30.2711286, -97.7436994],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_29900c66d4f521f902b74305a1317ada = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_cb7deca97c53e67d54e110107f67e164.setIcon(icon_29900c66d4f521f902b74305a1317ada);
+        
+    
+        var popup_958a5b0bf903cee4da760fc5725e9901 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8140a4a673a3235cf49b304ee9dadd35 = $(`<div id="html_8140a4a673a3235cf49b304ee9dadd35" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 2/8/2016<br>Time: 11:00<br>City: Austin<br>Shape: Light<br>Summary: 2 UFOS OVER EAST AUSTIN.</div>`)[0];
+                popup_958a5b0bf903cee4da760fc5725e9901.setContent(html_8140a4a673a3235cf49b304ee9dadd35);
+            
+        
+
+        marker_cb7deca97c53e67d54e110107f67e164.bindPopup(popup_958a5b0bf903cee4da760fc5725e9901)
+        ;
+
+        
+    
+    
+            var marker_80841b4f014ddc69e4aa52cc6f95db46 = L.marker(
+                [30.508235, -97.6788933],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_8231e4545593c3de451c99609a111423 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_80841b4f014ddc69e4aa52cc6f95db46.setIcon(icon_8231e4545593c3de451c99609a111423);
+        
+    
+        var popup_9200d4d9faa834063d3f3c5fb55999a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7814598214475821771a15d29915622f = $(`<div id="html_7814598214475821771a15d29915622f" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 2/8/2016<br>Time: 3:00<br>City: Round Rock<br>Shape: Cone<br>Summary: my 6 yrs daughter saw a cone shape object with green and yellow lights  flying above in daytime</div>`)[0];
+                popup_9200d4d9faa834063d3f3c5fb55999a6.setContent(html_7814598214475821771a15d29915622f);
+            
+        
+
+        marker_80841b4f014ddc69e4aa52cc6f95db46.bindPopup(popup_9200d4d9faa834063d3f3c5fb55999a6)
+        ;
+
+        
+    
+    
+            var marker_50c5375f3573a4a83e042c444decee58 = L.marker(
+                [30.2711286, -97.7436994],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_b7492ae7e8d734b2d1d7814e40a5e908 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_50c5375f3573a4a83e042c444decee58.setIcon(icon_b7492ae7e8d734b2d1d7814e40a5e908);
+        
+    
+        var popup_1876fd8f591076d6d8361db6e9f374a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_294f1c8bd91cb29be05d65edc97caf50 = $(`<div id="html_294f1c8bd91cb29be05d65edc97caf50" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 2/8/2016<br>Time: 3:25<br>City: Austin<br>Shape: Triangle<br>Summary: I noticed a couple of lights out in the distance I couldn't tell what it  is. ((anonymous report))</div>`)[0];
+                popup_1876fd8f591076d6d8361db6e9f374a4.setContent(html_294f1c8bd91cb29be05d65edc97caf50);
+            
+        
+
+        marker_50c5375f3573a4a83e042c444decee58.bindPopup(popup_1876fd8f591076d6d8361db6e9f374a4)
+        ;
+
+        
+    
+    
+            var marker_77eda9332cf35fadc05927d8db986c14 = L.marker(
+                [29.675779, -95.40215851],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_3dd2e0c10b871bea735852a21f761f8a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_77eda9332cf35fadc05927d8db986c14.setIcon(icon_3dd2e0c10b871bea735852a21f761f8a);
+        
+    
+        var popup_c832917ced36a25e1b566872792b5ae4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69921cecd582059ab85ed578d433e777 = $(`<div id="html_69921cecd582059ab85ed578d433e777" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 2/8/2016<br>Time: 1:30<br>City: Houston<br>Shape: Triangle<br>Summary: Witnessed three white lights in triangle formation move in the sky unlike  any other "flying object."</div>`)[0];
+                popup_c832917ced36a25e1b566872792b5ae4.setContent(html_69921cecd582059ab85ed578d433e777);
+            
+        
+
+        marker_77eda9332cf35fadc05927d8db986c14.bindPopup(popup_c832917ced36a25e1b566872792b5ae4)
+        ;
+
+        
+    
+    
+            var marker_feeea921a0e944a4c5af1f43cb9917b3 = L.marker(
+                [27.8002542, -97.3955743],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_f76118a7ee617c5ffe0b59cd122d808f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_feeea921a0e944a4c5af1f43cb9917b3.setIcon(icon_f76118a7ee617c5ffe0b59cd122d808f);
+        
+    
+        var popup_4840501240dc91e46f8b1013bb52d36b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b06bf0d0075a3db9cb4204f70081b2d = $(`<div id="html_1b06bf0d0075a3db9cb4204f70081b2d" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 7/30/2016<br>Time: 22:15<br>City: Corpus Christi<br>Shape: Light<br>Summary: Appeared in the sky and descended straight down kind of slow, was too big  to be an a/c; no sound. ((anonymous report))</div>`)[0];
+                popup_4840501240dc91e46f8b1013bb52d36b.setContent(html_1b06bf0d0075a3db9cb4204f70081b2d);
+            
+        
+
+        marker_feeea921a0e944a4c5af1f43cb9917b3.bindPopup(popup_4840501240dc91e46f8b1013bb52d36b)
+        ;
+
+        
+    
+    
+            var marker_d0a748c09fae470a6bdf326af1815eab = L.marker(
+                [30.6253463, -96.3271537],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_d3b5a25df1af147b285f966717a4705c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_d0a748c09fae470a6bdf326af1815eab.setIcon(icon_d3b5a25df1af147b285f966717a4705c);
+        
+    
+        var popup_a8d4a8ec6877beea565f76aff2d0a5b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4e558ed0121a1e33b3e795269f13a74 = $(`<div id="html_f4e558ed0121a1e33b3e795269f13a74" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 7/30/2016<br>Time: 22:15<br>City: College Station<br>Shape: Fireball<br>Summary: Green fireball shoots across sky before disappearing.</div>`)[0];
+                popup_a8d4a8ec6877beea565f76aff2d0a5b1.setContent(html_f4e558ed0121a1e33b3e795269f13a74);
+            
+        
+
+        marker_d0a748c09fae470a6bdf326af1815eab.bindPopup(popup_a8d4a8ec6877beea565f76aff2d0a5b1)
+        ;
+
+        
+    
+    
+            var marker_d42c98d97150b7d42c0fbe618516f85f = L.marker(
+                [32.8234621, -97.1705677],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_bbd753a86a0e85d911a7cded33e64eec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_d42c98d97150b7d42c0fbe618516f85f.setIcon(icon_bbd753a86a0e85d911a7cded33e64eec);
+        
+    
+        var popup_23809a3c55d3403596cd5ea68784ec84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46fc7381c005759f60a92f37cf6f8485 = $(`<div id="html_46fc7381c005759f60a92f37cf6f8485" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 7/28/2016<br>Time: 1:00<br>City: Hurst<br>Shape: Triangle<br>Summary: Black triangle, sighted in middle of the day.</div>`)[0];
+                popup_23809a3c55d3403596cd5ea68784ec84.setContent(html_46fc7381c005759f60a92f37cf6f8485);
+            
+        
+
+        marker_d42c98d97150b7d42c0fbe618516f85f.bindPopup(popup_23809a3c55d3403596cd5ea68784ec84)
+        ;
+
+        
+    
+    
+            var marker_83df4ccea26f440b4c8375093dedee13 = L.marker(
+                [30.2711286, -97.7436994],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_e713fdf154000a212e8f60470702198f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_83df4ccea26f440b4c8375093dedee13.setIcon(icon_e713fdf154000a212e8f60470702198f);
+        
+    
+        var popup_d2b6304b8fb9379a67b1daec0a04477b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9c5f2f9252f19fafb6d57ef0dfbeafc = $(`<div id="html_e9c5f2f9252f19fafb6d57ef0dfbeafc" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 7/27/2016<br>Time: 21:00<br>City: Austin<br>Shape: Sphere<br>Summary: White light orb with long vapor trail.</div>`)[0];
+                popup_d2b6304b8fb9379a67b1daec0a04477b.setContent(html_e9c5f2f9252f19fafb6d57ef0dfbeafc);
+            
+        
+
+        marker_83df4ccea26f440b4c8375093dedee13.bindPopup(popup_d2b6304b8fb9379a67b1daec0a04477b)
+        ;
+
+        
+    
+    
+            var marker_a6572500bda28dd9d4ab44dc659ba769 = L.marker(
+                [33.0136764, -96.6925095],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_d65bba4f7c8a848fa7c7e5d7ae233346 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_a6572500bda28dd9d4ab44dc659ba769.setIcon(icon_d65bba4f7c8a848fa7c7e5d7ae233346);
+        
+    
+        var popup_74920ac5b51e6135697348dc8fc2097c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ce3dec77fb8d60a57f88f42890725a2 = $(`<div id="html_4ce3dec77fb8d60a57f88f42890725a2" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 7/25/2016<br>Time: 23:15<br>City: Plano<br>Shape: Circle<br>Summary: I was out walking at night over at the park. I rounded a corner and started  walking down a hill when I noticed two bright orange color</div>`)[0];
+                popup_74920ac5b51e6135697348dc8fc2097c.setContent(html_4ce3dec77fb8d60a57f88f42890725a2);
+            
+        
+
+        marker_a6572500bda28dd9d4ab44dc659ba769.bindPopup(popup_74920ac5b51e6135697348dc8fc2097c)
+        ;
+
+        
+    
+    
+            var marker_86432c42bb34cb48f5011bba5219afbe = L.marker(
+                [29.7028266, -98.1257347],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_ae1f7d2859861cd23293e386e1c3e4be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_86432c42bb34cb48f5011bba5219afbe.setIcon(icon_ae1f7d2859861cd23293e386e1c3e4be);
+        
+    
+        var popup_c3f1b9aa0f279f2d17af7d0b3ba3e5f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15c3c17aa1a9ec6ee82271e48fe261f5 = $(`<div id="html_15c3c17aa1a9ec6ee82271e48fe261f5" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 7/24/2016<br>Time: 22:00<br>City: New Braunfels<br>Shape: Other<br>Summary: Mysterious intense red glow lights up area</div>`)[0];
+                popup_c3f1b9aa0f279f2d17af7d0b3ba3e5f9.setContent(html_15c3c17aa1a9ec6ee82271e48fe261f5);
+            
+        
+
+        marker_86432c42bb34cb48f5011bba5219afbe.bindPopup(popup_c3f1b9aa0f279f2d17af7d0b3ba3e5f9)
+        ;
+
+        
+    
+    
+            var marker_feb4a1c3e7e1b04c77bdac46d6fa4fb9 = L.marker(
+                [33.1976496, -96.615447],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_ceff95453c4e45fb7f8d1497d20c4467 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_feb4a1c3e7e1b04c77bdac46d6fa4fb9.setIcon(icon_ceff95453c4e45fb7f8d1497d20c4467);
+        
+    
+        var popup_db1a2d796c9c54526479517aeb676602 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88b0d998ce7201d2d47a9c7cb3722f73 = $(`<div id="html_88b0d998ce7201d2d47a9c7cb3722f73" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 7/19/2016<br>Time: 20:16<br>City: McKinney<br>Shape: Light<br>Summary: High altitude light.</div>`)[0];
+                popup_db1a2d796c9c54526479517aeb676602.setContent(html_88b0d998ce7201d2d47a9c7cb3722f73);
+            
+        
+
+        marker_feb4a1c3e7e1b04c77bdac46d6fa4fb9.bindPopup(popup_db1a2d796c9c54526479517aeb676602)
+        ;
+
+        
+    
+    
+            var marker_9903db8335c73ecfaa5cb27fa516ba41 = L.marker(
+                [29.383845, -94.9027001],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_29d2b2bf3cc7521ce0132a763511209c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_9903db8335c73ecfaa5cb27fa516ba41.setIcon(icon_29d2b2bf3cc7521ce0132a763511209c);
+        
+    
+        var popup_4ceacdab0105ef8a32196f6cff547ab7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2ab9638d886fc2ad9c7ba820b0d89c0 = $(`<div id="html_b2ab9638d886fc2ad9c7ba820b0d89c0" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 7/18/2016<br>Time: 23:50<br>City: Texas City<br>Shape: Other<br>Summary: Saw a gold Y shaped stationary light in the Western sky around midnight.</div>`)[0];
+                popup_4ceacdab0105ef8a32196f6cff547ab7.setContent(html_b2ab9638d886fc2ad9c7ba820b0d89c0);
+            
+        
+
+        marker_9903db8335c73ecfaa5cb27fa516ba41.bindPopup(popup_4ceacdab0105ef8a32196f6cff547ab7)
+        ;
+
+        
+    
+    
+            var marker_d6a0230bbaa619909b458ede2a2781cd = L.marker(
+                [33.14582252, -97.10196359],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_7a6b722ba32fc7c82ec4ad8905758cce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_d6a0230bbaa619909b458ede2a2781cd.setIcon(icon_7a6b722ba32fc7c82ec4ad8905758cce);
+        
+    
+        var popup_442f843de922fe9427055f6c29f5e68e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa5d870e44ce4135a88d8f30f3e88119 = $(`<div id="html_aa5d870e44ce4135a88d8f30f3e88119" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 7/15/2016<br>Time: 22:30<br>City: Denton<br>Shape: Sphere<br>Summary: 10 solid not blinking orange lights moving from SE to NW in the night sky.  Totally silent. An a/c moved from S to N at same time.</div>`)[0];
+                popup_442f843de922fe9427055f6c29f5e68e.setContent(html_aa5d870e44ce4135a88d8f30f3e88119);
+            
+        
+
+        marker_d6a0230bbaa619909b458ede2a2781cd.bindPopup(popup_442f843de922fe9427055f6c29f5e68e)
+        ;
+
+        
+    
+    
+            var marker_0779c4483ec1cbd5bed8620e838fc111 = L.marker(
+                [30.0798826, -95.4172548],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_af18a77df24b2e0999b90ec5b6412825 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_0779c4483ec1cbd5bed8620e838fc111.setIcon(icon_af18a77df24b2e0999b90ec5b6412825);
+        
+    
+        var popup_e2e6a0ad8f7caede73441c05f80e47ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b7abb995256ceadd62fa39c698300a6 = $(`<div id="html_6b7abb995256ceadd62fa39c698300a6" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 9/7/2016<br>Time: 11:40<br>City: Spring<br>Shape: Triangle<br>Summary: Spotted, showed for a few seconds and disappeared into the clouds.</div>`)[0];
+                popup_e2e6a0ad8f7caede73441c05f80e47ba.setContent(html_6b7abb995256ceadd62fa39c698300a6);
+            
+        
+
+        marker_0779c4483ec1cbd5bed8620e838fc111.bindPopup(popup_e2e6a0ad8f7caede73441c05f80e47ba)
+        ;
+
+        
+    
+    
+            var marker_4f930a396ab123b25cc2eaad581a2432 = L.marker(
+                [30.2711286, -97.7436994],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_bc2f1ee4834879e81f15bf73dca9566e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_4f930a396ab123b25cc2eaad581a2432.setIcon(icon_bc2f1ee4834879e81f15bf73dca9566e);
+        
+    
+        var popup_a1de624bf6838c77785c84812f09b3be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7aa62110400645477e64f66e311324d6 = $(`<div id="html_7aa62110400645477e64f66e311324d6" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 7/7/2016<br>Time: 4:00<br>City: Austin<br>Shape: Unknown<br>Summary: 3-year old has UFO dream?</div>`)[0];
+                popup_a1de624bf6838c77785c84812f09b3be.setContent(html_7aa62110400645477e64f66e311324d6);
+            
+        
+
+        marker_4f930a396ab123b25cc2eaad581a2432.bindPopup(popup_a1de624bf6838c77785c84812f09b3be)
+        ;
+
+        
+    
+    
+            var marker_4913cd92687f7d71f026b81d0739f620 = L.marker(
+                [30.2711286, -97.7436994],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_d0d0798434c0edc6877a88c138ba3105 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_4913cd92687f7d71f026b81d0739f620.setIcon(icon_d0d0798434c0edc6877a88c138ba3105);
+        
+    
+        var popup_1076e28fddda3e87f61b6fcf53be301e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40c659db481f4ebd4514a8130ffa752f = $(`<div id="html_40c659db481f4ebd4514a8130ffa752f" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 7/7/2016<br>Time: 3:10<br>City: Austin<br>Shape: Light<br>Summary: Bright flash of light, no sound, extremely powerful wind gust. ((anonymous  report))</div>`)[0];
+                popup_1076e28fddda3e87f61b6fcf53be301e.setContent(html_40c659db481f4ebd4514a8130ffa752f);
+            
+        
+
+        marker_4913cd92687f7d71f026b81d0739f620.bindPopup(popup_1076e28fddda3e87f61b6fcf53be301e)
+        ;
+
+        
+    
+    
+            var marker_ef78054d7f4c74c85f73625d33b097d0 = L.marker(
+                [33.14582252, -97.10196359],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_271e0ca44b4a3d75fd104bcbb43533a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_ef78054d7f4c74c85f73625d33b097d0.setIcon(icon_271e0ca44b4a3d75fd104bcbb43533a3);
+        
+    
+        var popup_6a7631c73e283e8aa0f0c058d4a7079c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8df0df49a65465a22835c6ab3bdddf3a = $(`<div id="html_8df0df49a65465a22835c6ab3bdddf3a" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 5/7/2016<br>Time: 12:29<br>City: Denton<br>Shape: Light<br>Summary: Very fasy orange orb zipping around the sky around a lightning storm.</div>`)[0];
+                popup_6a7631c73e283e8aa0f0c058d4a7079c.setContent(html_8df0df49a65465a22835c6ab3bdddf3a);
+            
+        
+
+        marker_ef78054d7f4c74c85f73625d33b097d0.bindPopup(popup_6a7631c73e283e8aa0f0c058d4a7079c)
+        ;
+
+        
+    
+    
+            var marker_fa32be1ed603c50476483f1a7f4cc23f = L.marker(
+                [31.8111305, -106.5013493],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_2075b2bf6d6a12a0c995c9f0a19023e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_fa32be1ed603c50476483f1a7f4cc23f.setIcon(icon_2075b2bf6d6a12a0c995c9f0a19023e1);
+        
+    
+        var popup_1c90332333dabfcc4b263650a8751559 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09d7c1bd0a491c496e09ee65821ef98e = $(`<div id="html_09d7c1bd0a491c496e09ee65821ef98e" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 4/7/2016<br>Time: 7:00<br>City: El Paso<br>Shape: Light<br>Summary: Fast moving star like vessel. ((anonymous report))</div>`)[0];
+                popup_1c90332333dabfcc4b263650a8751559.setContent(html_09d7c1bd0a491c496e09ee65821ef98e);
+            
+        
+
+        marker_fa32be1ed603c50476483f1a7f4cc23f.bindPopup(popup_1c90332333dabfcc4b263650a8751559)
+        ;
+
+        
+    
+    
+            var marker_08b02d9309aef1e5305505437d96ba7b = L.marker(
+                [29.5293998, -95.2010446],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_0a524e41d8f4dc0237ee5610ac528554 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_08b02d9309aef1e5305505437d96ba7b.setIcon(icon_0a524e41d8f4dc0237ee5610ac528554);
+        
+    
+        var popup_45285ceaa875a8c395821a44157ae1fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ae1ab7a2dcfe7e291decb37f1d30fe2 = $(`<div id="html_2ae1ab7a2dcfe7e291decb37f1d30fe2" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 2/7/2016<br>Time: 11:45<br>City: Friendswood<br>Shape: Sphere<br>Summary: A solid red light that flashed green was stationary for 4 minutes and moved  in one direction quickly then swayed left to right.</div>`)[0];
+                popup_45285ceaa875a8c395821a44157ae1fc.setContent(html_2ae1ab7a2dcfe7e291decb37f1d30fe2);
+            
+        
+
+        marker_08b02d9309aef1e5305505437d96ba7b.bindPopup(popup_45285ceaa875a8c395821a44157ae1fc)
+        ;
+
+        
+    
+    
+            var marker_bc9b298bb2025544795d67d98566c532 = L.marker(
+                [29.7857853, -95.8243955],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_ae6fd4b07421759a13f06c2e69675958 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_bc9b298bb2025544795d67d98566c532.setIcon(icon_ae6fd4b07421759a13f06c2e69675958);
+        
+    
+        var popup_50719ee748c5a38760fd7706998a620d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7373605f7959946423d3a45589d6050 = $(`<div id="html_f7373605f7959946423d3a45589d6050" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 6/28/2016<br>Time: 1:30<br>City: Katy<br>Shape: Diamond<br>Summary: Diamond-shaped UFO craft seen near Katy/Fulshear, TX by four individuals</div>`)[0];
+                popup_50719ee748c5a38760fd7706998a620d.setContent(html_f7373605f7959946423d3a45589d6050);
+            
+        
+
+        marker_bc9b298bb2025544795d67d98566c532.bindPopup(popup_50719ee748c5a38760fd7706998a620d)
+        ;
+
+        
+    
+    
+            var marker_7d14bf49c5699dbe434aa81cb374b4cf = L.marker(
+                [29.9691116, -95.6971685],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_ed14a33c187614c83c2e2dd1ef836a61 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_7d14bf49c5699dbe434aa81cb374b4cf.setIcon(icon_ed14a33c187614c83c2e2dd1ef836a61);
+        
+    
+        var popup_494a680d4224ba31ee52c33f3a3d433c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe008b76987f6121247d2dd47120fb24 = $(`<div id="html_fe008b76987f6121247d2dd47120fb24" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 6/26/2016<br>Time: 20:30<br>City: Cypress<br>Shape: Triangle<br>Summary: Diamond shaped and Red in color with flame shooting out the back.</div>`)[0];
+                popup_494a680d4224ba31ee52c33f3a3d433c.setContent(html_fe008b76987f6121247d2dd47120fb24);
+            
+        
+
+        marker_7d14bf49c5699dbe434aa81cb374b4cf.bindPopup(popup_494a680d4224ba31ee52c33f3a3d433c)
+        ;
+
+        
+    
+    
+            var marker_1ad502a37e0c534d881885b55462fc37 = L.marker(
+                [32.912624, -96.6388832],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_b9a66675fff0859ae358fc8504fdbf1e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_1ad502a37e0c534d881885b55462fc37.setIcon(icon_b9a66675fff0859ae358fc8504fdbf1e);
+        
+    
+        var popup_25e878e67556ce200d62ce389ba8669f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4461fcc448c24812a9aa7c8d641165a = $(`<div id="html_b4461fcc448c24812a9aa7c8d641165a" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 6/26/2016<br>Time: 0:34<br>City: Garland<br>Shape: Sphere<br>Summary: Vibrant White Flashing Sphere Moving Erratically.</div>`)[0];
+                popup_25e878e67556ce200d62ce389ba8669f.setContent(html_b4461fcc448c24812a9aa7c8d641165a);
+            
+        
+
+        marker_1ad502a37e0c534d881885b55462fc37.bindPopup(popup_25e878e67556ce200d62ce389ba8669f)
+        ;
+
+        
+    
+    
+            var marker_e9e0790c551e898b54a84b3930aa27a1 = L.marker(
+                [33.14582252, -97.10196359],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_7c83c6b2c75c7be9b01da29951e612b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_e9e0790c551e898b54a84b3930aa27a1.setIcon(icon_7c83c6b2c75c7be9b01da29951e612b4);
+        
+    
+        var popup_a38b4125f46e1ba13abb4f1d45ce6696 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf7313d14676e52d6849fd99cb89bbd6 = $(`<div id="html_cf7313d14676e52d6849fd99cb89bbd6" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 6/23/2016<br>Time: 22:16<br>City: Denton<br>Shape: Circle<br>Summary: Two white circular lights (orbs) hovering near the roof top four houses  away from my next-door neighbor's backyard.</div>`)[0];
+                popup_a38b4125f46e1ba13abb4f1d45ce6696.setContent(html_cf7313d14676e52d6849fd99cb89bbd6);
+            
+        
+
+        marker_e9e0790c551e898b54a84b3930aa27a1.bindPopup(popup_a38b4125f46e1ba13abb4f1d45ce6696)
+        ;
+
+        
+    
+    
+            var marker_aab2fe18a1093b93f1a773f3bcac3d77 = L.marker(
+                [29.7857853, -95.8243955],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_1236d6a72ef8d9cd9e01ff0bc4a03222 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_aab2fe18a1093b93f1a773f3bcac3d77.setIcon(icon_1236d6a72ef8d9cd9e01ff0bc4a03222);
+        
+    
+        var popup_a815023777b990c12afc8f9e0f8d333a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17e3189426a86b6c9e48825c1a3b9aa0 = $(`<div id="html_17e3189426a86b6c9e48825c1a3b9aa0" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 6/23/2016<br>Time: 18:00<br>City: Katy<br>Shape: Oval<br>Summary: Very shiny object in the sky.</div>`)[0];
+                popup_a815023777b990c12afc8f9e0f8d333a.setContent(html_17e3189426a86b6c9e48825c1a3b9aa0);
+            
+        
+
+        marker_aab2fe18a1093b93f1a773f3bcac3d77.bindPopup(popup_a815023777b990c12afc8f9e0f8d333a)
+        ;
+
+        
+    
+    
+            var marker_41f90b52eb2dc7e48d684164f6452050 = L.marker(
+                [29.4246002, -98.4951404],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_2fd4fa377bccdd730f83ca4c05480343 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_41f90b52eb2dc7e48d684164f6452050.setIcon(icon_2fd4fa377bccdd730f83ca4c05480343);
+        
+    
+        var popup_685603fdab505b07ff3a71daa0a28bd2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e748df77073aa2b2d574828d79e88cac = $(`<div id="html_e748df77073aa2b2d574828d79e88cac" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 6/16/2016<br>Time: 22:26<br>City: San Antonio<br>Shape: Diamond<br>Summary: We see a diamond shape craft with 4 white lights at the four corners and a  dim red light in the center.</div>`)[0];
+                popup_685603fdab505b07ff3a71daa0a28bd2.setContent(html_e748df77073aa2b2d574828d79e88cac);
+            
+        
+
+        marker_41f90b52eb2dc7e48d684164f6452050.bindPopup(popup_685603fdab505b07ff3a71daa0a28bd2)
+        ;
+
+        
+    
+    
+            var marker_ffab2b0c450dd329c50dd3ef7e91941c = L.marker(
+                [32.8234621, -97.1705677],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_1d9cc58b220dbe317d605a77c952c965 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_ffab2b0c450dd329c50dd3ef7e91941c.setIcon(icon_1d9cc58b220dbe317d605a77c952c965);
+        
+    
+        var popup_327baa51ceb8a6db3df8e119edb5f36f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2219a6b641d30edca292745f0c801fdb = $(`<div id="html_2219a6b641d30edca292745f0c801fdb" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 2/6/2016<br>Time: 4:00<br>City: Hurst<br>Shape: Teardrop<br>Summary: Crescent-shaped UFO observed during fireworks show.</div>`)[0];
+                popup_327baa51ceb8a6db3df8e119edb5f36f.setContent(html_2219a6b641d30edca292745f0c801fdb);
+            
+        
+
+        marker_ffab2b0c450dd329c50dd3ef7e91941c.bindPopup(popup_327baa51ceb8a6db3df8e119edb5f36f)
+        ;
+
+        
+    
+    
+            var marker_7e1ca7da164c01b0e52b1666c99c33f7 = L.marker(
+                [32.4464534, -99.7333477],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_e7c7f362edbea5a3b0c65fcd2b289d28 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_7e1ca7da164c01b0e52b1666c99c33f7.setIcon(icon_e7c7f362edbea5a3b0c65fcd2b289d28);
+        
+    
+        var popup_bb1e92e72f840768cd6e1f0a627d11da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b81c4c355c9b2527ef3bcc368b39ca8 = $(`<div id="html_9b81c4c355c9b2527ef3bcc368b39ca8" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 5/29/2016<br>Time: 21:45<br>City: Abilene<br>Shape: Light<br>Summary: White light that makes quick 360 degree turns.</div>`)[0];
+                popup_bb1e92e72f840768cd6e1f0a627d11da.setContent(html_9b81c4c355c9b2527ef3bcc368b39ca8);
+            
+        
+
+        marker_7e1ca7da164c01b0e52b1666c99c33f7.bindPopup(popup_bb1e92e72f840768cd6e1f0a627d11da)
+        ;
+
+        
+    
+    
+            var marker_efc06b911c68d0bd6e09a120072d15f8 = L.marker(
+                [30.7752011, -94.4154757],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_acec624c167600584eeee03f2c871888 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_efc06b911c68d0bd6e09a120072d15f8.setIcon(icon_acec624c167600584eeee03f2c871888);
+        
+    
+        var popup_ef5a9d23f841055cbb8879371ff6c81e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01e0c63b44bcbcd6f8ec0d69d3c8f4ab = $(`<div id="html_01e0c63b44bcbcd6f8ec0d69d3c8f4ab" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 5/28/2016<br>Time: 21:30<br>City: Woodville<br>Shape: Circle<br>Summary: A UFO was photographed in my back yard, May 28, 2016 at 9:30 PM. It was  caught on my Game night camera. ((NUFORC Note: Insect? PD))</div>`)[0];
+                popup_ef5a9d23f841055cbb8879371ff6c81e.setContent(html_01e0c63b44bcbcd6f8ec0d69d3c8f4ab);
+            
+        
+
+        marker_efc06b911c68d0bd6e09a120072d15f8.bindPopup(popup_ef5a9d23f841055cbb8879371ff6c81e)
+        ;
+
+        
+    
+    
+            var marker_847322bcd2004b3d86c97855d84554db = L.marker(
+                [32.250398, -101.4787355],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_31a6eb6c8962c4b69046a71094f2b13b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_847322bcd2004b3d86c97855d84554db.setIcon(icon_31a6eb6c8962c4b69046a71094f2b13b);
+        
+    
+        var popup_77396ffbb001bdc3a0901f83315d0da7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36ffc9c5cf33e3857a4c46ef81c1aefd = $(`<div id="html_36ffc9c5cf33e3857a4c46ef81c1aefd" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 5/21/2016<br>Time: 3:00<br>City: Big Spring<br>Shape: Light<br>Summary: Purple haze/light in sky at 3 AM and vanished.</div>`)[0];
+                popup_77396ffbb001bdc3a0901f83315d0da7.setContent(html_36ffc9c5cf33e3857a4c46ef81c1aefd);
+            
+        
+
+        marker_847322bcd2004b3d86c97855d84554db.bindPopup(popup_77396ffbb001bdc3a0901f83315d0da7)
+        ;
+
+        
+    
+    
+            var marker_c73f7d7bcfdfdf235b53583b8ecfada9 = L.marker(
+                [29.675779, -95.40215851],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_a0bf0a8e54d2fc71894ce0862087775e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_c73f7d7bcfdfdf235b53583b8ecfada9.setIcon(icon_a0bf0a8e54d2fc71894ce0862087775e);
+        
+    
+        var popup_adf30f24f7572eb0749c49df40a4c518 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83895610f2be898b521e4446d27b6c37 = $(`<div id="html_83895610f2be898b521e4446d27b6c37" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 5/18/2016<br>Time: 4:30<br>City: Houston<br>Shape: Oval<br>Summary: Green oval shaped orb with a small red light at the bottom hoovering over a  tree lined cattle pasture.</div>`)[0];
+                popup_adf30f24f7572eb0749c49df40a4c518.setContent(html_83895610f2be898b521e4446d27b6c37);
+            
+        
+
+        marker_c73f7d7bcfdfdf235b53583b8ecfada9.bindPopup(popup_adf30f24f7572eb0749c49df40a4c518)
+        ;
+
+        
+    
+    
+            var marker_4ba37ed2f3649d98ea613bbff4ce9390 = L.marker(
+                [27.5158689, -97.8561089],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_c7b93c4578b3f3d96242425d3c039128 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_4ba37ed2f3649d98ea613bbff4ce9390.setIcon(icon_c7b93c4578b3f3d96242425d3c039128);
+        
+    
+        var popup_afa35ef2f89aad4e99d45f0f2558819d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49e7df9cf7e4b4578c00739ea27f591e = $(`<div id="html_49e7df9cf7e4b4578c00739ea27f591e" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 5/17/2016<br>Time: 0:00<br>City: Kingsville<br>Shape: Light<br>Summary: Two bright stars seen on a cloudy stormy day</div>`)[0];
+                popup_afa35ef2f89aad4e99d45f0f2558819d.setContent(html_49e7df9cf7e4b4578c00739ea27f591e);
+            
+        
+
+        marker_4ba37ed2f3649d98ea613bbff4ce9390.bindPopup(popup_afa35ef2f89aad4e99d45f0f2558819d)
+        ;
+
+        
+    
+    
+            var marker_62273165f3d1e02cdd4d3cac10be8a37 = L.marker(
+                [32.7995738, -97.2691816],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_2d2e9c8bbd0ff09ac47c56fe5a4eb301 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_62273165f3d1e02cdd4d3cac10be8a37.setIcon(icon_2d2e9c8bbd0ff09ac47c56fe5a4eb301);
+        
+    
+        var popup_573d7e09cea69380e7f8a7da6daf9c0b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d11112e3e43be14f33906a5200fc17e = $(`<div id="html_7d11112e3e43be14f33906a5200fc17e" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 5/15/2016<br>Time: 8:45<br>City: Haltom City<br>Shape: Unknown<br>Summary: While standing outside observing the cloud cover, Sunday morning, a giant  roar passed overhead from north to south in 1 second.</div>`)[0];
+                popup_573d7e09cea69380e7f8a7da6daf9c0b.setContent(html_7d11112e3e43be14f33906a5200fc17e);
+            
+        
+
+        marker_62273165f3d1e02cdd4d3cac10be8a37.bindPopup(popup_573d7e09cea69380e7f8a7da6daf9c0b)
+        ;
+
+        
+    
+    
+            var marker_cd58f0a46fd381f3e594a2824b08156a = L.marker(
+                [30.5217116, -97.8278329],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_517a5f6c87bf9134ab3ae8a87b3ff134 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_cd58f0a46fd381f3e594a2824b08156a.setIcon(icon_517a5f6c87bf9134ab3ae8a87b3ff134);
+        
+    
+        var popup_9a53211b0c7d09c0941a297e3c15c008 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4f3bb6684b96d8ef00973126778d9ee = $(`<div id="html_d4f3bb6684b96d8ef00973126778d9ee" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 5/13/2016<br>Time: 21:30<br>City: Cedar Park<br>Shape: Other<br>Summary: Arrow-like object at night glows blue ocean texture</div>`)[0];
+                popup_9a53211b0c7d09c0941a297e3c15c008.setContent(html_d4f3bb6684b96d8ef00973126778d9ee);
+            
+        
+
+        marker_cd58f0a46fd381f3e594a2824b08156a.bindPopup(popup_9a53211b0c7d09c0941a297e3c15c008)
+        ;
+
+        
+    
+    
+            var marker_d76d72a8a7c67a0d8fa10256654e3a58 = L.marker(
+                [33.0136764, -96.6925095],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_ec79cd6176079273b2b45f8804246c8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_d76d72a8a7c67a0d8fa10256654e3a58.setIcon(icon_ec79cd6176079273b2b45f8804246c8e);
+        
+    
+        var popup_59fded932afd5ecc576be92c3e99dc76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_560c266c34d8d29a54be641e1953f39f = $(`<div id="html_560c266c34d8d29a54be641e1953f39f" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 6/5/2016<br>Time: 2:00<br>City: Plano<br>Shape: Sphere<br>Summary: Crossed out white star that turned into a silver sphere with flat bottom.</div>`)[0];
+                popup_59fded932afd5ecc576be92c3e99dc76.setContent(html_560c266c34d8d29a54be641e1953f39f);
+            
+        
+
+        marker_d76d72a8a7c67a0d8fa10256654e3a58.bindPopup(popup_59fded932afd5ecc576be92c3e99dc76)
+        ;
+
+        
+    
+    
+            var marker_55ad83ee796f6898880e215792689fa6 = L.marker(
+                [31.8111305, -106.5013493],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_2454c779b8f2e7ab0a5d452d916daa45 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_55ad83ee796f6898880e215792689fa6.setIcon(icon_2454c779b8f2e7ab0a5d452d916daa45);
+        
+    
+        var popup_a1a5c074231fd0298b5c73320f2d733d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_797838e2e19bd0e4009b822f60922b40 = $(`<div id="html_797838e2e19bd0e4009b822f60922b40" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 4/30/2016<br>Time: 22:30<br>City: El Paso<br>Shape: Fireball<br>Summary: A fireball was traveling horizontally to the left but before extinguishing  a second fireball did the same and flew up into the sky</div>`)[0];
+                popup_a1a5c074231fd0298b5c73320f2d733d.setContent(html_797838e2e19bd0e4009b822f60922b40);
+            
+        
+
+        marker_55ad83ee796f6898880e215792689fa6.bindPopup(popup_a1a5c074231fd0298b5c73320f2d733d)
+        ;
+
+        
+    
+    
+            var marker_b5188cd4d231cf043f93d88f6d24f086 = L.marker(
+                [30.8249094, -97.6044539],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_7faa6e2fc8ed0158d6d8dbcb82d12788 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_b5188cd4d231cf043f93d88f6d24f086.setIcon(icon_7faa6e2fc8ed0158d6d8dbcb82d12788);
+        
+    
+        var popup_85809f16ca593aa90a928614cd444923 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40446d958abd540797dd55e491e8e35a = $(`<div id="html_40446d958abd540797dd55e491e8e35a" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 4/27/2016<br>Time: 14:00<br>City: Jarrell<br>Shape: Other<br>Summary: I report earlier and watch black helicopter go slowly over the town and  head back over the same area I claim in my report to this web p</div>`)[0];
+                popup_85809f16ca593aa90a928614cd444923.setContent(html_40446d958abd540797dd55e491e8e35a);
+            
+        
+
+        marker_b5188cd4d231cf043f93d88f6d24f086.bindPopup(popup_85809f16ca593aa90a928614cd444923)
+        ;
+
+        
+    
+    
+            var marker_4493f7879c3070afab7f422c162749e3 = L.marker(
+                [30.8249094, -97.6044539],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_87e16494da01c7adaa3e22961924b0d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_4493f7879c3070afab7f422c162749e3.setIcon(icon_87e16494da01c7adaa3e22961924b0d5);
+        
+    
+        var popup_556d4efaab45fc84fe0cca50e27c49e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7383eee6abc049df45d68e7e5bef234a = $(`<div id="html_7383eee6abc049df45d68e7e5bef234a" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 4/26/2016<br>Time: 23:00<br>City: Jarrell<br>Shape: Circle<br>Summary: From Jarrell to Round Rock ufo's in storm</div>`)[0];
+                popup_556d4efaab45fc84fe0cca50e27c49e1.setContent(html_7383eee6abc049df45d68e7e5bef234a);
+            
+        
+
+        marker_4493f7879c3070afab7f422c162749e3.bindPopup(popup_556d4efaab45fc84fe0cca50e27c49e1)
+        ;
+
+        
+    
+    
+            var marker_54f00b84ea39c647325b4c8e9053a010 = L.marker(
+                [31.6926121, -106.2074792],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_0854c6c1908beddd88212f5179aea557 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_54f00b84ea39c647325b4c8e9053a010.setIcon(icon_0854c6c1908beddd88212f5179aea557);
+        
+    
+        var popup_84d1ed9c23d6a93e722d1cfa87b03f46 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68cd0ee078dcab17989c0e46e52813e8 = $(`<div id="html_68cd0ee078dcab17989c0e46e52813e8" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 4/24/2016<br>Time: 1:00<br>City: Horizon City<br>Shape: Triangle<br>Summary: 3 orange glowing lights that form a perfect triangle just below the moon.  Almost could be mistaken as stars but the color was unlike al</div>`)[0];
+                popup_84d1ed9c23d6a93e722d1cfa87b03f46.setContent(html_68cd0ee078dcab17989c0e46e52813e8);
+            
+        
+
+        marker_54f00b84ea39c647325b4c8e9053a010.bindPopup(popup_84d1ed9c23d6a93e722d1cfa87b03f46)
+        ;
+
+        
+    
+    
+            var marker_0d67414ba830eb68f4952937dcd54933 = L.marker(
+                [30.2711286, -97.7436994],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_0efed1ebcaa8c0e4f7743a2b58a5a36f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_0d67414ba830eb68f4952937dcd54933.setIcon(icon_0efed1ebcaa8c0e4f7743a2b58a5a36f);
+        
+    
+        var popup_ae7a6d11ede8db2948a5c80eef6b0074 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b944f71d049ecbba44e404d45ddedff6 = $(`<div id="html_b944f71d049ecbba44e404d45ddedff6" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 4/23/2016<br>Time: 3:32<br>City: Austin<br>Shape: Cigar<br>Summary: Cigar (?) shaped object with roughly 7 dim lights flies over North Austin</div>`)[0];
+                popup_ae7a6d11ede8db2948a5c80eef6b0074.setContent(html_b944f71d049ecbba44e404d45ddedff6);
+            
+        
+
+        marker_0d67414ba830eb68f4952937dcd54933.bindPopup(popup_ae7a6d11ede8db2948a5c80eef6b0074)
+        ;
+
+        
+    
+    
+            var marker_4ab016ed971a70f8b80e05f081825215 = L.marker(
+                [29.7028266, -98.1257347],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_e83aa6651f89de9e1969e80fe1ca2c92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_4ab016ed971a70f8b80e05f081825215.setIcon(icon_e83aa6651f89de9e1969e80fe1ca2c92);
+        
+    
+        var popup_623c0e6e06c32e07e4aec8b260fe62bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20989ae7eb2ecbf9739c6fe1887ee08a = $(`<div id="html_20989ae7eb2ecbf9739c6fe1887ee08a" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 4/22/2016<br>Time: 23:30<br>City: New Braunfels<br>Shape: Oval<br>Summary: Red orange flare like object flying through New Braunfels, TX, at 1130pm  4/22/16.</div>`)[0];
+                popup_623c0e6e06c32e07e4aec8b260fe62bc.setContent(html_20989ae7eb2ecbf9739c6fe1887ee08a);
+            
+        
+
+        marker_4ab016ed971a70f8b80e05f081825215.bindPopup(popup_623c0e6e06c32e07e4aec8b260fe62bc)
+        ;
+
+        
+    
+    
+            var marker_333e46ae303d25490ab210df5c1cca71 = L.marker(
+                [29.4246002, -98.4951404],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_b9fb50fb291b467d30fafe64aabb3def = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_333e46ae303d25490ab210df5c1cca71.setIcon(icon_b9fb50fb291b467d30fafe64aabb3def);
+        
+    
+        var popup_d6647c961d17d96e21272c1b26f68914 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e264fc5724796800a896002ecaf3607 = $(`<div id="html_6e264fc5724796800a896002ecaf3607" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 4/22/2016<br>Time: 21:10<br>City: San Antonio<br>Shape: Circle<br>Summary: Circular Craft with Red Flashing Lights</div>`)[0];
+                popup_d6647c961d17d96e21272c1b26f68914.setContent(html_6e264fc5724796800a896002ecaf3607);
+            
+        
+
+        marker_333e46ae303d25490ab210df5c1cca71.bindPopup(popup_d6647c961d17d96e21272c1b26f68914)
+        ;
+
+        
+    
+    
+            var marker_df3d98fcb9e15139ed62131915022b98 = L.marker(
+                [29.4246002, -98.4951404],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_eb527a8367e956095702516964edf77a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_df3d98fcb9e15139ed62131915022b98.setIcon(icon_eb527a8367e956095702516964edf77a);
+        
+    
+        var popup_2e6c8e1cb6a81db5be2fc3f162a67bb7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a036fe70334aee4f4f3caba00fa5591 = $(`<div id="html_4a036fe70334aee4f4f3caba00fa5591" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 4/21/2016<br>Time: 21:30<br>City: San Antonio<br>Shape: Fireball<br>Summary: A Beautiful Rock full of different colors in the sky.</div>`)[0];
+                popup_2e6c8e1cb6a81db5be2fc3f162a67bb7.setContent(html_4a036fe70334aee4f4f3caba00fa5591);
+            
+        
+
+        marker_df3d98fcb9e15139ed62131915022b98.bindPopup(popup_2e6c8e1cb6a81db5be2fc3f162a67bb7)
+        ;
+
+        
+    
+    
+            var marker_1c3a956d14538e56264d1efd2327bc63 = L.marker(
+                [30.5586046, -97.8444363],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_2cf0d2ff133fc66dc8a1607bb4d4c0eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_1c3a956d14538e56264d1efd2327bc63.setIcon(icon_2cf0d2ff133fc66dc8a1607bb4d4c0eb);
+        
+    
+        var popup_63fb387d420ea0cb8fee9b3563da345f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b83664c519e354273c5b54aad19f304a = $(`<div id="html_b83664c519e354273c5b54aad19f304a" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 4/20/2016<br>Time: 0:55<br>City: Leander<br>Shape: Unknown<br>Summary: Sky flashed white, then reddish orange glow for 20 seconds.</div>`)[0];
+                popup_63fb387d420ea0cb8fee9b3563da345f.setContent(html_b83664c519e354273c5b54aad19f304a);
+            
+        
+
+        marker_1c3a956d14538e56264d1efd2327bc63.bindPopup(popup_63fb387d420ea0cb8fee9b3563da345f)
+        ;
+
+        
+    
+    
+            var marker_172576167fcb5099481aabf59118e7b5 = L.marker(
+                [29.7946641, -98.7319702],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_c4caa7f9645da1973f3ebcd58d0648b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_172576167fcb5099481aabf59118e7b5.setIcon(icon_c4caa7f9645da1973f3ebcd58d0648b2);
+        
+    
+        var popup_131c0186165bbdc42bb285bf478fdced = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_066d059c9c82df03f3cd13200407f1cb = $(`<div id="html_066d059c9c82df03f3cd13200407f1cb" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 4/15/2016<br>Time: 21:54<br>City: Boerne<br>Shape: Sphere<br>Summary: I think this maybe a drone round flashing like a firefly. ((NUFORC Note:  Possible sighting of a "twinkling" star? Anonymous. PD))</div>`)[0];
+                popup_131c0186165bbdc42bb285bf478fdced.setContent(html_066d059c9c82df03f3cd13200407f1cb);
+            
+        
+
+        marker_172576167fcb5099481aabf59118e7b5.bindPopup(popup_131c0186165bbdc42bb285bf478fdced)
+        ;
+
+        
+    
+    
+            var marker_0abd2cfe15caf4a3d8a0b43ce6c7ca0b = L.marker(
+                [31.8111305, -106.5013493],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_76c6527e23f10249d87c830174ac07d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_0abd2cfe15caf4a3d8a0b43ce6c7ca0b.setIcon(icon_76c6527e23f10249d87c830174ac07d1);
+        
+    
+        var popup_45059320800b35d382ea41787a0fa65f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_423f7ab418c8319749d8c1cdbb495b49 = $(`<div id="html_423f7ab418c8319749d8c1cdbb495b49" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 5/4/2016<br>Time: 7:55<br>City: El Paso<br>Shape: Light<br>Summary: Two solid white lights in a straight line formation silently moving to the  NE across far NE El Paso</div>`)[0];
+                popup_45059320800b35d382ea41787a0fa65f.setContent(html_423f7ab418c8319749d8c1cdbb495b49);
+            
+        
+
+        marker_0abd2cfe15caf4a3d8a0b43ce6c7ca0b.bindPopup(popup_45059320800b35d382ea41787a0fa65f)
+        ;
+
+        
+    
+    
+            var marker_3beae5d0a678e35b350a274d84461613 = L.marker(
+                [32.9029017, -96.5638799],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_01196728b9a8792417ff3f168c95d4da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_3beae5d0a678e35b350a274d84461613.setIcon(icon_01196728b9a8792417ff3f168c95d4da);
+        
+    
+        var popup_fe5b67aa8ccfc596b2f4ff969e2208ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85a77a4d59446d631deea64af543e07c = $(`<div id="html_85a77a4d59446d631deea64af543e07c" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 2/4/2016<br>Time: 10:45<br>City: Rowlett<br>Shape: Fireball<br>Summary: The fireball came from the south and looked like a plane in fire. Then  stopped and flame went out and went up and disappeared.</div>`)[0];
+                popup_fe5b67aa8ccfc596b2f4ff969e2208ff.setContent(html_85a77a4d59446d631deea64af543e07c);
+            
+        
+
+        marker_3beae5d0a678e35b350a274d84461613.bindPopup(popup_fe5b67aa8ccfc596b2f4ff969e2208ff)
+        ;
+
+        
+    
+    
+            var marker_d0c7c221eea2161ebe3ce27f9dc21f9c = L.marker(
+                [30.3874135, -96.0875065],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_17c1e35701accdc1dbf1c8aa0443faa6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_d0c7c221eea2161ebe3ce27f9dc21f9c.setIcon(icon_17c1e35701accdc1dbf1c8aa0443faa6);
+        
+    
+        var popup_0cb97c54f8c73bacaae381a4ea42cec5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03d388133a098f6b8895fe20e49836c2 = $(`<div id="html_03d388133a098f6b8895fe20e49836c2" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 2/4/2016<br>Time: 2:30<br>City: Navasota<br>Shape: Flash<br>Summary: Small flashes of white light in a clear blue sky</div>`)[0];
+                popup_0cb97c54f8c73bacaae381a4ea42cec5.setContent(html_03d388133a098f6b8895fe20e49836c2);
+            
+        
+
+        marker_d0c7c221eea2161ebe3ce27f9dc21f9c.bindPopup(popup_0cb97c54f8c73bacaae381a4ea42cec5)
+        ;
+
+        
+    
+    
+            var marker_127cd5be308a2ad21da0e2fe525ebc63 = L.marker(
+                [32.701939, -97.10571484],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_0daf986ee99d8d01bc74e2876fa70784 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_127cd5be308a2ad21da0e2fe525ebc63.setIcon(icon_0daf986ee99d8d01bc74e2876fa70784);
+        
+    
+        var popup_ce47b45a7488250ddb6ead737125e465 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc83473cfd138c5a1d33b67b738dca15 = $(`<div id="html_cc83473cfd138c5a1d33b67b738dca15" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 3/31/2016<br>Time: 22:02<br>City: Arlington<br>Shape: Oval<br>Summary: Bright object shots up and disappears into space.</div>`)[0];
+                popup_ce47b45a7488250ddb6ead737125e465.setContent(html_cc83473cfd138c5a1d33b67b738dca15);
+            
+        
+
+        marker_127cd5be308a2ad21da0e2fe525ebc63.bindPopup(popup_ce47b45a7488250ddb6ead737125e465)
+        ;
+
+        
+    
+    
+            var marker_20c8a68d9e5abb1f86eddcad4aed2c2b = L.marker(
+                [33.5778631, -101.8551664],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_1dc5247a180b838dc3d89ceffc432c9f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_20c8a68d9e5abb1f86eddcad4aed2c2b.setIcon(icon_1dc5247a180b838dc3d89ceffc432c9f);
+        
+    
+        var popup_842952557e5096320c583248fa3e56cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4ff278634055e3675c7053ab875ed03 = $(`<div id="html_c4ff278634055e3675c7053ab875ed03" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 3/27/2016<br>Time: 18:00<br>City: Lubbock<br>Shape: Rectangle<br>Summary: Wired objects in West Texas.</div>`)[0];
+                popup_842952557e5096320c583248fa3e56cb.setContent(html_c4ff278634055e3675c7053ab875ed03);
+            
+        
+
+        marker_20c8a68d9e5abb1f86eddcad4aed2c2b.bindPopup(popup_842952557e5096320c583248fa3e56cb)
+        ;
+
+        
+    
+    
+            var marker_4198a2e032431b4858f694f5ae58ad90 = L.marker(
+                [31.8111305, -106.5013493],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_701ba9d680b8cc5679e742a92ac52813 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_4198a2e032431b4858f694f5ae58ad90.setIcon(icon_701ba9d680b8cc5679e742a92ac52813);
+        
+    
+        var popup_a65acb1a32b403d112645c3e13b5bd61 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0457a4e1b7daddcb23adb94c9d886d20 = $(`<div id="html_0457a4e1b7daddcb23adb94c9d886d20" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 3/26/2016<br>Time: 22:30<br>City: El Paso<br>Shape: Triangle<br>Summary: I let my dog outside for her last bathroom bake for the night. I looked up  at the sky as I always do, but this time I notice a flashin</div>`)[0];
+                popup_a65acb1a32b403d112645c3e13b5bd61.setContent(html_0457a4e1b7daddcb23adb94c9d886d20);
+            
+        
+
+        marker_4198a2e032431b4858f694f5ae58ad90.bindPopup(popup_a65acb1a32b403d112645c3e13b5bd61)
+        ;
+
+        
+    
+    
+            var marker_9d602a9bf605bc7a423fb5511535db76 = L.marker(
+                [33.6706408, -101.535161],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_163a9f62ab822bc76eeed2884f5acb7d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_9d602a9bf605bc7a423fb5511535db76.setIcon(icon_163a9f62ab822bc76eeed2884f5acb7d);
+        
+    
+        var popup_1525b19af0a99123c7e92e9046650eca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd4967ba3813cc8c779d9381d72f2e57 = $(`<div id="html_cd4967ba3813cc8c779d9381d72f2e57" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 3/24/2016<br>Time: 21:30<br>City: Lorenzo<br>Shape: Light<br>Summary: Three flashing lights in the night sky on a horizontal line with the bottom  of the moon as one light moved rapidly between.</div>`)[0];
+                popup_1525b19af0a99123c7e92e9046650eca.setContent(html_cd4967ba3813cc8c779d9381d72f2e57);
+            
+        
+
+        marker_9d602a9bf605bc7a423fb5511535db76.bindPopup(popup_1525b19af0a99123c7e92e9046650eca)
+        ;
+
+        
+    
+    
+            var marker_119f76ad3906753c98c42d6757ef835a = L.marker(
+                [33.0151201, -96.5388788],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_5f30481558c6abe42dae3a99b97b7307 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_119f76ad3906753c98c42d6757ef835a.setIcon(icon_5f30481558c6abe42dae3a99b97b7307);
+        
+    
+        var popup_2a115fc154d0daa37d5eece90de06cc4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5289812a53524ed22f198cd0370f38fc = $(`<div id="html_5289812a53524ed22f198cd0370f38fc" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 3/21/2016<br>Time: 0:00<br>City: Wylie<br>Shape: Fireball<br>Summary: I observed several balls of fire and strobing lights that seemed to be  chasing each other over the night sky over Wylie, TX.</div>`)[0];
+                popup_2a115fc154d0daa37d5eece90de06cc4.setContent(html_5289812a53524ed22f198cd0370f38fc);
+            
+        
+
+        marker_119f76ad3906753c98c42d6757ef835a.bindPopup(popup_2a115fc154d0daa37d5eece90de06cc4)
+        ;
+
+        
+    
+    
+            var marker_4734a39e09fe6d46a8a9d7e69dfded1b = L.marker(
+                [33.9137085, -98.4933872],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_95cfc12bebd991d3754a8a0f8a844598 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_4734a39e09fe6d46a8a9d7e69dfded1b.setIcon(icon_95cfc12bebd991d3754a8a0f8a844598);
+        
+    
+        var popup_a165485d585b4a723e7e735cc48e0120 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c52e9825e075a46d5cc6c2e88c493f1 = $(`<div id="html_2c52e9825e075a46d5cc6c2e88c493f1" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 3/15/2016<br>Time: 6:14<br>City: Wichita Falls<br>Shape: Unknown<br>Summary: I was standing in the early morning hours of 0614 central time I 44 and  bacon switch rd. in wichita falls texas. I was at the rear of m</div>`)[0];
+                popup_a165485d585b4a723e7e735cc48e0120.setContent(html_2c52e9825e075a46d5cc6c2e88c493f1);
+            
+        
+
+        marker_4734a39e09fe6d46a8a9d7e69dfded1b.bindPopup(popup_a165485d585b4a723e7e735cc48e0120)
+        ;
+
+        
+    
+    
+            var marker_a1fc94d2f4bc8e889385293ce0ad342b = L.marker(
+                [26.0717438, -97.4763732],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_635ac27043c57a646907572c3727277a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_a1fc94d2f4bc8e889385293ce0ad342b.setIcon(icon_635ac27043c57a646907572c3727277a);
+        
+    
+        var popup_37cb729abb66fdb048fcfab078b2eb1d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90fa940e48f03924a70052f47375ba56 = $(`<div id="html_90fa940e48f03924a70052f47375ba56" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 3/13/2016<br>Time: 21:00<br>City: Los Fresnos<br>Shape: Light<br>Summary: 14 orange lights seen traveling the same path within 15 minutes.</div>`)[0];
+                popup_37cb729abb66fdb048fcfab078b2eb1d.setContent(html_90fa940e48f03924a70052f47375ba56);
+            
+        
+
+        marker_a1fc94d2f4bc8e889385293ce0ad342b.bindPopup(popup_37cb729abb66fdb048fcfab078b2eb1d)
+        ;
+
+        
+    
+    
+            var marker_bb334a2ca1b751b035e2308acc53ef38 = L.marker(
+                [33.6617962, -95.5555129],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_d2a52831752eb7dcfc462a09fe533bdc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_bb334a2ca1b751b035e2308acc53ef38.setIcon(icon_d2a52831752eb7dcfc462a09fe533bdc);
+        
+    
+        var popup_1a7e52156a011d367a58d33c9a31bd6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16b2040ce8a7f6a08adc1bb58c3f54dd = $(`<div id="html_16b2040ce8a7f6a08adc1bb58c3f54dd" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 12/3/2016<br>Time: 7:56<br>City: Paris<br>Shape: Light<br>Summary: My entire family witnessed what appeared to be a moving constellation in  northeast Texas.</div>`)[0];
+                popup_1a7e52156a011d367a58d33c9a31bd6b.setContent(html_16b2040ce8a7f6a08adc1bb58c3f54dd);
+            
+        
+
+        marker_bb334a2ca1b751b035e2308acc53ef38.bindPopup(popup_1a7e52156a011d367a58d33c9a31bd6b)
+        ;
+
+        
+    
+    
+            var marker_42794a5ca61ae07547ba398216dc30fc = L.marker(
+                [32.7762719, -96.7968558],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_024272ba46a8b73f77ffaf1ca2efa0a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_42794a5ca61ae07547ba398216dc30fc.setIcon(icon_024272ba46a8b73f77ffaf1ca2efa0a0);
+        
+    
+        var popup_9c48f564f1d7a8dc58ea1a7c275d629f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81cded9f331e03a1f193c25087adfecb = $(`<div id="html_81cded9f331e03a1f193c25087adfecb" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 5/3/2016<br>Time: 10:15<br>City: Dallas<br>Shape: Light<br>Summary: Red light flying over Dallas, Texas.</div>`)[0];
+                popup_9c48f564f1d7a8dc58ea1a7c275d629f.setContent(html_81cded9f331e03a1f193c25087adfecb);
+            
+        
+
+        marker_42794a5ca61ae07547ba398216dc30fc.bindPopup(popup_9c48f564f1d7a8dc58ea1a7c275d629f)
+        ;
+
+        
+    
+    
+            var marker_934f42f999928732a96d04fd41891822 = L.marker(
+                [32.7762719, -96.7968558],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_ae150f7f959bc255bdfead06cfd2fb2f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_934f42f999928732a96d04fd41891822.setIcon(icon_ae150f7f959bc255bdfead06cfd2fb2f);
+        
+    
+        var popup_d7179465a5c7aea1a447c7d5f7cb91e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_818241f051df710cfc9c49fa1246b5da = $(`<div id="html_818241f051df710cfc9c49fa1246b5da" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 5/3/2016<br>Time: 10:15<br>City: Dallas<br>Shape: Light<br>Summary: Single moving red light over northeast Dallas, March 8, 2016.</div>`)[0];
+                popup_d7179465a5c7aea1a447c7d5f7cb91e8.setContent(html_818241f051df710cfc9c49fa1246b5da);
+            
+        
+
+        marker_934f42f999928732a96d04fd41891822.bindPopup(popup_d7179465a5c7aea1a447c7d5f7cb91e8)
+        ;
+
+        
+    
+    
+            var marker_d65798ca050bd3da1a4ac704823e3815 = L.marker(
+                [29.4246002, -98.4951404],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_9f2d43b27046b65b251be996996c382a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_d65798ca050bd3da1a4ac704823e3815.setIcon(icon_9f2d43b27046b65b251be996996c382a);
+        
+    
+        var popup_c7a57d0d5619c266dc5feda1ead06a42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb2486b48c3230d9cfcc5102008a8788 = $(`<div id="html_fb2486b48c3230d9cfcc5102008a8788" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 2/29/2016<br>Time: 18:15<br>City: San Antonio<br>Shape: Cigar<br>Summary: Metallic cigar shaped objects. Changed to round or were pulling away  upwards.</div>`)[0];
+                popup_c7a57d0d5619c266dc5feda1ead06a42.setContent(html_fb2486b48c3230d9cfcc5102008a8788);
+            
+        
+
+        marker_d65798ca050bd3da1a4ac704823e3815.bindPopup(popup_c7a57d0d5619c266dc5feda1ead06a42)
+        ;
+
+        
+    
+    
+            var marker_c6b9f45777b3b1a7968df1024785f369 = L.marker(
+                [29.675779, -95.40215851],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_3656c53d9106311519788d181d4908e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_c6b9f45777b3b1a7968df1024785f369.setIcon(icon_3656c53d9106311519788d181d4908e6);
+        
+    
+        var popup_57f6581cf39de65a35daa50a5ac0c213 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_355602132f8d591306663cf6216bfb2a = $(`<div id="html_355602132f8d591306663cf6216bfb2a" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 2/26/2016<br>Time: 20:30<br>City: Houston<br>Shape: Triangle<br>Summary: I saw a traingle shaped object in the sky no lights but blended into the  darkness like it was moving through water. Lasted few seconds</div>`)[0];
+                popup_57f6581cf39de65a35daa50a5ac0c213.setContent(html_355602132f8d591306663cf6216bfb2a);
+            
+        
+
+        marker_c6b9f45777b3b1a7968df1024785f369.bindPopup(popup_57f6581cf39de65a35daa50a5ac0c213)
+        ;
+
+        
+    
+    
+            var marker_ceae36d53a37e013811d6b604600d22e = L.marker(
+                [30.5586046, -97.8444363],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_e639ab0fa29ccd70f9c62231513238f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_ceae36d53a37e013811d6b604600d22e.setIcon(icon_e639ab0fa29ccd70f9c62231513238f1);
+        
+    
+        var popup_41a7a5fdd475972c09ee074260763e84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c019728d51df324392ee5672882bcc3f = $(`<div id="html_c019728d51df324392ee5672882bcc3f" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 2/23/2016<br>Time: 18:15<br>City: Leander<br>Shape: Cigar<br>Summary: Cigar-shaped object about the size of an airliner tracking slowly across  the sky.</div>`)[0];
+                popup_41a7a5fdd475972c09ee074260763e84.setContent(html_c019728d51df324392ee5672882bcc3f);
+            
+        
+
+        marker_ceae36d53a37e013811d6b604600d22e.bindPopup(popup_41a7a5fdd475972c09ee074260763e84)
+        ;
+
+        
+    
+    
+            var marker_2ba7cb445a4a4160d051a9955d7d66a1 = L.marker(
+                [29.675779, -95.40215851],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_8912a3af93c6788f32e4b10d059afb47 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_2ba7cb445a4a4160d051a9955d7d66a1.setIcon(icon_8912a3af93c6788f32e4b10d059afb47);
+        
+    
+        var popup_4c38da9df2d07d38562101d43b790661 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_afc81a7da5d95982d485726a176133f4 = $(`<div id="html_afc81a7da5d95982d485726a176133f4" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 2/15/2016<br>Time: 17:00<br>City: Houston<br>Shape: Sphere<br>Summary: Red ball-like aircraft spotted from private aircraft.</div>`)[0];
+                popup_4c38da9df2d07d38562101d43b790661.setContent(html_afc81a7da5d95982d485726a176133f4);
+            
+        
+
+        marker_2ba7cb445a4a4160d051a9955d7d66a1.bindPopup(popup_4c38da9df2d07d38562101d43b790661)
+        ;
+
+        
+    
+    
+            var marker_ac13ffb8859650ddd312f1e44d71487d = L.marker(
+                [29.6657838, -95.0193728],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_26dae84c0661d3220bf1dbecbefd74e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_ac13ffb8859650ddd312f1e44d71487d.setIcon(icon_26dae84c0661d3220bf1dbecbefd74e3);
+        
+    
+        var popup_ecb72e83405b66e8f65ae593d21c414f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f83e49a4c67abff1bfebec8a8212056e = $(`<div id="html_f83e49a4c67abff1bfebec8a8212056e" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 12/2/2016<br>Time: 9:00<br>City: La Porte<br>Shape: Circle<br>Summary: ((HOAX??)) The light was so bright I thought the neighbors' house was on  fire. Bright red lights there was no sound.</div>`)[0];
+                popup_ecb72e83405b66e8f65ae593d21c414f.setContent(html_f83e49a4c67abff1bfebec8a8212056e);
+            
+        
+
+        marker_ac13ffb8859650ddd312f1e44d71487d.bindPopup(popup_ecb72e83405b66e8f65ae593d21c414f)
+        ;
+
+        
+    
+    
+            var marker_2b0ed3ad26bdda9c054904d82441a444 = L.marker(
+                [27.5060991, -99.5088978],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_628764ede12905f950f4b13cd975d7ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_2b0ed3ad26bdda9c054904d82441a444.setIcon(icon_628764ede12905f950f4b13cd975d7ba);
+        
+    
+        var popup_e20fc18905864d35259414e82364c595 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e9f778aca3ec1540b3a9e3e1faa9954 = $(`<div id="html_1e9f778aca3ec1540b3a9e3e1faa9954" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 9/2/2016<br>Time: 9:00<br>City: Laredo<br>Shape: Sphere<br>Summary: Last night, I was at my back yard and while in a phone call, I saw coming a  bright orange sphere flying towards North. As its very com</div>`)[0];
+                popup_e20fc18905864d35259414e82364c595.setContent(html_1e9f778aca3ec1540b3a9e3e1faa9954);
+            
+        
+
+        marker_2b0ed3ad26bdda9c054904d82441a444.bindPopup(popup_e20fc18905864d35259414e82364c595)
+        ;
+
+        
+    
+    
+            var marker_1b381740436a63df0419bb3ea365ceaf = L.marker(
+                [30.2711286, -97.7436994],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_eab1194e1e660076fd230c447425d21b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_1b381740436a63df0419bb3ea365ceaf.setIcon(icon_eab1194e1e660076fd230c447425d21b);
+        
+    
+        var popup_0774475d74d4496e9210c9529aec3b93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_edfecd6bb610558cad211b13b76c56b8 = $(`<div id="html_edfecd6bb610558cad211b13b76c56b8" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 5/2/2016<br>Time: 7:49<br>City: Austin<br>Shape: Fireball<br>Summary: Orange light ascending above south Austin - rocket or missile?</div>`)[0];
+                popup_0774475d74d4496e9210c9529aec3b93.setContent(html_edfecd6bb610558cad211b13b76c56b8);
+            
+        
+
+        marker_1b381740436a63df0419bb3ea365ceaf.bindPopup(popup_0774475d74d4496e9210c9529aec3b93)
+        ;
+
+        
+    
+    
+            var marker_23e016b14746d121837d316f764d62cc = L.marker(
+                [30.2711286, -97.7436994],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_52573ee7b7096d98f9100cb892d0c048 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_23e016b14746d121837d316f764d62cc.setIcon(icon_52573ee7b7096d98f9100cb892d0c048);
+        
+    
+        var popup_d9de52130466bf143898cac606bed2d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e7dcd5f0eb8a10818086041a9044b9d = $(`<div id="html_9e7dcd5f0eb8a10818086041a9044b9d" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 3/2/2016<br>Time: 5:05<br>City: Austin<br>Shape: Light<br>Summary: As I was driving south on street, I saw extremely bright light very high in  the sky off south a bit.</div>`)[0];
+                popup_d9de52130466bf143898cac606bed2d3.setContent(html_9e7dcd5f0eb8a10818086041a9044b9d);
+            
+        
+
+        marker_23e016b14746d121837d316f764d62cc.bindPopup(popup_d9de52130466bf143898cac606bed2d3)
+        ;
+
+        
+    
+    
+            var marker_85b48f7ea816eed13b8c68d8a02315f0 = L.marker(
+                [29.9691116, -95.6971685],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_ecac5b23687c15e5ff897bb0702f5c2f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_85b48f7ea816eed13b8c68d8a02315f0.setIcon(icon_ecac5b23687c15e5ff897bb0702f5c2f);
+        
+    
+        var popup_a9bdc23acb6c047702e77f9f4d89fa56 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44ad4f3157f0e9979f7fe7c2496ca0ab = $(`<div id="html_44ad4f3157f0e9979f7fe7c2496ca0ab" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 3/2/2016<br>Time: 5:00<br>City: Cypress<br>Shape: Unknown<br>Summary: Object was small, spherical-shape with lighted tip craft that rocketed  straight up in the sky, going super fast up and then turn right.</div>`)[0];
+                popup_a9bdc23acb6c047702e77f9f4d89fa56.setContent(html_44ad4f3157f0e9979f7fe7c2496ca0ab);
+            
+        
+
+        marker_85b48f7ea816eed13b8c68d8a02315f0.bindPopup(popup_a9bdc23acb6c047702e77f9f4d89fa56)
+        ;
+
+        
+    
+    
+            var marker_c5733883a2e4120d41996d70fa96e76d = L.marker(
+                [32.1292891, -101.7884641],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_a57d4e79a90f87b6ca08ec48def779a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_c5733883a2e4120d41996d70fa96e76d.setIcon(icon_a57d4e79a90f87b6ca08ec48def779a7);
+        
+    
+        var popup_4a57fca1b3608ec94cf312a443a11153 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a3d35ee305349e94b72102dc9532e55 = $(`<div id="html_9a3d35ee305349e94b72102dc9532e55" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 1/31/2016<br>Time: 23:10<br>City: Stanton<br>Shape: Triangle<br>Summary: Flying Triangle object Martin County, TX.</div>`)[0];
+                popup_4a57fca1b3608ec94cf312a443a11153.setContent(html_9a3d35ee305349e94b72102dc9532e55);
+            
+        
+
+        marker_c5733883a2e4120d41996d70fa96e76d.bindPopup(popup_4a57fca1b3608ec94cf312a443a11153)
+        ;
+
+        
+    
+    
+            var marker_3aaefed287fa6e9cde212ff365e31098 = L.marker(
+                [29.4607876, -95.0513172],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_f8716c88fc234cc12a8ad5bcc5dd75bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_3aaefed287fa6e9cde212ff365e31098.setIcon(icon_f8716c88fc234cc12a8ad5bcc5dd75bf);
+        
+    
+        var popup_44645450114d21edceff1614a6b23b86 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c5dbdf95a30bc00a0ea5dd2226cfb82 = $(`<div id="html_8c5dbdf95a30bc00a0ea5dd2226cfb82" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 1/30/2016<br>Time: 18:20<br>City: Dickinson<br>Shape: Changing<br>Summary: Very bright colors.</div>`)[0];
+                popup_44645450114d21edceff1614a6b23b86.setContent(html_8c5dbdf95a30bc00a0ea5dd2226cfb82);
+            
+        
+
+        marker_3aaefed287fa6e9cde212ff365e31098.bindPopup(popup_44645450114d21edceff1614a6b23b86)
+        ;
+
+        
+    
+    
+            var marker_e367a0481648c568cd650893184ecc8b = L.marker(
+                [32.9029017, -96.5638799],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_b34653144451a375ecfeaa5447c47b46 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_e367a0481648c568cd650893184ecc8b.setIcon(icon_b34653144451a375ecfeaa5447c47b46);
+        
+    
+        var popup_3151f11ac8feca20d13549565378af03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6043024b4fc7b995865696e522664b45 = $(`<div id="html_6043024b4fc7b995865696e522664b45" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 1/28/2016<br>Time: 15:30<br>City: Rowlett<br>Shape: Other<br>Summary: I saw what looked like an airplane with a large orange flame behind it and  the engine roar was quite loud.</div>`)[0];
+                popup_3151f11ac8feca20d13549565378af03.setContent(html_6043024b4fc7b995865696e522664b45);
+            
+        
+
+        marker_e367a0481648c568cd650893184ecc8b.bindPopup(popup_3151f11ac8feca20d13549565378af03)
+        ;
+
+        
+    
+    
+            var marker_ae8dc187c8b4e826760d071768fec8ad = L.marker(
+                [29.7028266, -98.1257347],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_4d5dad76e06538d67b1e259f14f84127 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_ae8dc187c8b4e826760d071768fec8ad.setIcon(icon_4d5dad76e06538d67b1e259f14f84127);
+        
+    
+        var popup_e2bc6465a4ba66602768de8947193e2d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c032030d1a0101d179b784ac3916a6f4 = $(`<div id="html_c032030d1a0101d179b784ac3916a6f4" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 1/25/2016<br>Time: 20:20<br>City: New Braunfels<br>Shape: Light<br>Summary: On my porch facing southwest I saw an orange light in the sky about 7 to 10  miles out over the horizon headed east. I thought it was a</div>`)[0];
+                popup_e2bc6465a4ba66602768de8947193e2d.setContent(html_c032030d1a0101d179b784ac3916a6f4);
+            
+        
+
+        marker_ae8dc187c8b4e826760d071768fec8ad.bindPopup(popup_e2bc6465a4ba66602768de8947193e2d)
+        ;
+
+        
+    
+    
+            var marker_8f897400f6834540d29dc6fda8f12d0b = L.marker(
+                [31.2776873, -94.5765939],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_1bb43f646b5f0566fa635cc18ede8167 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_8f897400f6834540d29dc6fda8f12d0b.setIcon(icon_1bb43f646b5f0566fa635cc18ede8167);
+        
+    
+        var popup_b0be9a69f6972ca5c313b9327d5c7ce9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1c562bf2e1df7f35db3cccdbb603e49 = $(`<div id="html_b1c562bf2e1df7f35db3cccdbb603e49" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 1/23/2016<br>Time: 20:15<br>City: Huntington<br>Shape: Light<br>Summary: Seven orange lights moving slowly at low altitude beside highway.</div>`)[0];
+                popup_b0be9a69f6972ca5c313b9327d5c7ce9.setContent(html_b1c562bf2e1df7f35db3cccdbb603e49);
+            
+        
+
+        marker_8f897400f6834540d29dc6fda8f12d0b.bindPopup(popup_b0be9a69f6972ca5c313b9327d5c7ce9)
+        ;
+
+        
+    
+    
+            var marker_94432e69de81e90d2b0d8ee1d279da74 = L.marker(
+                [30.0798826, -95.4172548],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_b98b14b42fcc88bf68538682f2945fbc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_94432e69de81e90d2b0d8ee1d279da74.setIcon(icon_b98b14b42fcc88bf68538682f2945fbc);
+        
+    
+        var popup_aff8cbfaf133bf6062cff04533eabbff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3dcce7f5002c9d3b53c4742936cf9c82 = $(`<div id="html_3dcce7f5002c9d3b53c4742936cf9c82" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 1/23/2016<br>Time: 18:45<br>City: Spring<br>Shape: Fireball<br>Summary: Orange lights from Northeast to Southwest.</div>`)[0];
+                popup_aff8cbfaf133bf6062cff04533eabbff.setContent(html_3dcce7f5002c9d3b53c4742936cf9c82);
+            
+        
+
+        marker_94432e69de81e90d2b0d8ee1d279da74.bindPopup(popup_aff8cbfaf133bf6062cff04533eabbff)
+        ;
+
+        
+    
+    
+            var marker_8b4d990587617202c31d0549f798e9b9 = L.marker(
+                [29.16941, -95.4318846],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_fb16cc06a3a9611a759b8577522a16e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_8b4d990587617202c31d0549f798e9b9.setIcon(icon_fb16cc06a3a9611a759b8577522a16e2);
+        
+    
+        var popup_8db7f59eadcf475b9c3681cc29cd33e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72564d55c84d14c7c6fd2c9b7070c581 = $(`<div id="html_72564d55c84d14c7c6fd2c9b7070c581" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 1/17/2016<br>Time: 19:30<br>City: Angleton<br>Shape: Light<br>Summary: Me and my wife we're driving from lake Jackson to Angleton on 288 look up  and saw a bright lite thought it was a star.</div>`)[0];
+                popup_8db7f59eadcf475b9c3681cc29cd33e9.setContent(html_72564d55c84d14c7c6fd2c9b7070c581);
+            
+        
+
+        marker_8b4d990587617202c31d0549f798e9b9.bindPopup(popup_8db7f59eadcf475b9c3681cc29cd33e9)
+        ;
+
+        
+    
+    
+            var marker_04e57bac904c8569018e2bbb7e64ee08 = L.marker(
+                [32.6631885, -95.4882895],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_4fcb6a15110ebca4fe9d462055f4445f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_04e57bac904c8569018e2bbb7e64ee08.setIcon(icon_4fcb6a15110ebca4fe9d462055f4445f);
+        
+    
+        var popup_c6e991f4a05e82896386af042ece8a6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_354e9cdc84b9fc76a5ff0b12adb4ef2d = $(`<div id="html_354e9cdc84b9fc76a5ff0b12adb4ef2d" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 1/17/2016<br>Time: 14:56<br>City: Mineola<br>Shape: Other<br>Summary: Extreme altitude object moving at high speed North. Possible near Earth  pass by a large asteroid.</div>`)[0];
+                popup_c6e991f4a05e82896386af042ece8a6b.setContent(html_354e9cdc84b9fc76a5ff0b12adb4ef2d);
+            
+        
+
+        marker_04e57bac904c8569018e2bbb7e64ee08.bindPopup(popup_c6e991f4a05e82896386af042ece8a6b)
+        ;
+
+        
+    
+    
+            var marker_83d30abf72ece4d35065761a2e23acac = L.marker(
+                [30.2711286, -97.7436994],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_a4be1d19e04d8aeda4241ac5696b8cf2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_83d30abf72ece4d35065761a2e23acac.setIcon(icon_a4be1d19e04d8aeda4241ac5696b8cf2);
+        
+    
+        var popup_ddc725c3a5eecfe621d5681c77347a96 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85b08ed8c530fb391441b52c99901038 = $(`<div id="html_85b08ed8c530fb391441b52c99901038" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 1/15/2016<br>Time: 20:30<br>City: Austin<br>Shape: Circle<br>Summary: 2 orange lights and a giant white circle spotted in Austin, TX</div>`)[0];
+                popup_ddc725c3a5eecfe621d5681c77347a96.setContent(html_85b08ed8c530fb391441b52c99901038);
+            
+        
+
+        marker_83d30abf72ece4d35065761a2e23acac.bindPopup(popup_ddc725c3a5eecfe621d5681c77347a96)
+        ;
+
+        
+    
+    
+            var marker_cca27029430bfd4868aaa853455452f3 = L.marker(
+                [30.508235, -97.6788933],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_02073d5b9aed486c71191678b09d25c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_cca27029430bfd4868aaa853455452f3.setIcon(icon_02073d5b9aed486c71191678b09d25c4);
+        
+    
+        var popup_68a18440754d5dd07d2f62e5eab3a37c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b95f853c5eb52f9c66e2a7b609663bbd = $(`<div id="html_b95f853c5eb52f9c66e2a7b609663bbd" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 1/15/2016<br>Time: 17:30<br>City: Round Rock<br>Shape: Light<br>Summary: I was playing with grand kid and lay on ground and looked up and saw them  stationary, now one did move quickly but just a short dist..</div>`)[0];
+                popup_68a18440754d5dd07d2f62e5eab3a37c.setContent(html_b95f853c5eb52f9c66e2a7b609663bbd);
+            
+        
+
+        marker_cca27029430bfd4868aaa853455452f3.bindPopup(popup_68a18440754d5dd07d2f62e5eab3a37c)
+        ;
+
+        
+    
+    
+            var marker_116efe73c8b5845a32063eab5022e777 = L.marker(
+                [30.7241128, -95.5298808],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_5835f2b2f149f205cf48b35e2433aa40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_116efe73c8b5845a32063eab5022e777.setIcon(icon_5835f2b2f149f205cf48b35e2433aa40);
+        
+    
+        var popup_939753a145e8cc6c302348f224af3f9a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_965b418439c4621dcc22248a0f5437ab = $(`<div id="html_965b418439c4621dcc22248a0f5437ab" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 1/15/2016<br>Time: 11:45<br>City: Road<br>Shape: Diamond<br>Summary: Diamond in the sky.</div>`)[0];
+                popup_939753a145e8cc6c302348f224af3f9a.setContent(html_965b418439c4621dcc22248a0f5437ab);
+            
+        
+
+        marker_116efe73c8b5845a32063eab5022e777.bindPopup(popup_939753a145e8cc6c302348f224af3f9a)
+        ;
+
+        
+    
+    
+            var marker_c09e09e542cbce64179062b877260e8f = L.marker(
+                [29.6910625, -95.2091005],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_2dd67832c03503013cb515d37b4d3e2e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_c09e09e542cbce64179062b877260e8f.setIcon(icon_2dd67832c03503013cb515d37b4d3e2e);
+        
+    
+        var popup_000b10bd626f64ee4b53cd0801395980 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7bda4f9c1022134549fbded340377c8c = $(`<div id="html_7bda4f9c1022134549fbded340377c8c" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 8/1/2016<br>Time: 9:30<br>City: Pasadena<br>Shape: Circle<br>Summary: Bright white large ball did not change size and went out of sight. Flew at  at a slight arc and disappeared.</div>`)[0];
+                popup_000b10bd626f64ee4b53cd0801395980.setContent(html_7bda4f9c1022134549fbded340377c8c);
+            
+        
+
+        marker_c09e09e542cbce64179062b877260e8f.bindPopup(popup_000b10bd626f64ee4b53cd0801395980)
+        ;
+
+        
+    
+    
+            var marker_47d2186b6291d73d2149bd3273200f7c = L.marker(
+                [31.8457149, -102.3676869],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_4a18fd6e0dbe2f3b0d1e4118ea3cbe90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_47d2186b6291d73d2149bd3273200f7c.setIcon(icon_4a18fd6e0dbe2f3b0d1e4118ea3cbe90);
+        
+    
+        var popup_d9528db6960973fe0829b839e924c43a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ed6f340fd70834b965ded8284326545 = $(`<div id="html_5ed6f340fd70834b965ded8284326545" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 7/1/2016<br>Time: 9:18<br>City: Odessa<br>Shape: Cylinder<br>Summary: Helicopter chasing UFO.</div>`)[0];
+                popup_d9528db6960973fe0829b839e924c43a.setContent(html_5ed6f340fd70834b965ded8284326545);
+            
+        
+
+        marker_47d2186b6291d73d2149bd3273200f7c.bindPopup(popup_d9528db6960973fe0829b839e924c43a)
+        ;
+
+        
+    
+    
+            var marker_6bff7e73ba21fa3ae6651e6d105925e6 = L.marker(
+                [28.6683252, -97.3883264],
+                {}
+            ).addTo(map_e6ffd4421c3f626968a06b89a337ae59);
+        
+    
+            var icon_77e9d0dfc0b3fa9d86211f0d7a06ec66 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_6bff7e73ba21fa3ae6651e6d105925e6.setIcon(icon_77e9d0dfc0b3fa9d86211f0d7a06ec66);
+        
+    
+        var popup_af13bb9f85b44e3c5c118475d3847b34 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e601bf5a63d93a8ba1991fb10f04078c = $(`<div id="html_e601bf5a63d93a8ba1991fb10f04078c" style="width: 100.0%; height: 100.0%;"><b>USA - TX</b><br>Date: 6/1/2016<br>Time: 7:00<br>City: Goliad<br>Shape: Circle<br>Summary: Orange orb seen in South Tx, heading north</div>`)[0];
+                popup_af13bb9f85b44e3c5c118475d3847b34.setContent(html_e601bf5a63d93a8ba1991fb10f04078c);
+            
+        
+
+        marker_6bff7e73ba21fa3ae6651e6d105925e6.bindPopup(popup_af13bb9f85b44e3c5c118475d3847b34)
+        ;
+
+        
+    
+</script>
+</html>
