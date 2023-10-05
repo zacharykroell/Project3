@@ -184,3 +184,41 @@ Presentation Day
 It’s crucial that you find time to rehearse before presentation day.
 
 On the day of your presentation, each member of your group is required to submit the URL of your GitHub repository for grading.
+
+
+Sources:
+Find HTML Elements
+https://www.w3schools.com/js/js_htmldom_elements.asp
+New Set Array
+https://stackoverflow.com/questions/63928416/how-does-new-setarray-work-in-javascript
+CORS Issue
+https://stackoverflow.com/questions/64267618/access-to-fetch-at-http-localhost8000-api-puppies-from-origin-http-local
+Destroy Chart
+https://stackoverflow.com/questions/40056555/destroy-chart-js-bar-graph-to-redraw-other-graph-in-same-canvas
+Chart JS
+https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
+Sort Dropdown
+https://stackoverflow.com/questions/667010/sorting-dropdown-list-using-javascript
+w3schools.comw3schools.com
+JavaScript DOM Elements
+W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more. (6 kB)
+https://www.w3schools.com/js/js_htmldom_elements.asp
+
+Stack OverflowStack Overflow
+How does [...new set(array)] work in JavaScript?
+Consider:
+const ages = [26, 27, 26, 26, 28, 28, 29, 29, 30]
+const uniqueAges = [...new Set(ages)]
+console.log(uniqueAges) // [26,27,28,29,30]
+I know the spread syntax. I searched about set, and I...
+Stack OverflowStack Overflow
+Access to fetch at 'http://localhost:8000/api/puppies' from origin 'http://localhost:3000' has been blocked by CORS policy Laravel and React
+I try to fetch a list in Reacjs component. I create my API in Laravel but when i try to fetch a list it gives me this error message in console
+**Access to fetch at 'http://localhost:8000/api/puppies'
+Stack OverflowStack Overflow
+Destroy chart.js bar graph to redraw other graph in same
+I am using the Chart.js library to draw a bar graph, it is working fine, but now I want to destroy the bar graph and make a line graph in the same canvas. I have tried these two ways to clear the c...
+developer.mozilla.orgdeveloper.mozilla.org
+Document: getElementById() method - Web APIs | MDN
+The getElementById() method of the Document interface returns an Element object representing the element whose id property matches the specified string. Since element IDs are required to be unique if specified, they're a useful way to get access to a specific element quickly.
+
